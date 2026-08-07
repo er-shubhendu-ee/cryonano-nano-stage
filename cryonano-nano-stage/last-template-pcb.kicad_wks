@@ -91,22 +91,22 @@
 		(repeat 100)
 		(incry 50)
 	)
-	(tbtext "Start date: ${COMMENT6}"
+	(tbtext "Start date: ${COMMENT5}"
 		(name "")
 		(pos 51.374 5.67)
 		(font
 			(size 1.143 1.016)
 		)
 	)
-	(tbtext "Sch Rev: ${COMMENT5}"
+	(tbtext "PCB Rev: ${COMMENT7}"
 		(name "")
-		(pos 76.507 5.799)
+		(pos 76.507 3.299)
 		(font
 			(size 1.143 1.016) bold)
 	)
 	(tbtext "Page Size: ${PAPER}"
 		(name "")
-		(pos 39.3032 8.4652)
+		(pos 51.5532 8.4652)
 		(font
 			(size 1.143 1.016)
 		)
@@ -138,16 +138,10 @@
 		(start 52.0022 4.5072)
 		(end 52.0022 2.0072)
 	)
-	(tbtext "PCB Rev: ${PCB_REV}"
-		(name "")
-		(pos 76.556 3.238)
-		(font
-			(size 1.143 1.016) bold)
-	)
 	(line
 		(name "")
-		(start 21.2522 9.7572)
-		(end 21.2522 7.2572)
+		(start 25.0022 9.7572)
+		(end 25.0022 7.2572)
 	)
 	(line
 		(name "")
@@ -156,7 +150,7 @@
 	)
 	(tbtext "Page Id: ${#}/${##}"
 		(name "")
-		(pos 58.7162 8.5032)
+		(pos 76.4662 8.5032)
 		(font
 			(size 1.143 1.016)
 		)
@@ -191,7 +185,7 @@
 			(size 1.143 1.016)
 		)
 	)
-	(tbtext "Final on: ${COMMENT7}"
+	(tbtext "Final on: ${COMMENT6}"
 		(name "")
 		(pos 24.402 5.868)
 		(font
@@ -217,8 +211,8 @@
 	)
 	(line
 		(name "")
-		(start 40.0022 9.7572)
-		(end 40.0022 7.2572)
+		(start 52.0022 9.7572)
+		(end 52.0022 7.2572)
 	)
 	(line
 		(name "")
@@ -240,7 +234,7 @@
 	)
 	(tbtext "${KICAD_VERSION}"
 		(name "")
-		(pos 20.5992 8.5342)
+		(pos 24.3492 8.5342)
 		(font
 			(size 1.143 1.016)
 		)
@@ -253,7 +247,7 @@
 	)
 	(tbtext "Desn Rev: ${COMMENT4}"
 		(name "")
-		(pos 76.502 8.507)
+		(pos 76.502 5.757)
 		(font
 			(size 1.143 1.016) bold)
 	)
