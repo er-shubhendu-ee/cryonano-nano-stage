@@ -1,0 +1,50 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "549c6da5-71cb-4d9c-a0a2-c409a6f93509")
+	(paper "A4")
+	(title_block
+		(title "Nano stage controller")
+		(date "08-08-2026")
+		(company "Cryonano Labs Pvt. Ltd.")
+		(comment 1 "SBB")
+		(comment 4 "0.0.1")
+		(comment 5 "0.0.1")
+		(comment 6 "08-08-2026")
+		(comment 8 "08-08-2026")
+	)
+	(lib_symbols)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+	(embedded_files
+		(file
+			(name "last-template.kicad_wks")
+			(type worksheet)
+			(data |KLUv/WAeEbUeAHYoeyDwGD3QEYvrLqhGswWriWivUCb/kk9/MYh3dhCHZThaVHEAbgBzANiKRNmT
+				kfqHLa3yI51OqZSxVt+a2yPLcivi8PasFuW9cxfm/fFcLafj69GciLM7FjT8jNI/+7smiy9o+Djd
+				pu5on+wuAELStiMZ5bQ41v0sBwwt13lz2mLrMWhzzotK6jjfkbalAiAgGIVMnI/zbqgQvm21yo9Z
+				/ZK9+MfLpsRmzeI7Vn+VZSiNyaSyUBEcYTf3YbTWKG03tp6jOnePSKCnPhMo+i67rpPz2jh3pj/1
+				UQ6tafk+2d3tl9dTl486aQ9f35wNrUttsc7eBl26tEJeBju34L7b7WeTsubc8h31a9yexkm1i8bL
+				s9c0LhzFAqOWXNCsbpoWpTb9s2tiE6cZKMyForyYP2PmVJMdJ3HsuSPrXUegOv9smEFbsgzvgty+
+				TjWtTkojVmlDkoFkwH0zlm9OpHPHtQ05C/0Mi5rTS15xuy4NS8KSuhi3Hs7ygbkLAYHh2lASFp07
+				dT4Nefaz2J5+xfDIMjDs2raPklKBYC4NDYeRWEAiKoL22JzXZ0tZh2H2EpuUPv1Ny7T4TjFacXaQ
+				w9dBM0xmm4zyZ2OSoGQajQcGe2zWSqOcX6ecEtOs7/q29oO55GezRu0Hh9Xgg/zTGIDToBE5p5Qa
+				GilIk2ENYIZMiRW3AQOkIHixGZNgJfSXuRApYB4MNH0CrXQfgUwRV3/RVCDPDUVMkQknNP0uIKWl
+				mBUthmYVSibpSz8Nljutk138CvgplKL+0UEPfPxJEkhDFo4QpUJPQuofTjy33FxyhoB1gIBm9Zb8
+				w5nliBnQYVh7oUKD2G/8qAXy3PnrcT+uueiSMs8AlU1aXNQCZMCLMb6lqBsNrNEBp7CQeyw2ryR4
+				gBZXRR5+XoKAyHRQBV9MKLy49oCQNmnBW6I/stB/SARBOKdGj6gu1DUKEg5n8MFxS+vxcqbUCuM8
+				UCePGLAjBq4PbJdnrOe2EbMfgBsRuqEZvXdf3xYZuBf73PZNzIQT6csDWoCCtYE9pIDxVQYQBquL
+				QEck8JEGDk8HRAzw9ufo3/vjwA7SEQGSDDIC+1wrk+bJA/kbgWPMCmO8ARHQt3Ey9BzSUauCWNsf
+				oItWT54AY1r61IdCRdo8ctpZ7qNdD+ippTskCGgO096ooOzdCR7wu3e5DnsFyuwDxQPNujtf9y3C
+				hnoObYKA5lCbkAIQDGEf8EMAudaRqx6i2NhQcvj8EnQqQW1CuIILzN6HkmKi6CStHWkZzEig5zhj
+				rqFvk5Km4bE6H1AghrgI2mSuD/8YrCo=|
+			)
+			(checksum "132846296C8DBA3FA248644BB4739B80")
+		)
+	)
+)
