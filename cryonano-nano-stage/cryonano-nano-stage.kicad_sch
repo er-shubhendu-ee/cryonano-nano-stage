@@ -15,6 +15,236 @@
 		(comment 8 "08-08-2026")
 	)
 	(lib_symbols)
+	(sheet
+		(at 50.8 63.5)
+		(size 25.4 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "0ae8b125-dbe2-44df-bbd5-11d3a39005e3")
+		(property "Sheetname" "Power"
+			(at 59.69 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 50.8 89.4846 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "cryonano-nano-stage"
+				(path "/549c6da5-71cb-4d9c-a0a2-c409a6f93509"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 152.4 101.6)
+		(size 38.1 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "37ffb213-c706-4fdf-aede-61f2739d8503")
+		(property "Sheetname" "Heater Controller"
+			(at 155.702 122.174 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "heater-controller.kicad_sch"
+			(at 152.4 140.2846 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "cryonano-nano-stage"
+				(path "/549c6da5-71cb-4d9c-a0a2-c409a6f93509"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 203.2 63.5)
+		(size 26.67 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "57ddf900-51a6-4a0b-b583-9d9c4e6eca05")
+		(property "Sheetname" "Interface"
+			(at 212.852 74.93 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "interface.kicad_sch"
+			(at 203.2 89.4846 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "cryonano-nano-stage"
+				(path "/549c6da5-71cb-4d9c-a0a2-c409a6f93509"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 152.4 63.5)
+		(size 25.4 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "93ac0006-beae-45e2-a2f0-36893f5b0c34")
+		(property "Sheetname" "ADC"
+			(at 164.084 76.962 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "adc.kicad_sch"
+			(at 152.4 89.4846 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "cryonano-nano-stage"
+				(path "/549c6da5-71cb-4d9c-a0a2-c409a6f93509"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 101.6 63.5)
+		(size 25.4 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "fb7af87d-3e73-4b10-9c25-9b5699f1dc3c")
+		(property "Sheetname" "MCU"
+			(at 114.554 76.454 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 101.6 89.4846 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "cryonano-nano-stage"
+				(path "/549c6da5-71cb-4d9c-a0a2-c409a6f93509"
+					(page "4")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")

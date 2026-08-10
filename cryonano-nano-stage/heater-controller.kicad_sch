@@ -1,0 +1,111 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "135f373c-defe-445c-9c59-0706a8c1e630")
+	(paper "A4")
+	(lib_symbols)
+	(text "Note:   \n    For load current higer than 5A, High-Side N-Mosfet is prefered."
+		(exclude_from_sim no)
+		(at 73.152 138.43 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8c73cfd5-6419-4783-8dfa-b7ae4be9e575")
+	)
+	(sheet
+		(at 76.2 101.6)
+		(size 25.4 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "134546d9-2553-4cbc-b149-ff74fa29d06b")
+		(property "Sheetname" "High Side N-Mosfet Driver"
+			(at 75.946 130.556 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "high-side-n-mosfet-driver.kicad_sch"
+			(at 76.2 127.5846 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "cryonano-nano-stage"
+				(path "/549c6da5-71cb-4d9c-a0a2-c409a6f93509/37ffb213-c706-4fdf-aede-61f2739d8503"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 127 101.6)
+		(size 25.4 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "5b467004-fafe-4c09-a977-b158a21f7bd2")
+		(property "Sheetname" "High Side P-Mosfet Driver"
+			(at 126.746 130.556 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "high-side-p-mosfet-driver.kicad_sch"
+			(at 127 127.5846 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "cryonano-nano-stage"
+				(path "/549c6da5-71cb-4d9c-a0a2-c409a6f93509/37ffb213-c706-4fdf-aede-61f2739d8503"
+					(page "8")
+				)
+			)
+		)
+	)
+)
