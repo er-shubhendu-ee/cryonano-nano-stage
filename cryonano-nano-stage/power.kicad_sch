@@ -4785,17 +4785,6 @@
 				)
 			)
 		)
-		(property "MCWR08X12R0FTL " ""
-			(at 92.71 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "RS Part Number" ""
 			(at 92.71 33.02 0)
 			(hide yes)
@@ -5091,17 +5080,6 @@
 				)
 			)
 		)
-		(property "MCWR08X12R0FTL " ""
-			(at 132.08 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "RS Part Number" ""
 			(at 132.08 71.12 0)
 			(hide yes)
@@ -5356,17 +5334,6 @@
 				)
 			)
 		)
-		(property "MCWR08X12R0FTL " ""
-			(at 36.83 25.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "RS Part Number" ""
 			(at 36.83 25.4 0)
 			(hide yes)
@@ -5519,17 +5486,6 @@
 			)
 		)
 		(property "Allied_Number" ""
-			(at 129.54 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MCWR08X12R0FTL " ""
 			(at 129.54 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -5854,17 +5810,6 @@
 				)
 			)
 		)
-		(property "MCWR08X12R0FTL " ""
-			(at 153.67 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "RS Part Number" ""
 			(at 153.67 35.56 0)
 			(hide yes)
@@ -6135,17 +6080,6 @@
 			)
 		)
 		(property "Allied_Number" ""
-			(at 193.04 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MCWR08X12R0FTL " ""
 			(at 193.04 22.86 0)
 			(hide yes)
 			(show_name no)
@@ -6447,17 +6381,6 @@
 				)
 			)
 		)
-		(property "MCWR08X12R0FTL " ""
-			(at 135.89 27.94 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "RS Part Number" ""
 			(at 135.89 27.94 90)
 			(hide yes)
@@ -6585,17 +6508,6 @@
 			)
 		)
 		(property "Allied_Number" ""
-			(at 113.03 77.47 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MCWR08X12R0FTL " ""
 			(at 113.03 77.47 90)
 			(hide yes)
 			(show_name no)
@@ -6895,17 +6807,6 @@
 				)
 			)
 		)
-		(property "MCWR08X12R0FTL " ""
-			(at 166.37 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "RS Part Number" ""
 			(at 166.37 35.56 0)
 			(hide yes)
@@ -7151,17 +7052,6 @@
 				)
 			)
 		)
-		(property "MCWR08X12R0FTL " ""
-			(at 77.47 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "RS Part Number" ""
 			(at 77.47 139.7 0)
 			(hide yes)
@@ -7377,17 +7267,6 @@
 			)
 		)
 		(property "Allied_Number" ""
-			(at 86.36 133.35 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MCWR08X12R0FTL " ""
 			(at 86.36 133.35 90)
 			(hide yes)
 			(show_name no)
@@ -7667,17 +7546,6 @@
 				)
 			)
 		)
-		(property "MCWR08X12R0FTL " ""
-			(at 152.4 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "RS Part Number" ""
 			(at 152.4 137.16 0)
 			(hide yes)
@@ -7934,17 +7802,6 @@
 			)
 		)
 		(property "Allied_Number" ""
-			(at 99.06 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MCWR08X12R0FTL " ""
 			(at 99.06 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -8232,17 +8089,6 @@
 				)
 			)
 		)
-		(property "MCWR08X12R0FTL " ""
-			(at 125.73 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "RS Part Number" ""
 			(at 125.73 43.18 0)
 			(hide yes)
@@ -8403,17 +8249,6 @@
 			)
 		)
 		(property "Allied_Number" ""
-			(at 77.47 36.83 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MCWR08X12R0FTL " ""
 			(at 77.47 36.83 90)
 			(hide yes)
 			(show_name no)
@@ -8745,17 +8580,6 @@
 				)
 			)
 		)
-		(property "MCWR08X12R0FTL " ""
-			(at 125.73 33.02 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "RS Part Number" ""
 			(at 125.73 33.02 90)
 			(hide yes)
@@ -8983,17 +8807,6 @@
 				)
 			)
 		)
-		(property "MCWR08X12R0FTL " ""
-			(at 49.53 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "RS Part Number" ""
 			(at 49.53 38.1 0)
 			(hide yes)
@@ -9209,17 +9022,6 @@
 			)
 		)
 		(property "Allied_Number" ""
-			(at 59.69 30.48 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MCWR08X12R0FTL " ""
 			(at 59.69 30.48 90)
 			(hide yes)
 			(show_name no)
@@ -9519,17 +9321,6 @@
 				)
 			)
 		)
-		(property "MCWR08X12R0FTL " ""
-			(at 179.07 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "RS Part Number" ""
 			(at 179.07 35.56 0)
 			(hide yes)
@@ -9810,17 +9601,6 @@
 				)
 			)
 		)
-		(property "MCWR08X12R0FTL " ""
-			(at 121.92 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "RS Part Number" ""
 			(at 121.92 71.12 0)
 			(hide yes)
@@ -10091,17 +9871,6 @@
 			)
 		)
 		(property "Allied_Number" ""
-			(at 193.04 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MCWR08X12R0FTL " ""
 			(at 193.04 45.72 0)
 			(hide yes)
 			(show_name no)

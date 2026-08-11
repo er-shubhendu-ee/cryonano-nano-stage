@@ -4867,17 +4867,6 @@
 				)
 			)
 		)
-		(property "MCWR08X12R0FTL " ""
-			(at 101.6 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "RS Part Number" ""
 			(at 101.6 30.48 0)
 			(hide yes)
@@ -5082,17 +5071,6 @@
 				)
 			)
 		)
-		(property "MCWR08X12R0FTL " ""
-			(at 271.78 48.26 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "RS Part Number" ""
 			(at 271.78 48.26 90)
 			(hide yes)
@@ -5219,17 +5197,6 @@
 			)
 		)
 		(property "Allied_Number" ""
-			(at 251.46 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MCWR08X12R0FTL " ""
 			(at 251.46 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -5510,17 +5477,6 @@
 				)
 			)
 		)
-		(property "MCWR08X12R0FTL " ""
-			(at 31.75 25.4 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "RS Part Number" ""
 			(at 31.75 25.4 90)
 			(hide yes)
@@ -5646,17 +5602,6 @@
 				)
 			)
 		)
-		(property "Unit Price for 10pcs" "0.973"
-			(at 133.35 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Voltage" "50V"
 			(at 133.35 86.36 0)
 			(hide yes)
@@ -5768,17 +5713,6 @@
 			)
 		)
 		(property "Allied_Number" ""
-			(at 133.35 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MCWR08X12R0FTL " ""
 			(at 133.35 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -6273,17 +6207,6 @@
 				)
 			)
 		)
-		(property "Unit Price for 10pcs" "0.973"
-			(at 133.35 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Voltage" "50V"
 			(at 133.35 104.14 0)
 			(hide yes)
@@ -6395,17 +6318,6 @@
 			)
 		)
 		(property "Allied_Number" ""
-			(at 133.35 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MCWR08X12R0FTL " ""
 			(at 133.35 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -6543,17 +6455,6 @@
 			)
 		)
 		(property "Allied_Number" ""
-			(at 121.92 80.01 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MCWR08X12R0FTL " ""
 			(at 121.92 80.01 90)
 			(hide yes)
 			(show_name no)
@@ -6878,17 +6779,6 @@
 				)
 			)
 		)
-		(property "MCWR08X12R0FTL " ""
-			(at 266.7 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "RS Part Number" ""
 			(at 266.7 45.72 0)
 			(hide yes)
@@ -7014,17 +6904,6 @@
 				)
 			)
 		)
-		(property "Unit Price for 10pcs" "0.973"
-			(at 133.35 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Voltage" "50V"
 			(at 133.35 91.44 0)
 			(hide yes)
@@ -7136,17 +7015,6 @@
 			)
 		)
 		(property "Allied_Number" ""
-			(at 133.35 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MCWR08X12R0FTL " ""
 			(at 133.35 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -7392,17 +7260,6 @@
 				)
 			)
 		)
-		(property "MCWR08X12R0FTL " ""
-			(at 72.39 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "RS Part Number" ""
 			(at 72.39 31.75 0)
 			(hide yes)
@@ -7518,17 +7375,6 @@
 			)
 		)
 		(property "Order No." "CL21B104KBCNNNC"
-			(at 133.35 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Unit Price for 10pcs" "0.973"
 			(at 133.35 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -7660,17 +7506,6 @@
 				)
 			)
 		)
-		(property "MCWR08X12R0FTL " ""
-			(at 133.35 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "RS Part Number" ""
 			(at 133.35 73.66 0)
 			(hide yes)
@@ -7765,17 +7600,6 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 233.68 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Unit Price for 10pcs" ""
 			(at 233.68 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -7908,17 +7732,6 @@
 			)
 		)
 		(property "Allied_Number" ""
-			(at 233.68 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MCWR08X12R0FTL " ""
 			(at 233.68 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -8165,17 +7978,6 @@
 				)
 			)
 		)
-		(property "MCWR08X12R0FTL " ""
-			(at 46.99 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "RS Part Number" ""
 			(at 46.99 31.75 0)
 			(hide yes)
@@ -8402,17 +8204,6 @@
 			)
 		)
 		(property "Allied_Number" ""
-			(at 59.69 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MCWR08X12R0FTL " ""
 			(at 59.69 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -8658,17 +8449,6 @@
 				)
 			)
 		)
-		(property "MCWR08X12R0FTL " ""
-			(at 238.76 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "RS Part Number" ""
 			(at 238.76 45.72 0)
 			(hide yes)
@@ -8795,17 +8575,6 @@
 				)
 			)
 		)
-		(property "MCWR08X12R0FTL " ""
-			(at 233.68 33.02 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "RS Part Number" ""
 			(at 233.68 33.02 90)
 			(hide yes)
@@ -8900,17 +8669,6 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 233.68 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Unit Price for 10pcs" ""
 			(at 233.68 22.86 0)
 			(hide yes)
 			(show_name no)
@@ -9053,17 +8811,6 @@
 				)
 			)
 		)
-		(property "MCWR08X12R0FTL " ""
-			(at 233.68 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "RS Part Number" ""
 			(at 233.68 22.86 0)
 			(hide yes)
@@ -9158,17 +8905,6 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 271.78 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Unit Price for 10pcs" ""
 			(at 271.78 22.86 0)
 			(hide yes)
 			(show_name no)
@@ -9311,17 +9047,6 @@
 				)
 			)
 		)
-		(property "MCWR08X12R0FTL " ""
-			(at 271.78 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "RS Part Number" ""
 			(at 271.78 22.86 0)
 			(hide yes)
@@ -9448,17 +9173,6 @@
 			)
 		)
 		(property "Allied_Number" ""
-			(at 121.92 97.79 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MCWR08X12R0FTL " ""
 			(at 121.92 97.79 90)
 			(hide yes)
 			(show_name no)
@@ -9634,100 +9348,100 @@
 			)
 		)
 		(pin "5"
-			(uuid "bb7cbc93-6d8d-4171-8018-05f62347755c")
+			(uuid "bb7cbc93-6d8d-4171-8018-05f62347755d")
 		)
 		(pin "9"
-			(uuid "406acea6-f9d4-4126-a568-f827402e0ca9")
+			(uuid "406acea6-f9d4-4126-a568-f827402e0caa")
 		)
 		(pin "7"
-			(uuid "fa462577-1661-473d-98a3-9561a64d4da2")
+			(uuid "fa462577-1661-473d-98a3-9561a64d4da3")
 		)
 		(pin "1"
-			(uuid "cea309c0-536c-491c-ae5d-a4273a24a34e")
+			(uuid "cea309c0-536c-491c-ae5d-a4273a24a34f")
 		)
 		(pin "8"
-			(uuid "f3dda7f7-bb54-4038-97ac-8f5f3690d7d0")
+			(uuid "f3dda7f7-bb54-4038-97ac-8f5f3690d7d1")
 		)
 		(pin "12"
-			(uuid "6aed5571-9ec0-467a-a9c4-2e5b558df2af")
+			(uuid "6aed5571-9ec0-467a-a9c4-2e5b558df2b0")
 		)
 		(pin "2"
-			(uuid "ec8a7325-6816-4f54-b93e-cd8731e03bd1")
+			(uuid "ec8a7325-6816-4f54-b93e-cd8731e03bd2")
 		)
 		(pin "10"
-			(uuid "50961182-11c3-445c-8014-bf8a2f1b9909")
+			(uuid "50961182-11c3-445c-8014-bf8a2f1b990a")
 		)
 		(pin "26"
-			(uuid "4bb2e818-6808-4165-9d8b-84cc5c75b929")
+			(uuid "4bb2e818-6808-4165-9d8b-84cc5c75b92a")
 		)
 		(pin "16"
-			(uuid "78573415-5036-45d0-8be7-086aedf4f70f")
+			(uuid "78573415-5036-45d0-8be7-086aedf4f710")
 		)
 		(pin "24"
-			(uuid "eb41517d-f745-4ec3-8b26-cc54827d175a")
+			(uuid "eb41517d-f745-4ec3-8b26-cc54827d175b")
 		)
 		(pin "22"
-			(uuid "66be2c51-eeef-479c-b141-3051ff07a7ca")
+			(uuid "66be2c51-eeef-479c-b141-3051ff07a7cb")
 		)
 		(pin "36"
-			(uuid "28db6a97-3151-48b0-9707-6583f6c6ddc2")
+			(uuid "28db6a97-3151-48b0-9707-6583f6c6ddc3")
 		)
 		(pin "25"
-			(uuid "b5074546-2e7c-4b59-94fd-5f13470b52d9")
+			(uuid "b5074546-2e7c-4b59-94fd-5f13470b52da")
 		)
 		(pin "27"
-			(uuid "f2fbea93-ddde-46e2-8489-59cc632415a2")
+			(uuid "f2fbea93-ddde-46e2-8489-59cc632415a3")
 		)
 		(pin "40"
-			(uuid "cc6cc52a-448a-4d7d-a1b3-0dbac38fb5c2")
+			(uuid "cc6cc52a-448a-4d7d-a1b3-0dbac38fb5c3")
 		)
 		(pin "6"
-			(uuid "b66d887f-27ab-41f9-92dd-a6ba0b2d3c36")
+			(uuid "b66d887f-27ab-41f9-92dd-a6ba0b2d3c37")
 		)
 		(pin "18"
-			(uuid "1803431c-68c0-4d1a-bdd3-6cda22295543")
+			(uuid "1803431c-68c0-4d1a-bdd3-6cda22295544")
 		)
 		(pin "14"
-			(uuid "51946678-66c6-4ee1-aa85-d2716f9e593e")
+			(uuid "51946678-66c6-4ee1-aa85-d2716f9e593f")
 		)
 		(pin "47"
-			(uuid "d1684396-f6fd-4856-8943-cbfa4c8bbe13")
+			(uuid "d1684396-f6fd-4856-8943-cbfa4c8bbe14")
 		)
 		(pin "13"
-			(uuid "06e31c8d-3a73-4166-bd94-bde741c846bd")
+			(uuid "06e31c8d-3a73-4166-bd94-bde741c846be")
 		)
 		(pin "3"
-			(uuid "942e4950-0776-4304-a7eb-9a02b1d01e9c")
+			(uuid "942e4950-0776-4304-a7eb-9a02b1d01e9d")
 		)
 		(pin "4"
-			(uuid "caef66ea-67dd-4564-b196-e0d844bbbd09")
+			(uuid "caef66ea-67dd-4564-b196-e0d844bbbd0a")
 		)
 		(pin "35"
-			(uuid "5a8189d2-46c2-4c18-91fd-0ade2ea52043")
+			(uuid "5a8189d2-46c2-4c18-91fd-0ade2ea52044")
 		)
 		(pin "48"
-			(uuid "d69dc6e5-e67b-4803-a222-b7e91681ea69")
+			(uuid "d69dc6e5-e67b-4803-a222-b7e91681ea6a")
 		)
 		(pin "20"
-			(uuid "7e845c20-5f22-4db8-9654-3100913b7968")
+			(uuid "7e845c20-5f22-4db8-9654-3100913b7969")
 		)
 		(pin "11"
-			(uuid "f1f5c9b3-c0dc-4152-bfc0-2a83d17e5d47")
+			(uuid "f1f5c9b3-c0dc-4152-bfc0-2a83d17e5d48")
 		)
 		(pin "23"
-			(uuid "e252b602-7130-4a3e-9ca1-96c1f646af4a")
+			(uuid "e252b602-7130-4a3e-9ca1-96c1f646af4b")
 		)
 		(pin "44"
-			(uuid "93480159-d348-4416-b8b9-4ea1af91f837")
+			(uuid "93480159-d348-4416-b8b9-4ea1af91f838")
 		)
 		(pin "15"
-			(uuid "b0ab0932-0289-497b-ab93-ff2467449987")
+			(uuid "b0ab0932-0289-497b-ab93-ff2467449988")
 		)
 		(pin "19"
-			(uuid "5ee47266-6fa9-4ad9-b3d7-5f97877019e8")
+			(uuid "5ee47266-6fa9-4ad9-b3d7-5f97877019e9")
 		)
 		(pin "17"
-			(uuid "869f1f98-0c5b-441b-8506-24f054ec4474")
+			(uuid "869f1f98-0c5b-441b-8506-24f054ec4475")
 		)
 		(pin "21"
 			(uuid "626b410d-a0d7-4e85-921d-f5d2bf75548f")

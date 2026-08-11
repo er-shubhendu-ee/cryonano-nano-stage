@@ -707,17 +707,6 @@
 				)
 			)
 		)
-		(property "MCWR08X12R0FTL " ""
-			(at 38.1 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "RS Part Number" ""
 			(at 38.1 38.1 0)
 			(hide yes)
