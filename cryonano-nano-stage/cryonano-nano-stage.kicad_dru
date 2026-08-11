@@ -1,0 +1,325 @@
+(version 3)
+
+# ==========================================================
+# VIA POLICY
+# ==========================================================
+
+(rule "CR: Through vias only"
+	(condition "A.Via_Type == 'Micro' || A.Via_Type == 'Blind/buried'")
+	(constraint disallow)
+)
+
+# ==========================================================
+# PREVENT SOLDER WICKING (NO VIA-IN-PAD)
+# ==========================================================
+
+(rule "CR: No holes in small pads"
+    (condition "B.Size_X < 1.5mm && B.Size_Y < 1.5mm && B.Pad_Type == 'SMD'")
+	(constraint physical_hole_clearance ( min 0.03mm))
+)
+
+# ==========================================================
+# BASE COPPER CLEARANCE (INNER, NON-ZONE)
+# ==========================================================
+
+(rule "CR: Copper to Copper Clearance, inner layer"
+	(severity error)
+	(layer inner)
+	(condition " !(A.Type=='Zone' || B.Type=='Zone' || A.inDiffPair('*') || B.inDiffPair('*'))")
+	(constraint clearance (min 0.125mm))
+)
+
+# ==========================================================
+# VIA HOLE CLEARANCES
+# ==========================================================
+
+(rule "CR: Via hole to track clearance, inner layer"
+	(layer inner)
+    (condition "A.Type == 'Via' && B.Type == 'Track'")
+    (constraint hole_clearance (min 0.3mm))
+)
+
+(rule "CR: Via hole to copper (non-track), inner layer"
+	(layer inner)
+    (condition "A.Type == 'Via' && !B.Type == 'Track'")
+    (constraint hole_clearance (min 0.25mm))
+)
+
+(rule "CR: Via hole to copper, outer layer"
+	(layer outer)
+    (condition "A.Type == 'Via' && B.Type == '*'")
+    (constraint hole_clearance (min 0.125mm))
+)
+
+# ==========================================================
+# HOLE TO HOLE CLEARANCE
+# ==========================================================
+
+(rule "CR: Hole to hole clearance"
+	(severity error)
+	(constraint hole_to_hole (min 0.25mm))
+)
+
+# ==========================================================
+# IMPEDANCE CONTROL (INNER LAYERS)
+# ==========================================================
+
+# Specify a larger clearance between differential pairs and anything else
+(rule "Differential pair clearance"
+	(condition "A.inDiffPair('*') && !AB.isCoupledDiffPair()")
+	(constraint clearance (min 0.5mm))
+)
+
+# inner layer track width single impedance
+(rule "CR: inner layer track width single impedance"
+	(layer inner)
+	(condition "A.NetClass=='50 100 Ohm' && !A.inDiffPair('*')")
+	(constraint track_width (min 0.112mm) (opt 0.112mm))
+)
+
+# inner layer track width differencial impedance
+(rule "CR: inner layer track width differential impedance"
+	(layer inner)
+	(condition "A.NetClass=='50 100 Ohm' && A.inDiffPair('*')")
+	(constraint track_width (min 0.1mm) (opt 0.1mm))
+	(constraint diff_pair_gap (min 0.203mm) (opt 0.203mm))
+)
+
+# ==========================================================
+# BGA FANOUT RULES
+# ==========================================================
+
+(rule "CR: BGA Signal"
+	(condition "(A.enclosedByArea('BGA_AREA') || B.enclosedByArea('BGA_AREA')) && (A.NetClass != 'Power_LV' || B.NetClass != 'Power_LV')")
+	(constraint via_diameter (min 0.7mm) (opt 0.7mm) (max 0.7mm))
+	(constraint hole_size (min 0.35mm) (opt 0.35mm) (max 0.35mm))
+	(constraint track_width (min 0.16mm) (opt 0.16mm))
+	(constraint clearance (min 0.125mm) (opt 0.125mm))
+)
+
+(rule "CR: BGA Power"
+	(condition "(A.enclosedByArea('BGA_AREA') || B.enclosedByArea('BGA_AREA'))&& (A.NetClass == 'Power_LV' || B.NetClass == 'Power_LV')")
+	(constraint via_diameter (min 0.7mm) (opt 0.7mm) (max 0.7mm))
+	(constraint hole_size (min 0.35mm) (opt 0.35mm) (max 0.35mm))
+	(constraint track_width (min 0.25mm) (opt 0.25mm))
+	(constraint clearance (min 0.125mm) (opt 0.125mm))
+)
+
+(rule "CR: BGA Via clearence."
+	(condition "(A.enclosedByArea('BGA_AREA') || B.enclosedByArea('BGA_AREA'))&& (A.Type == 'Via' || B.Type == 'Via')")
+	(constraint clearance (min 0.35mm))
+)
+
+# ==========================================================
+# LOW VOLTAGE ZONE (LV_ZONE, <=50V)
+# Zone copper clearance must be set LOW (e.g. 0.125mm)
+# ==========================================================
+
+# Objects fully enclosed in LV_ZONE
+(rule "CR: LV zone clearance inner enclosed"
+	(severity error)
+	(layer inner)
+	(condition "A.enclosedByArea('LV_ZONE') || B.enclosedByArea('LV_ZONE')")
+	(constraint clearance (min 0.4mm))
+)
+
+(rule "CR: LV zone clearance outer enclosed"
+	(severity error)
+	(layer outer)
+	(condition "A.enclosedByArea('LV_ZONE') || B.enclosedByArea('LV_ZONE')")
+	(constraint clearance (min 0.3mm))
+)
+
+# Objects intersecting LV_ZONE boundary
+(rule "CR: LV zone clearance inner intersect"
+	(severity error)
+	(layer inner)
+	(condition "A.intersectsArea('LV_ZONE') || B.intersectsArea('LV_ZONE')")
+	(constraint clearance (min 0.4mm))
+)
+
+(rule "CR: LV zone clearance outer intersect"
+	(severity error)
+	(layer outer)
+	(condition "A.intersectsArea('LV_ZONE') || B.intersectsArea('LV_ZONE')")
+	(constraint clearance (min 0.3mm))
+)
+
+
+# ==========================================================
+# HIGH VOLTAGE ZONE (HV_ZONE, <=600V)
+# ==========================================================
+(rule "CR: HV zone clearance outer enclosed pad to others"
+	(severity error)
+	(layer inner)
+	(condition "(A.NetClass == 'HV_NET' || B.NetClass == 'HV_NET') && (A.enclosedByArea('HV_ZONE') || B.enclosedByArea('HV_ZONE'))")
+	(constraint clearance (min 2.5mm))
+)
+
+(rule "CR: HV zone clearance outer enclosed pad to connector"
+	(severity error)
+	(layer inner)
+	(condition "(A.NetClass == 'HV_NET' || B.NetClass == 'HV_NET') && (A.enclosedByArea('HV_ZONE') || B.enclosedByArea('HV_ZONE')) && (A.Type == 'Pad' && B.Type == 'Pad')")
+	(constraint clearance (min 2.0mm))
+)
+
+(rule "CR: HV zone clearance inner enclosed, connector pin to HV_ZONE"
+	(severity error)
+	(layer inner)
+	(condition "((A.Name != 'HV_ZONE') || (B.Name != 'HV_ZONE')) && (A.enclosedByArea('HV_ZONE_CONNECTOR') || B.enclosedByArea('HV_ZONE_CONNECTOR'))")
+	(constraint clearance (min 2.5mm))
+)
+
+(rule "CR: HV zone clearance inner enclosed, connector pin to others"
+	(severity error)
+	(layer inner)
+	(condition "((A.Name == 'HV_ZONE') || (B.Name == 'HV_ZONE')) && (A.enclosedByArea('HV_ZONE_CONNECTOR') || B.enclosedByArea('HV_ZONE_CONNECTOR'))")
+	(constraint clearance (min 2.0mm))
+)
+
+
+(rule "CR: HV zone clearance outer enclosed, non-pad to others"
+	(severity error)
+	(layer outer)
+	(condition "(A.Name != B.Name) && ((A.Type != 'Pad' && A.enclosedByArea('HV_ZONE')) || (B.Type != 'Pad' && B.enclosedByArea('HV_ZONE')))")
+	(constraint clearance (min 3.0mm))
+)
+
+(rule "CR: HV zone clearance outer enclosed pad to others"
+	(severity error)
+	(layer outer)
+	(condition "(A.Type == 'Pad' && A.enclosedByArea('HV_ZONE')) || (B.Type == 'Pad' && B.enclosedByArea('HV_ZONE'))")
+	(constraint clearance (min 2.0mm))
+)
+
+
+
+# ==========================================================
+# HV_LV_EXCLUSION ZONE
+# Purpose:
+# - Acts as an LV-behavior routing island inside HV_ZONE
+# - Allows dense routing inside HV areas
+# - Overrides HV clearance locally by higher specificity
+# - Uses BOTH enclosed and intersect rules:
+#   * enclosedByArea()  -> primary (clean domain override)
+#   * intersectsArea()  -> secondary (boundary policing)
+# ==========================================================
+
+# ----------------------------------------------------------
+# Primary rule: objects fully inside HV_LV_EXCLUSION
+# Treated as LV domain (highest specificity)
+# ----------------------------------------------------------
+
+# Via
+(rule "CR: HV_LV_EXCLUSION inner non-via"
+	(severity error)
+	(layer inner)
+	(condition "(A.Type!='Via' && A.enclosedByArea('HV_LV_EXCLUSION')) || (B.Type!='Via' && B.enclosedByArea('HV_LV_EXCLUSION'))")
+	(constraint clearance (min 0.125mm))
+)
+
+
+(rule "CR: HV_LV_EXCLUSION F.Cu non-via"
+	(severity error)
+	(layer outer)
+	(condition "(A.Type!='Via' && A.enclosedByArea('HV_LV_EXCLUSION')) || (B.Type!='Via' && B.enclosedByArea('HV_LV_EXCLUSION'))")
+	(constraint clearance (min 0.2mm))
+)
+
+(rule "CR: HV_LV_EXCLUSION non-zone"
+	(severity error)
+	(condition "(((A.Type == 'Via' && B.Type != 'Zone') || (B.Type == 'Via' && A.Type != 'Zone')) && (A.enclosedByArea('HV_LV_EXCLUSION') || B.enclosedByArea('HV_LV_EXCLUSION')))")
+	(constraint clearance (min 0.2mm))
+)
+
+## ==========================================================
+(rule "CR: HV_LV_EXCLUSION HV_NET"
+	(severity error)
+    (layer outer)
+	(condition "(A.NetClass == 'HV_NET' && B.NetClass == 'HV_NET') && (A.enclosedByArea('HV_ZONE') || B.enclosedByArea('HV_ZONE'))")
+	(constraint clearance (min 3.0mm))
+)
+
+(rule "CR: HV_LV_EXCLUSION HV_NET"
+	(severity error)
+    (layer inner)
+	(condition "(A.NetClass == 'HV_NET' && B.NetClass == 'HV_NET') && (A.enclosedByArea('HV_ZONE') || B.enclosedByArea('HV_ZONE'))")
+	(constraint clearance (min 2.5mm))
+)
+
+(rule "CR: HV_ISOL, outer"
+	(severity error)
+	(layer outer)
+	(condition "(A.enclosedByArea('HV_ISOL') || B.enclosedByArea('HV_ISOL')) && (A.Type == 'Zone' && B.Type == 'Zone')")
+	(constraint clearance (min 3.0mm))
+)
+
+(rule "CR: HV_ISOL, inner"
+	(severity error)
+	(layer inner)
+	(condition "(A.enclosedByArea('HV_ISOL') || B.enclosedByArea('HV_ISOL')) && (A.Type == 'Zone' && B.Type == 'Zone')")
+	(constraint clearance (min 2.5mm))
+)
+
+(rule "CR: NO_ISOL"
+	(severity error)
+	(condition "(A.enclosedByArea('NO_ISOL') || B.enclosedByArea('NO_ISOL')) && (A.Type == 'Zone' && B.Type == 'Zone')")
+	(constraint clearance (min 0.6mm))
+)
+
+## ==========================================================
+## HV TO LV ISOLATION (BOUNDARY-AWARE)
+## ==========================================================
+#
+#(rule "CR: HV to LV zone clearance"
+#	(severity error)
+#	(condition "(A.intersectsArea('HV_ZONE') && B.intersectsArea('LV_ZONE')) || (B.intersectsArea('HV_ZONE') && A.intersectsArea('LV_ZONE'))")
+#	(constraint clearance (min 6.0mm))
+#)
+
+# ==========================================================
+# MANUFACTURING RULESET - PCB POWER (RIGID PCB)
+# Source: PCB Power - Technical Capabilities (Rigid PCB)
+# Scope: Additive manufacturability constraints only
+# ==========================================================
+# ----------------------------------------------------------
+# VIA & DRILL MANUFACTURABILITY
+# ----------------------------------------------------------
+
+(rule "FAB: Minimum finished drill size"
+	(severity error)
+	(constraint hole_size (min 0.10mm))
+)
+
+(rule "FAB: Minimum annular ring"
+	(severity error)
+	(constraint annular_width (min 0.10mm))
+)
+
+(rule "FAB: Via hole to copper clearance (inner)"
+	(severity error)
+	(layer inner)
+	(constraint hole_clearance (min 0.20mm))
+)
+
+
+# ----------------------------------------------------------
+# MECHANICAL / BOARD EDGE
+# ----------------------------------------------------------
+
+(rule "FAB: Copper to board edge clearance"
+	(severity error)
+	(constraint edge_clearance (min 0.20mm))
+)
+
+
+# ----------------------------------------------------------
+# SOLDER MASK MANUFACTURABILITY
+# ----------------------------------------------------------
+
+#(rule "FAB: Min silk to copper spacing"
+#	(severity error)
+#	(constraint silk_clearance (min 0.08mm))
+#)
+
+

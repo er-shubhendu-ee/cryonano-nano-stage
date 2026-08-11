@@ -1669,16 +1669,16 @@
 		(uuid "4e137ebe-dc7a-4040-ac60-62970a6b38b1")
 	)
 	(junction
-		(at 104.14 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4e13b118-851b-409d-bf53-85d93a073eff")
-	)
-	(junction
 		(at 60.96 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7b5ddaef-f0dd-45e8-9d06-de902ef2bf6b")
+	)
+	(junction
+		(at 104.14 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b68fb022-4e5e-432d-bafa-4c797269e5ee")
 	)
 	(junction
 		(at 60.96 76.2)
@@ -1744,7 +1744,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 48.26) (xy 104.14 45.72)
+			(xy 104.14 48.26) (xy 104.14 40.64)
 		)
 		(stroke
 			(width 0)
@@ -2153,7 +2153,7 @@
 	)
 	(symbol
 		(lib_id "interface-pcb:V_BUS")
-		(at 104.14 45.72 0)
+		(at 104.14 40.64 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2164,7 +2164,7 @@
 		(fields_autoplaced yes)
 		(uuid "01f6439b-853b-46fd-b7f3-b8b9b2d35d9b")
 		(property "Reference" "#PWR0242"
-			(at 104.14 49.53 0)
+			(at 104.14 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2175,7 +2175,7 @@
 			)
 		)
 		(property "Value" "V_BUS"
-			(at 104.14 40.64 0)
+			(at 104.14 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2185,7 +2185,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 104.14 45.72 0)
+			(at 104.14 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2196,7 +2196,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 45.72 0)
+			(at 104.14 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2207,7 +2207,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 104.14 45.72 0)
+			(at 104.14 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2319,7 +2319,7 @@
 		(dnp no)
 		(uuid "3005db2c-7bcd-423a-a29a-40a604ff1a16")
 		(property "Reference" "C10"
-			(at 107.95 45.72 90)
+			(at 109.22 43.18 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2329,7 +2329,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 115.062 45.72 90)
+			(at 109.22 45.212 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
