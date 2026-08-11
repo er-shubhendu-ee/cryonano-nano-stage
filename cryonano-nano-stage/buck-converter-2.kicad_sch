@@ -8,60 +8,34 @@
 		(rev "1.0.0")
 	)
 	(lib_symbols
-		(symbol "symbols:HLK-B2405S-2WR3"
+		(symbol "symbols:BxxxxS-1WR3"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "PS"
-				(at 11.176 8.128 0)
+				(at 8.89 8.128 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 				)
 			)
-			(property "Value" "HLK-B2405S-2WR3"
-				(at 3.302 5.334 0)
+			(property "Value" "BxxxxS-1WR3"
+				(at 9.144 5.842 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 				)
 			)
-			(property "Footprint" "HLKB2405S2WR3"
-				(at 21.59 -94.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2206021745_HI-LINK-HLK-B2405S-2WR3_C3029164.pdf"
-				(at 21.59 -194.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Description" "5V 2400uF 400mA 21.6V~26.4V 1 Isolated Unregulated 2W DC-DC Short-Circuit Protection 86%~88% Plugin Power Modules ROHS"
-				(at 4.064 -15.748 0)
+			(property "Footprint" ""
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -71,8 +45,8 @@
 					)
 				)
 			)
-			(property "Height" "10.25"
-				(at 21.59 -394.92 0)
+			(property "Datasheet" ""
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -80,11 +54,10 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 				)
 			)
-			(property "Manufacturer_Name" "Hi-Link"
-				(at 21.59 -494.92 0)
+			(property "Description" "1W, constant voltage input, isolated unregulated single output DC-DC power module, efficiency up to 85%"
+				(at 1.524 -8.89 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -92,83 +65,168 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 				)
 			)
-			(property "Manufacturer_Part_Number" "HLK-B2405S-2WR3"
-				(at 21.59 -594.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Mouser Part Number" ""
-				(at 21.59 -694.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Mouser Price/Stock" ""
-				(at 21.59 -794.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Arrow Part Number" ""
-				(at 21.59 -894.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Arrow Price/Stock" ""
-				(at 21.59 -994.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(symbol "HLK-B2405S-2WR3_1_1"
+			(symbol "BxxxxS-1WR3_1_1"
 				(rectangle
-					(start 5.08 2.54)
-					(end 20.32 -5.08)
+					(start 2.54 3.175)
+					(end 20.32 -5.715)
 					(stroke
-						(width 0.254)
-						(type default)
+						(width 0)
+						(type solid)
 					)
 					(fill
 						(type background)
 					)
 				)
-				(pin passive line
-					(at 2.54 0 0)
+				(pin power_in line
+					(at 0 -2.54 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 0 0)
+					(length 2.54)
+					(name "+VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 22.86 -2.54 180)
+					(length 2.54)
+					(name "-VO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 22.86 0 180)
+					(length 2.54)
+					(name "+VO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "symbols:BxxxxS-2WR3"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "PS"
+				(at 11.176 6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "BxxxxS-2WR3"
+				(at 11.176 4.318 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "BxxxxS-2WR3_1_1"
+				(rectangle
+					(start 2.54 1.905)
+					(end 20.32 -6.985)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at 0 0 0)
 					(length 2.54)
 					(name "+VIN"
 						(effects
@@ -185,10 +243,10 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 2.54 -2.54 0)
+				(pin power_in line
+					(at 0 -2.54 0)
 					(length 2.54)
-					(name "-VIN"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -203,8 +261,26 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 22.86 -2.54 180)
+				(pin no_connect line
+					(at 0 -5.08 0)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 22.86 -5.08 180)
 					(length 2.54)
 					(name "-VOUT"
 						(effects
@@ -221,7 +297,25 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin no_connect line
+					(at 22.86 -2.54 180)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
 					(at 22.86 0 180)
 					(length 2.54)
 					(name "+VOUT"
@@ -243,53 +337,407 @@
 			(embedded_fonts no)
 		)
 	)
+	(wire
+		(pts
+			(xy 86.36 27.94) (xy 78.74 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15d88cf9-610a-4c66-a1f8-697e8214c023")
+	)
+	(wire
+		(pts
+			(xy 43.18 55.88) (xy 50.8 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64c36bc0-1c90-4ee4-91d1-4b6bda1db1ab")
+	)
+	(wire
+		(pts
+			(xy 86.36 25.4) (xy 78.74 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d2a8441-b6a4-41c5-a729-4b7619becd63")
+	)
+	(wire
+		(pts
+			(xy 43.18 38.1) (xy 50.8 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9eee6e5d-3897-404d-873f-0aca5e731722")
+	)
+	(wire
+		(pts
+			(xy 45.72 25.4) (xy 38.1 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9feeb210-a0e0-4dc4-a73d-d719ae27ee94")
+	)
+	(wire
+		(pts
+			(xy 43.18 58.42) (xy 50.8 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5223960-bf41-46b7-bc82-fbf6b66f05db")
+	)
+	(wire
+		(pts
+			(xy 45.72 27.94) (xy 38.1 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b53998b8-d9ec-4d89-a393-5a53f7056840")
+	)
+	(wire
+		(pts
+			(xy 73.66 55.88) (xy 81.28 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5b66c42-c752-4133-a769-28d71d06b067")
+	)
+	(wire
+		(pts
+			(xy 73.66 60.96) (xy 81.28 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf31b89a-d17a-4559-b658-77aa66ca6dce")
+	)
+	(wire
+		(pts
+			(xy 73.66 38.1) (xy 81.28 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c858dbae-00e2-41c2-b2fa-1f16671ddfdc")
+	)
+	(wire
+		(pts
+			(xy 43.18 40.64) (xy 50.8 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2b147e7-83c7-4259-8c0b-cc65096d1565")
+	)
+	(wire
+		(pts
+			(xy 73.66 40.64) (xy 81.28 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e730cc46-e078-4c90-93a8-1b651aa43eb3")
+	)
+	(label "MIN"
+		(at 43.18 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3a097a4f-e12a-46c6-9324-20ac55dc73bf")
+	)
+	(label "MOUT"
+		(at 78.74 27.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3e472c87-bf50-4746-9626-64b1b63f1cff")
+	)
+	(label "MOUT"
+		(at 81.28 40.64 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4894d234-cd51-4d8d-b1ba-ace9eb949f73")
+	)
+	(label "MOUT"
+		(at 81.28 60.96 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "72fb22bc-7c01-4046-b5a4-243939f1a395")
+	)
+	(label "MIN"
+		(at 45.72 27.94 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "742ae5e5-2d36-4092-9ef7-397479a31db4")
+	)
+	(label "+VIN"
+		(at 45.72 25.4 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9576cbe2-5c8f-4e63-ae3d-02b2db8fb1e3")
+	)
+	(label "+VIN"
+		(at 43.18 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "990ed401-2ca7-4ab8-abf1-08a94b892550")
+	)
+	(label "+VIN"
+		(at 43.18 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b717d597-83b6-4f30-8960-74c87c85f913")
+	)
+	(label "MIN"
+		(at 43.18 40.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cae63b3b-1227-44a4-9175-4f3f3f86e2f5")
+	)
+	(label "+VOUT"
+		(at 81.28 55.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "da2df3e3-5475-4a61-9a89-539663161485")
+	)
+	(label "+VOUT"
+		(at 81.28 38.1 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "deaaefee-264d-452e-92bf-28b3b5bc76be")
+	)
+	(label "+VOUT"
+		(at 78.74 25.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fb3e0a6f-cd75-4120-8052-98370508f89d")
+	)
 	(hierarchical_label "+5V0OUT"
 		(shape output)
-		(at 101.6 63.5 0)
+		(at 86.36 25.4 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "00f44b33-5bea-46c7-945c-76c6b8a79d12")
-	)
-	(hierarchical_label "+24V0IN"
-		(shape input)
-		(at 50.8 63.5 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "453751ff-dd5a-4f40-b372-918bbc89c3bd")
+		(uuid "2db40e36-2f8d-4119-af10-8f794f3ddea0")
 	)
 	(hierarchical_label "0V0IN"
 		(shape input)
-		(at 50.8 68.58 180)
+		(at 38.1 27.94 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "7d5226ed-2bcd-4a7e-9878-4cfac7bd5ac1")
+		(uuid "9275f238-abd7-4b2b-a374-089cb1e77e7d")
 	)
 	(hierarchical_label "0V0OUT"
 		(shape output)
-		(at 101.6 68.58 0)
+		(at 86.36 27.94 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "edf80979-5e80-4ed5-bc5c-9bd7891651ac")
+		(uuid "a7461be4-52cc-49c6-885f-2e52427128ba")
+	)
+	(hierarchical_label "+24V0IN"
+		(shape input)
+		(at 38.1 25.4 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f6dc370d-03b3-4765-b8f6-cf980a306536")
 	)
 	(symbol
-		(lib_id "symbols:HLK-B2405S-2WR3")
-		(at 60.96 63.5 0)
+		(lib_id "symbols:BxxxxS-2WR3")
+		(at 50.8 55.88 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "1707b18e-46b2-4a76-a5f1-90b4f9c360ce")
+		(property "Reference" "PS4"
+			(at 62.23 49.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "B2405S-2WR3"
+			(at 62.23 52.07 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "2W, constant voltage input, isolated unregulated single output DC-DC power module, efficiency up to 85%"
+			(at 50.8 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Order No." "B2405S-2WR3"
+			(at 50.8 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Unit Price 10" "110"
+			(at 50.8 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "d2ac9217-7e94-4441-9c7f-ab769294aef7")
+		)
+		(pin "1"
+			(uuid "f8ea5c9e-07b8-443f-87bd-05b7f2e1c45a")
+		)
+		(pin "5"
+			(uuid "f69b4b5e-fe96-4641-8ca9-a9d478d9d5dd")
+		)
+		(pin "3"
+			(uuid "9cf6f49c-ea2c-448a-97f1-b695509fb499")
+		)
+		(pin "4"
+			(uuid "afa34da3-1853-4bd7-b3d9-3f4b35d2a599")
+		)
+		(pin "6"
+			(uuid "ffb0a7c1-37ec-4979-915f-3380fdf67632")
+		)
+		(instances
+			(project "cryonano-nano-stage"
+				(path "/549c6da5-71cb-4d9c-a0a2-c409a6f93509/0ae8b125-dbe2-44df-bbd5-11d3a39005e3/4b5b1cfb-c261-4252-ad9c-a17348397046"
+					(reference "PS4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "symbols:BxxxxS-1WR3")
+		(at 50.8 38.1 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -297,10 +745,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8a8544bc-aa79-4718-9c1d-ad7ef895704c")
-		(property "Reference" "PS1"
-			(at 73.66 55.88 0)
+		(uuid "420eb6a2-8fa9-4e0d-ac36-9f6f4cd8d300")
+		(property "Reference" "PS2"
+			(at 62.484 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -309,8 +756,8 @@
 				)
 			)
 		)
-		(property "Value" "HLK-B2405S-2WR3"
-			(at 73.66 58.42 0)
+		(property "Value" "B2405S-1WR3"
+			(at 62.484 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -319,32 +766,8 @@
 				)
 			)
 		)
-		(property "Footprint" "HLKB2405S2WR3"
-			(at 82.55 158.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2206021745_HI-LINK-HLK-B2405S-2WR3_C3029164.pdf"
-			(at 82.55 258.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "5V 2400uF 400mA 21.6V~26.4V 1 Isolated Unregulated 2W DC-DC Short-Circuit Protection 86%~88% Plugin Power Modules ROHS"
-			(at 65.024 79.248 0)
+		(property "Footprint" ""
+			(at 50.8 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -354,8 +777,8 @@
 				)
 			)
 		)
-		(property "Height" "10.25"
-			(at 82.55 458.42 0)
+		(property "Datasheet" ""
+			(at 50.8 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -363,11 +786,10 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 			)
 		)
-		(property "Manufacturer_Name" "Hi-Link"
-			(at 82.55 558.42 0)
+		(property "Description" "1W, constant voltage input, isolated unregulated single output DC-DC power module, efficiency up to 85%"
+			(at 52.324 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -375,11 +797,10 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 			)
 		)
-		(property "Manufacturer_Part_Number" "HLK-B2405S-2WR3"
-			(at 82.55 658.42 0)
+		(property "Allied Price/Stock" ""
+			(at 50.8 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -387,11 +808,10 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 82.55 758.42 0)
+		(property "Allied_Number" ""
+			(at 50.8 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -399,11 +819,10 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 			)
 		)
-		(property "Mouser Price/Stock" ""
-			(at 82.55 858.42 0)
+		(property "MCWR08X12R0FTL " ""
+			(at 50.8 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -411,11 +830,10 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 			)
 		)
-		(property "Arrow Part Number" ""
-			(at 82.55 958.42 0)
+		(property "RS Part Number" ""
+			(at 50.8 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -423,11 +841,10 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 			)
 		)
-		(property "Arrow Price/Stock" ""
-			(at 82.55 1058.42 0)
+		(property "RS Price/Stock" ""
+			(at 50.8 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -435,25 +852,46 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 			)
 		)
-		(pin "6"
-			(uuid "ccdf9123-1f93-46f3-80bf-8bd4870fa062")
+		(property "Order No." "B2405S-1WR3"
+			(at 50.8 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
-		(pin "1"
-			(uuid "f15e5a86-cc8d-48e2-ab2b-fc13493064ec")
+		(property "Unit Price 10" "75"
+			(at 50.8 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "2"
-			(uuid "7a3fa98b-bc17-45ca-a52b-0c7d5046a8c1")
+			(uuid "ecfdb90f-0f23-44ba-a926-e13e5289b840")
+		)
+		(pin "3"
+			(uuid "42af62ad-6408-4b59-a7e3-289419d54054")
 		)
 		(pin "4"
-			(uuid "27cc3fea-f67a-4357-99b6-ae5f37dc91f4")
+			(uuid "e1ad2142-eba8-4700-8bdb-b2a203175266")
+		)
+		(pin "1"
+			(uuid "40d1ae71-e72f-4c15-a377-3db2612061ff")
 		)
 		(instances
 			(project "cryonano-nano-stage"
 				(path "/549c6da5-71cb-4d9c-a0a2-c409a6f93509/0ae8b125-dbe2-44df-bbd5-11d3a39005e3/4b5b1cfb-c261-4252-ad9c-a17348397046"
-					(reference "PS1")
+					(reference "PS2")
 					(unit 1)
 				)
 			)

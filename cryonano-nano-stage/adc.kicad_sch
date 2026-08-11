@@ -4,36 +4,797 @@
 	(generator_version "10.0")
 	(uuid "4df618e8-34e9-4bca-bd69-bd730a51f4ad")
 	(paper "A4")
-	(lib_symbols)
-	(sheet
-		(at 63.5 63.5)
-		(size 12.7 25.4)
+	(lib_symbols
+		(symbol "symbols:AD7124-8BCPZ-RL7"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 50.038 15.748 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "AD7124-8BCPZ-RL7"
+				(at 50.038 13.208 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "QFN50P500X500X80-33N-D"
+				(at 72.39 -79.68 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Datasheet" "https://www.analog.com/AD7124-8/datasheet"
+				(at 72.39 -179.68 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Description" "3 power modes  RMS noise  Low power: 24 nV rms at 1.17 SPS, gain = 128 (255 A typical)  Mid power: 20 nV rms at 2.34 SPS, gain = 128 (355 A typical)  Full power: 23 nV rms at 9.4 SPS, gain = 128 (930 A typical)  Up to 22 noise free bits in all power modes (gain = 1)  Output data rate  Full power: 9.38 SPS to 19,200 SPS  Mid power: 2.34 SPS to 4800 SPS  Low power: 1.17 SPS to 2400 SPS  Rail-to-rail analog inputs for gains > 1  Simultaneous 50 Hz/60 Hz rejection at 25 SPS (single cy"
+				(at 3.556 -63.246 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Height" "0.8"
+				(at 72.39 -379.68 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "element14 Part Number" ""
+				(at 72.39 -479.68 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "element14 Price/Stock" ""
+				(at 72.39 -579.68 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Name" "Analog Devices"
+				(at 72.39 -679.68 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Part_Number" "AD7124-8BCPZ-RL7"
+				(at 72.39 -779.68 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(symbol "AD7124-8BCPZ-RL7_1_1"
+				(rectangle
+					(start 5.08 10.16)
+					(end 55.88 -60.96)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 39.37 10.16) (xy 39.37 -60.96)
+					)
+					(stroke
+						(width 0)
+						(type dash_dot)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 40.64 10.16) (xy 40.64 -60.96)
+					)
+					(stroke
+						(width 0)
+						(type dash_dot)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 33.02 15.24 270)
+					(length 5.08)
+					(name "REGCAPD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 45.72 15.24 270)
+					(length 5.08)
+					(name "IOVDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 45.72 -66.04 90)
+					(length 5.08)
+					(name "DGND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "AIN0/IOUT/VBIAS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 0)
+					(length 5.08)
+					(name "AIN1/IOUT/VBIAS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -12.7 0)
+					(length 5.08)
+					(name "AIN2/IOUT/VBIAS/P1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -15.24 0)
+					(length 5.08)
+					(name "AIN3/IOUT/VBIAS/P2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -17.78 0)
+					(length 5.08)
+					(name "AIN4/IOUT/VBIAS/P3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -20.32 0)
+					(length 5.08)
+					(name "AIN5/IOUT/VBIAS/P4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -22.86 0)
+					(length 5.08)
+					(name "AIN6/IOUT/VBIAS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -25.4 0)
+					(length 5.08)
+					(name "AIN7/IOUT/VBIAS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "REFIN1(+)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "REFIN1(-)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -27.94 0)
+					(length 5.08)
+					(name "AIN8/IOUT/VBIAS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -30.48 0)
+					(length 5.08)
+					(name "AIN9/IOUT/VBIAS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -33.02 0)
+					(length 5.08)
+					(name "AIN10/IOUT/VBIAS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -50.8 0)
+					(length 5.08)
+					(name "AIN11/IOUT/VBIAS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -48.26 0)
+					(length 5.08)
+					(name "AIN12/IOUT/VBIAS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -45.72 0)
+					(length 5.08)
+					(name "AIN13/IOUT/VBIAS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -40.64 0)
+					(length 5.08)
+					(name "AIN14/IOUT/VBIAS/REFIN2(+)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -38.1 0)
+					(length 5.08)
+					(name "AIN15/IOUT/VBIAS/REFIN2(-)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 15.24 270)
+					(length 5.08)
+					(name "REFOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -66.04 90)
+					(length 5.08)
+					(name "AVSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 15.24 270)
+					(length 5.08)
+					(name "REGCAPA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 60.96 -17.78 180)
+					(length 5.08)
+					(name "PSW"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 15.24 270)
+					(length 5.08)
+					(name "AVDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 60.96 -15.24 180)
+					(length 5.08)
+					(name "~{SYNC}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 60.96 -12.7 180)
+					(length 5.08)
+					(name "DOUT/~{RDY}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 60.96 -10.16 180)
+					(length 5.08)
+					(name "DIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 60.96 -7.62 180)
+					(length 5.08)
+					(name "SCLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 60.96 -5.08 180)
+					(length 5.08)
+					(name "CLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 60.96 -2.54 180)
+					(length 5.08)
+					(name "~{CS}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 60.96 0 180)
+					(length 5.08)
+					(name "EP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(symbol
+		(lib_id "symbols:AD7124-8BCPZ-RL7")
+		(at 97.79 81.28 0)
+		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "795b75d7-3efb-4675-8d7e-cd7c00365ad1")
-		(property "Sheetname" "Isolation"
-			(at 63.5 62.7884 0)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2f150935-6909-4457-ba9a-2e68e55e996e")
+		(property "Reference" "U1"
+			(at 148.844 65.278 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "isolation.kicad_sch"
-			(at 63.5 89.4846 0)
+		(property "Value" "AD7124-8BCPZ-RL7"
+			(at 157.48 68.072 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "QFN50P500X500X80-33N-D"
+			(at 170.18 160.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -44,10 +805,270 @@
 				(justify left top)
 			)
 		)
+		(property "Datasheet" "https://www.analog.com/AD7124-8/datasheet"
+			(at 170.18 260.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "3 power modes  RMS noise  Low power: 24 nV rms at 1.17 SPS, gain = 128 (255 A typical)  Mid power: 20 nV rms at 2.34 SPS, gain = 128 (355 A typical)  Full power: 23 nV rms at 9.4 SPS, gain = 128 (930 A typical)  Up to 22 noise free bits in all power modes (gain = 1)  Output data rate  Full power: 9.38 SPS to 19,200 SPS  Mid power: 2.34 SPS to 4800 SPS  Low power: 1.17 SPS to 2400 SPS  Rail-to-rail analog inputs for gains > 1  Simultaneous 50 Hz/60 Hz rejection at 25 SPS (single cy"
+			(at 97.79 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "0.8"
+			(at 170.18 460.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "element14 Part Number" ""
+			(at 170.18 560.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "element14 Price/Stock" ""
+			(at 170.18 660.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Analog Devices"
+			(at 170.18 760.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AD7124-8BCPZ-RL7"
+			(at 170.18 860.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Allied Price/Stock" ""
+			(at 97.79 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Allied_Number" ""
+			(at 97.79 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MCWR08X12R0FTL " ""
+			(at 97.79 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RS Part Number" ""
+			(at 97.79 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RS Price/Stock" ""
+			(at 97.79 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Order No." "AD7124-8BCPZ-RL7"
+			(at 97.79 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Unit Price 10" "1230"
+			(at 97.79 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c8f6bef2-2058-4fd9-aeaf-7a6904310ac7")
+		)
+		(pin "12"
+			(uuid "cd4b4fbb-73f7-486c-bcc4-11cfad685a6d")
+		)
+		(pin "9"
+			(uuid "ad1b1d54-b315-499e-8658-012ef60821dc")
+		)
+		(pin "26"
+			(uuid "39b5b028-7691-4e0e-817e-6c05efeed1fc")
+		)
+		(pin "7"
+			(uuid "f4cf5591-8695-477e-b1ad-3151665b70df")
+		)
+		(pin "17"
+			(uuid "ffa49b18-4f36-4cc2-b98c-5fcd6e2e9668")
+		)
+		(pin "6"
+			(uuid "16678929-38f1-43b2-87ea-038bdda3860a")
+		)
+		(pin "8"
+			(uuid "ecc2fe8c-4e21-4f18-8e5e-2e6d9dc4fc12")
+		)
+		(pin "10"
+			(uuid "864902e1-d6cd-402c-a7bc-822f2597a0c4")
+		)
+		(pin "21"
+			(uuid "bcf1a38e-8270-4cae-821f-26edc18fd80b")
+		)
+		(pin "19"
+			(uuid "e082f59a-1701-4149-837c-233752c69b18")
+		)
+		(pin "22"
+			(uuid "1070180a-0b5c-466b-a6b2-2450c8cc5c00")
+		)
+		(pin "18"
+			(uuid "30dc7a62-8416-49aa-9e92-0421791ec5b5")
+		)
+		(pin "23"
+			(uuid "8b9bc732-effb-41de-b593-7c3de81eed65")
+		)
+		(pin "24"
+			(uuid "b6019ebe-d322-42e6-8d19-7896f8cd9518")
+		)
+		(pin "5"
+			(uuid "e0cb4d6a-4815-488d-9ac1-95972b158a38")
+		)
+		(pin "20"
+			(uuid "6b13c46a-6847-4e77-8ffb-d0ee23ff179e")
+		)
+		(pin "25"
+			(uuid "8271f90d-dcc2-42c0-a006-37b443a05998")
+		)
+		(pin "11"
+			(uuid "9566271d-fc7b-466e-aef9-6d23cc2dfcdf")
+		)
+		(pin "1"
+			(uuid "e668bda0-cced-4106-ad9f-00b69b0a62c0")
+		)
+		(pin "14"
+			(uuid "7382de3c-e5e3-4814-9b9b-bf472186181d")
+		)
+		(pin "16"
+			(uuid "ab8048e7-15e8-48e1-a183-7ea8f5a42056")
+		)
+		(pin "3"
+			(uuid "ff90fac9-8e61-41b4-bb63-af3d9334cd59")
+		)
+		(pin "4"
+			(uuid "43fa5a43-9bf4-44ea-b9dd-893b563ab1d1")
+		)
+		(pin "13"
+			(uuid "f3fcaa97-43d7-4ded-aaf0-2066d9fc7735")
+		)
+		(pin "15"
+			(uuid "fe7eeef1-bbcb-4da9-a8af-05e4809bfcfe")
+		)
+		(pin "27"
+			(uuid "2b9ea7a9-7e07-457b-980d-8d9192550988")
+		)
+		(pin "30"
+			(uuid "7ef4ab20-322e-4643-973c-d05720fba41a")
+		)
+		(pin "31"
+			(uuid "841f0b22-3729-47ed-a218-faf4ef9760cd")
+		)
+		(pin "29"
+			(uuid "8c6ba53e-a715-49da-964b-b9772cad08b7")
+		)
+		(pin "32"
+			(uuid "73b8e17c-07d3-404b-beae-7d3bbe4d8596")
+		)
+		(pin "28"
+			(uuid "02e2c9f0-6b4e-4206-9ba6-b17c756a7ac8")
+		)
+		(pin "33"
+			(uuid "731dc3f8-94af-4ab1-b0ac-751eb8437d3c")
+		)
 		(instances
 			(project "cryonano-nano-stage"
 				(path "/549c6da5-71cb-4d9c-a0a2-c409a6f93509/93ac0006-beae-45e2-a2f0-36893f5b0c34"
-					(page "11")
+					(reference "U1")
+					(unit 1)
 				)
 			)
 		)

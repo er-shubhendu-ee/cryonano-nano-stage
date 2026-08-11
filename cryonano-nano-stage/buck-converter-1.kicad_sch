@@ -15,7 +15,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "PS"
-				(at 8.89 6.604 0)
+				(at 8.89 8.128 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -25,7 +25,7 @@
 				)
 			)
 			(property "Value" "BxxxxS-1WR3"
-				(at 9.144 4.318 0)
+				(at 9.144 5.842 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -56,7 +56,7 @@
 					)
 				)
 			)
-			(property "Description" "1W, constant voltage input, isolated unregulated single output DC-DC power module"
+			(property "Description" "1W, constant voltage input, isolated unregulated single output DC-DC power module, efficiency up to 85%"
 				(at 1.524 -8.89 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -69,8 +69,8 @@
 			)
 			(symbol "BxxxxS-1WR3_1_1"
 				(rectangle
-					(start 2.54 2.54)
-					(end 16.51 -5.08)
+					(start 2.54 3.175)
+					(end 20.32 -5.715)
 					(stroke
 						(width 0)
 						(type solid)
@@ -79,7 +79,7 @@
 						(type background)
 					)
 				)
-				(pin passive line
+				(pin power_in line
 					(at 0 -2.54 0)
 					(length 2.54)
 					(name "GND"
@@ -97,7 +97,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin power_in line
 					(at 0 0 0)
 					(length 2.54)
 					(name "+VIN"
@@ -115,8 +115,8 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 19.05 -2.54 180)
+				(pin power_out line
+					(at 22.86 -2.54 180)
 					(length 2.54)
 					(name "-VO"
 						(effects
@@ -133,8 +133,8 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 19.05 0 180)
+				(pin power_out line
+					(at 22.86 0 180)
 					(length 2.54)
 					(name "+VO"
 						(effects
@@ -154,10 +154,432 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "symbols:BxxxxS-2WR3"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "PS"
+				(at 11.176 6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "BxxxxS-2WR3"
+				(at 11.176 4.318 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "BxxxxS-2WR3_1_1"
+				(rectangle
+					(start 2.54 1.905)
+					(end 20.32 -6.985)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at 0 0 0)
+					(length 2.54)
+					(name "+VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -2.54 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 0 -5.08 0)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 22.86 -5.08 180)
+					(length 2.54)
+					(name "-VOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 22.86 -2.54 180)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 22.86 0 180)
+					(length 2.54)
+					(name "+VOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(wire
+		(pts
+			(xy 30.48 40.64) (xy 38.1 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01bcf921-78f2-453c-ba93-d64e1f162765")
+	)
+	(wire
+		(pts
+			(xy 73.66 27.94) (xy 66.04 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11bd4f81-0144-41df-a136-dc5ab6460d6c")
+	)
+	(wire
+		(pts
+			(xy 30.48 58.42) (xy 38.1 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5231dda1-6f2b-4344-8d2e-567c3d68b3db")
+	)
+	(wire
+		(pts
+			(xy 60.96 38.1) (xy 68.58 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66d49bb4-2cd4-4d2e-b605-87204d68b9e5")
+	)
+	(wire
+		(pts
+			(xy 60.96 60.96) (xy 68.58 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79f7fc56-831a-433c-b929-e1f2ff8fdf1d")
+	)
+	(wire
+		(pts
+			(xy 33.02 27.94) (xy 25.4 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86cd7953-c854-4b94-8108-dbf25bf57c33")
+	)
+	(wire
+		(pts
+			(xy 33.02 25.4) (xy 25.4 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f7a8eea-8534-4fba-9d05-cef5f7ed3eb2")
+	)
+	(wire
+		(pts
+			(xy 60.96 40.64) (xy 68.58 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c77ba565-405c-45a7-aacf-a7a2829ccd30")
+	)
+	(wire
+		(pts
+			(xy 73.66 25.4) (xy 66.04 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9b45862-2ca0-40a0-b524-d482813638b2")
+	)
+	(wire
+		(pts
+			(xy 30.48 38.1) (xy 38.1 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d58bd34f-1d6b-41c9-9968-3c23ab053d19")
+	)
+	(wire
+		(pts
+			(xy 30.48 55.88) (xy 38.1 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed71e351-df14-40c7-b09a-2a938e3d4bdb")
+	)
+	(wire
+		(pts
+			(xy 60.96 55.88) (xy 68.58 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb57dabb-c4a4-43c8-873b-173c0e6dffe9")
+	)
+	(label "+VOUT"
+		(at 68.58 55.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1f81b4a9-7c19-410c-bfb8-f0c3afa08ca1")
+	)
+	(label "+VOUT"
+		(at 66.04 25.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "25f04aef-d780-4477-bc36-b0c1564bddae")
+	)
+	(label "+VIN"
+		(at 30.48 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4e363c65-48fd-44a3-b7d8-e882b9f5ac34")
+	)
+	(label "MOUT"
+		(at 68.58 60.96 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "56cd7ace-6a57-4ae0-97ab-e7e63bd86ffe")
+	)
+	(label "MIN"
+		(at 33.02 27.94 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "925e4e65-da1a-43d6-be8c-0ee718e5138b")
+	)
+	(label "+VOUT"
+		(at 68.58 38.1 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9aeb2816-badb-4cc9-a559-1143c7c34f55")
+	)
+	(label "MOUT"
+		(at 66.04 27.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ab8f0514-4de1-499e-aad0-b3d7c5afd001")
+	)
+	(label "MIN"
+		(at 30.48 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cc8a28c5-4f82-42cd-80c4-ec2d007d59cb")
+	)
+	(label "MOUT"
+		(at 68.58 40.64 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ccf9cbbb-8fa6-40d5-a98f-64e092123f58")
+	)
+	(label "+VIN"
+		(at 30.48 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d58039d3-d3ee-4c79-9354-5cc1cd7d646c")
+	)
+	(label "MIN"
+		(at 30.48 40.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e12932ef-c806-4112-a1f2-062a245853ff")
+	)
+	(label "+VIN"
+		(at 33.02 25.4 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f2f830dc-8c75-4b6f-bf36-8d965e829289")
 	)
 	(hierarchical_label "0V0OUT"
 		(shape output)
-		(at 57.15 40.64 0)
+		(at 73.66 27.94 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -168,7 +590,7 @@
 	)
 	(hierarchical_label "0V0IN"
 		(shape input)
-		(at 38.1 40.64 180)
+		(at 25.4 27.94 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -179,7 +601,7 @@
 	)
 	(hierarchical_label "+15V0OUT"
 		(shape output)
-		(at 57.15 38.1 0)
+		(at 73.66 25.4 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -190,7 +612,7 @@
 	)
 	(hierarchical_label "+24V0IN"
 		(shape input)
-		(at 38.1 38.1 180)
+		(at 25.4 25.4 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -209,10 +631,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "6177b798-3c58-484a-9d4d-45f009f34ac2")
-		(property "Reference" "PS2"
-			(at 47.625 30.48 0)
+		(property "Reference" "PS1"
+			(at 49.784 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -222,7 +643,7 @@
 			)
 		)
 		(property "Value" "B2415S-1WR3"
-			(at 47.625 33.02 0)
+			(at 49.784 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -253,8 +674,85 @@
 				)
 			)
 		)
-		(property "Description" "1W, constant voltage input, isolated unregulated single output DC-DC power module"
+		(property "Description" "1W, constant voltage input, isolated unregulated single output DC-DC power module, efficiency up to 85%"
 			(at 39.624 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Allied Price/Stock" ""
+			(at 38.1 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Allied_Number" ""
+			(at 38.1 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MCWR08X12R0FTL " ""
+			(at 38.1 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RS Part Number" ""
+			(at 38.1 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RS Price/Stock" ""
+			(at 38.1 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Order No." "B2415S-1WR3"
+			(at 38.1 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Unit Price 10" "110"
+			(at 38.1 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -279,7 +777,121 @@
 		(instances
 			(project "cryonano-nano-stage"
 				(path "/549c6da5-71cb-4d9c-a0a2-c409a6f93509/0ae8b125-dbe2-44df-bbd5-11d3a39005e3/a88fc31b-0a5e-4060-b672-f49bdd27e139"
-					(reference "PS2")
+					(reference "PS1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "symbols:BxxxxS-2WR3")
+		(at 38.1 55.88 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "f85a107a-4aea-4bf6-885b-c86ddde468a0")
+		(property "Reference" "PS3"
+			(at 49.53 49.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "B2415S-2WR3"
+			(at 49.53 52.07 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "2W, constant voltage input, isolated unregulated single output DC-DC power module, efficiency up to 85%"
+			(at 38.1 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Order No." "B2415S-2WR3"
+			(at 38.1 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Unit Price 10" "110"
+			(at 38.1 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "72895953-c7cb-4d2c-a206-ded18f1af105")
+		)
+		(pin "1"
+			(uuid "1991fde4-905e-40a9-985d-831f89d07790")
+		)
+		(pin "5"
+			(uuid "d28ebba7-76e3-4e8c-ae51-d80722150279")
+		)
+		(pin "3"
+			(uuid "e32a24d0-db2c-4dfd-b630-eeb5ac31741e")
+		)
+		(pin "4"
+			(uuid "47964d8f-a638-4301-ac39-95aa0af3c19f")
+		)
+		(pin "6"
+			(uuid "056f9eb3-daf2-4fc3-be6a-b512d6c6a371")
+		)
+		(instances
+			(project "cryonano-nano-stage"
+				(path "/549c6da5-71cb-4d9c-a0a2-c409a6f93509/0ae8b125-dbe2-44df-bbd5-11d3a39005e3/a88fc31b-0a5e-4060-b672-f49bdd27e139"
+					(reference "PS3")
 					(unit 1)
 				)
 			)

@@ -429,6 +429,26 @@
 		)
 		(uuid "c5ca150d-6f4b-408a-a6fb-0cb1c65f7b25")
 	)
+	(wire
+		(pts
+			(xy 124.46 101.6) (xy 124.46 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db06583c-2886-4a22-8ab1-e5f4b75ea15c")
+	)
+	(wire
+		(pts
+			(xy 121.92 101.6) (xy 121.92 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec17e6c3-8a01-48f9-83e5-49a70ce7df14")
+	)
 	(symbol
 		(lib_id "power:Earth")
 		(at 33.02 92.71 0)
@@ -572,6 +592,61 @@
 				)
 			)
 		)
+		(property "Allied Price/Stock" ""
+			(at 25.4 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Allied_Number" ""
+			(at 25.4 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MCWR08X12R0FTL " ""
+			(at 25.4 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RS Part Number" ""
+			(at 25.4 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RS Price/Stock" ""
+			(at 25.4 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "56138694-339d-43bd-a982-8dddfcd9e687")
 		)
@@ -597,6 +672,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -606,7 +682,7 @@
 		)
 		(uuid "0ae8b125-dbe2-44df-bbd5-11d3a39005e3")
 		(property "Sheetname" "Power"
-			(at 49.784 84.582 0)
+			(at 38.1 62.1534 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -617,7 +693,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 38.1 89.4846 0)
+			(at 38.1 102.1846 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -651,16 +727,6 @@
 		(pin "0V0_OUT_2" output
 			(at 63.5 93.98 0)
 			(uuid "a00b7982-0ed8-42e7-915b-215d7da555ad")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "0V0_OUT_3" output
-			(at 63.5 96.52 0)
-			(uuid "625f98f5-0967-487c-98d2-243df6373699")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -764,9 +830,9 @@
 				(justify right)
 			)
 		)
-		(pin "DN" input
-			(at 124.46 111.76 90)
-			(uuid "3e95f95f-16e1-4091-9f64-09cb52312d74")
+		(pin "DP" input
+			(at 121.92 111.76 90)
+			(uuid "b6c238b0-a78e-4dbf-a7df-a4b78ac3dd86")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -774,9 +840,9 @@
 				(justify right)
 			)
 		)
-		(pin "DP" input
-			(at 121.92 111.76 90)
-			(uuid "b6c238b0-a78e-4dbf-a7df-a4b78ac3dd86")
+		(pin "DM" input
+			(at 124.46 111.76 90)
+			(uuid "e2391023-e623-4801-b77a-229276dc3a30")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -966,6 +1032,76 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "+3V3IN" input
+			(at 106.68 63.5 90)
+			(uuid "531cd4cb-3551-4a0c-bd91-d556ce40814c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "+5V0IN" input
+			(at 104.14 63.5 90)
+			(uuid "68f1190d-9c5c-4a07-9a01-6e9bcc344091")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "0V0IN" input
+			(at 109.22 63.5 90)
+			(uuid "df37c24b-67c1-4be2-aa3b-d9b06aa1fbc2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CLKADC" output
+			(at 127 69.85 0)
+			(uuid "c1d091af-5dbe-4f6d-bb47-c3c7269d5ee6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DE{slash}~{RE}" output
+			(at 127 88.9 0)
+			(uuid "61678b49-0d80-46a0-95cd-165cfc547548")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DM" bidirectional
+			(at 124.46 101.6 270)
+			(uuid "c3195b8a-5b9e-4964-9779-50aa0ae07f7d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DP" bidirectional
+			(at 121.92 101.6 270)
+			(uuid "5621d0d3-9f79-4904-83dd-286f20bc0f5e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
