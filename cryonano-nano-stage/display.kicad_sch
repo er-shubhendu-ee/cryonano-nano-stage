@@ -2,17 +2,17 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "1bbd5886-f69e-4b2c-a766-62b717260639")
+	(uuid "4670e370-caa8-4cb7-99a8-c611476d4aec")
 	(paper "A4")
 	(lib_symbols
-		(symbol "symbols:1ED3141MU12FXUMA1"
+		(symbol "symbols:2DIB1410FXUMA1"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
-				(at 12.446 8.128 0)
+				(at 24.13 7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -22,8 +22,8 @@
 					(justify left top)
 				)
 			)
-			(property "Value" "1ED3141MU12FXUMA1"
-				(at 4.064 5.588 0)
+			(property "Value" "2DIB1410FXUMA1"
+				(at 24.13 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -45,7 +45,7 @@
 					(justify left top)
 				)
 			)
-			(property "Datasheet" "https://www.mouser.in/datasheet/2/196/Infineon_1ED314xMU12F_DataSheet_v01_00_EN-3106223.pdf"
+			(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-2DIBx41xF-DS_v01_00-EN.pdf-DataSheet-v01_00-EN.pdf?fileId=8ac78c8c872bd8d60187370abe7d246c"
 				(at 24.13 -194.92 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -57,7 +57,7 @@
 					(justify left top)
 				)
 			)
-			(property "Description" "Galvanically Isolated Gate Drivers ISOLATED DRIVER"
+			(property "Description" "General Purpose Digital Isolator 3000Vrms 2 Channel 40Mbps 100kV/s CMTI 8-SOIC (0.154\", 3.90mm Width)"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -116,7 +116,7 @@
 					(justify left top)
 				)
 			)
-			(property "Manufacturer_Part_Number" "1ED3141MU12FXUMA1"
+			(property "Manufacturer_Part_Number" "2DIB1410FXUMA1"
 				(at 24.13 -794.92 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -128,7 +128,7 @@
 					(justify left top)
 				)
 			)
-			(symbol "1ED3141MU12FXUMA1_1_1"
+			(symbol "2DIB1410FXUMA1_1_1"
 				(rectangle
 					(start 5.08 2.54)
 					(end 22.86 -10.16)
@@ -143,7 +143,7 @@
 				(pin passive line
 					(at 0 0 0)
 					(length 5.08)
-					(name "VCC1"
+					(name "VDD1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -161,7 +161,7 @@
 				(pin passive line
 					(at 0 -2.54 0)
 					(length 5.08)
-					(name "IN+"
+					(name "OUTA"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -179,7 +179,7 @@
 				(pin passive line
 					(at 0 -5.08 0)
 					(length 5.08)
-					(name "IN-"
+					(name "INB"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -215,7 +215,7 @@
 				(pin passive line
 					(at 27.94 -7.62 180)
 					(length 5.08)
-					(name "VCC2"
+					(name "GND2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -233,7 +233,7 @@
 				(pin passive line
 					(at 27.94 -5.08 180)
 					(length 5.08)
-					(name "OUTH"
+					(name "OUTB"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -251,7 +251,7 @@
 				(pin passive line
 					(at 27.94 -2.54 180)
 					(length 5.08)
-					(name "OUTL"
+					(name "INA"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -269,7 +269,7 @@
 				(pin passive line
 					(at 27.94 0 180)
 					(length 5.08)
-					(name "VEE2"
+					(name "VDD2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -289,8 +289,8 @@
 		)
 	)
 	(symbol
-		(lib_id "symbols:1ED3141MU12FXUMA1")
-		(at 101.6 101.6 0)
+		(lib_id "symbols:2DIB1410FXUMA1")
+		(at 106.68 57.15 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -299,9 +299,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "8f7b463b-8813-468a-adcd-06d424be0bc5")
+		(uuid "97a69a93-ee7a-40a4-903d-2c495abf967c")
 		(property "Reference" "U3"
-			(at 115.57 93.98 0)
+			(at 120.65 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -310,8 +310,8 @@
 				)
 			)
 		)
-		(property "Value" "1ED3141MU12FXUMA1"
-			(at 115.57 96.52 0)
+		(property "Value" "2DIB1410FXUMA1"
+			(at 120.65 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -321,7 +321,7 @@
 			)
 		)
 		(property "Footprint" "SOIC127P600X175-8N"
-			(at 125.73 196.52 0)
+			(at 130.81 152.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -332,8 +332,8 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.in/datasheet/2/196/Infineon_1ED314xMU12F_DataSheet_v01_00_EN-3106223.pdf"
-			(at 125.73 296.52 0)
+		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-2DIBx41xF-DS_v01_00-EN.pdf-DataSheet-v01_00-EN.pdf?fileId=8ac78c8c872bd8d60187370abe7d246c"
+			(at 130.81 252.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -344,8 +344,8 @@
 				(justify left top)
 			)
 		)
-		(property "Description" "Galvanically Isolated Gate Drivers ISOLATED DRIVER"
-			(at 101.6 101.6 0)
+		(property "Description" "General Purpose Digital Isolator 3000Vrms 2 Channel 40Mbps 100kV/s CMTI 8-SOIC (0.154\", 3.90mm Width)"
+			(at 106.68 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -356,7 +356,7 @@
 			)
 		)
 		(property "Height" "1.75"
-			(at 125.73 496.52 0)
+			(at 130.81 452.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -368,7 +368,7 @@
 			)
 		)
 		(property "element14 Part Number" ""
-			(at 125.73 596.52 0)
+			(at 130.81 552.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -380,7 +380,7 @@
 			)
 		)
 		(property "element14 Price/Stock" ""
-			(at 125.73 696.52 0)
+			(at 130.81 652.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -392,7 +392,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Infineon"
-			(at 125.73 796.52 0)
+			(at 130.81 752.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -403,8 +403,8 @@
 				(justify left top)
 			)
 		)
-		(property "Manufacturer_Part_Number" "1ED3141MU12FXUMA1"
-			(at 125.73 896.52 0)
+		(property "Manufacturer_Part_Number" "2DIB1410FXUMA1"
+			(at 130.81 852.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -414,34 +414,34 @@
 				)
 				(justify left top)
 			)
-		)
-		(pin "6"
-			(uuid "f31f9391-81cd-46b4-88c8-b4db69229209")
 		)
 		(pin "5"
-			(uuid "4e8edf92-607d-426f-9c36-d546fc07f4d4")
-		)
-		(pin "7"
-			(uuid "3ab51680-ba93-4202-886f-94b84df54423")
-		)
-		(pin "1"
-			(uuid "d7b4edc9-4cdb-41a1-9d7c-48efdb7bf572")
+			(uuid "8048acd8-1c9b-4cc2-a482-b9ddcb7e3223")
 		)
 		(pin "2"
-			(uuid "3af2ef38-a879-4134-a923-f49bd58b2b04")
+			(uuid "f46297e9-a6cc-4780-93b1-9241400a307f")
 		)
-		(pin "3"
-			(uuid "38bd0cd8-833b-4516-af6a-82bd535197e6")
+		(pin "7"
+			(uuid "a7bb69b6-487a-4478-abf0-e4a198b88ec5")
 		)
 		(pin "4"
-			(uuid "fa6e6d06-7ce5-4ae8-b357-94a2b95bb57c")
+			(uuid "e10b241d-cd42-43a7-85d4-6321dfb50e00")
 		)
 		(pin "8"
-			(uuid "b83ec683-817e-4612-aa0e-5d2f4aaec3bb")
+			(uuid "75aa92ae-1c4f-4508-9485-700e2c9dda35")
+		)
+		(pin "1"
+			(uuid "d98d0bc7-93b9-4e87-8174-f711f93aa0c0")
+		)
+		(pin "3"
+			(uuid "0875abf8-72dd-4519-a8fb-e649ec8aac82")
+		)
+		(pin "6"
+			(uuid "75dc98cd-1db8-456e-82fa-4e6464b96690")
 		)
 		(instances
 			(project "cryonano-nano-stage"
-				(path "/549c6da5-71cb-4d9c-a0a2-c409a6f93509/37ffb213-c706-4fdf-aede-61f2739d8503/134546d9-2553-4cbc-b149-ff74fa29d06b"
+				(path "/549c6da5-71cb-4d9c-a0a2-c409a6f93509/ad264f78-6ca8-4bc7-89c7-bd7bbd97c564"
 					(reference "U3")
 					(unit 1)
 				)

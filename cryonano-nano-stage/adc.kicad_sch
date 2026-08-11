@@ -5,4 +5,51 @@
 	(uuid "4df618e8-34e9-4bca-bd69-bd730a51f4ad")
 	(paper "A4")
 	(lib_symbols)
+	(sheet
+		(at 63.5 63.5)
+		(size 12.7 25.4)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "795b75d7-3efb-4675-8d7e-cd7c00365ad1")
+		(property "Sheetname" "Isolation"
+			(at 63.5 62.7884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "isolation.kicad_sch"
+			(at 63.5 89.4846 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "cryonano-nano-stage"
+				(path "/549c6da5-71cb-4d9c-a0a2-c409a6f93509/93ac0006-beae-45e2-a2f0-36893f5b0c34"
+					(page "11")
+				)
+			)
+		)
+	)
 )
