@@ -1,0 +1,18 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "bf757670-9f0d-4f19-a804-efdb411eb705")
+	(paper "A4")
+	(title_block
+		(title "Nano stage controller")
+		(date "08-08-2026")
+		(company "Cryonano Labs Pvt. Ltd.")
+		(comment 1 "SBB")
+		(comment 4 "0.0.1")
+		(comment 5 "0.0.1")
+		(comment 6 "08-08-2026")
+		(comment 8 "08-08-2026")
+	)
+	(lib_symbols)
+)
