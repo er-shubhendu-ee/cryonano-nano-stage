@@ -102,7 +102,7 @@
 	(constraint via_diameter (min 0.7mm) (opt 0.7mm) (max 0.7mm))
 	(constraint hole_size (min 0.35mm) (opt 0.35mm) (max 0.35mm))
 	(constraint track_width (min 0.25mm) (opt 0.25mm))
-	(constraint clearance (min 0.125mm) (opt 0.125mm))
+	(constraint clearance (min 0.25mm) (opt 0.3mm))
 )
 
 (rule "CR: BGA Via clearence."

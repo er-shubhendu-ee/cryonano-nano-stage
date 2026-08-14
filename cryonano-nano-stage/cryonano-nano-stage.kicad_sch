@@ -20,12 +20,22 @@
 		(at 51.308 56.896 0)
 		(effects
 			(font
-				(size 2.54 2.54)
+				(size 2.032 2.032)
 				(thickness 0.3175)
 			)
 			(justify left)
 		)
 		(uuid "1108692d-ff2a-42d7-9fde-98081e6699c8")
+	)
+	(text "Custom rules"
+		(exclude_from_sim no)
+		(at 143.764 158.75 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+			)
+		)
+		(uuid "b7001383-8046-40c5-ade0-c8c7990c282b")
 	)
 	(text "Title: Schematic for heater control and temperature monitoring of nano-stage"
 		(exclude_from_sim no)
@@ -33,8 +43,7 @@
 		(effects
 			(font
 				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
+				(thickness 0.1588)
 			)
 		)
 		(uuid "f4d097b8-48e1-4fec-92fb-78454ab2b65a")
@@ -61,8 +70,7 @@
 			(effects
 				(font
 					(size 2.54 2.54)
-					(thickness 0.508)
-					(bold yes)
+					(thickness 0.1588)
 				)
 				(justify left bottom)
 			)
@@ -74,7 +82,8 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 2.54 2.54)
+					(size 1.27 1.27)
+					(thickness 0.1588)
 				)
 				(justify left top)
 			)
