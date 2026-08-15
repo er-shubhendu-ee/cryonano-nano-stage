@@ -101,8 +101,8 @@
 	(condition "(A.enclosedByArea('BGA_AREA') || B.enclosedByArea('BGA_AREA'))&& (A.NetClass == 'Power_LV' || B.NetClass == 'Power_LV')")
 	(constraint via_diameter (min 0.7mm) (opt 0.7mm) (max 0.7mm))
 	(constraint hole_size (min 0.35mm) (opt 0.35mm) (max 0.35mm))
-	(constraint track_width (min 0.25mm) (opt 0.25mm))
-	(constraint clearance (min 0.25mm) (opt 0.3mm))
+	(constraint track_width (min 0.2mm) (opt 0.25mm))
+	(constraint clearance (min 0.2mm) (opt 0.25mm))
 )
 
 (rule "CR: BGA Via clearence."

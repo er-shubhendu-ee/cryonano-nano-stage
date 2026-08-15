@@ -1040,6 +1040,12 @@
 		(uuid "19d631d5-e6b4-40ff-9dcb-4ad9f7f5bf16")
 	)
 	(junction
+		(at 27.94 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1d34eb21-378f-4e5c-9be7-16d647e9727e")
+	)
+	(junction
 		(at 121.92 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1058,12 +1064,6 @@
 		(uuid "3c3794d4-275b-48c0-8333-b6b0027d2004")
 	)
 	(junction
-		(at 121.92 129.54)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4d3c796a-9886-400d-9ca5-04811517fb29")
-	)
-	(junction
 		(at 132.08 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1076,16 +1076,16 @@
 		(uuid "78b0db36-9d90-4c7d-9f3f-a08c1e394e06")
 	)
 	(junction
+		(at 114.3 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "859cdc44-d897-4507-a1ca-a505320510b7")
+	)
+	(junction
 		(at 63.5 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "90f11e63-5f5e-46b7-8f58-737290e24ec3")
-	)
-	(junction
-		(at 111.76 127)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9cc2faa6-9905-49fb-ab5d-255f93578f17")
 	)
 	(junction
 		(at 50.8 35.56)
@@ -1094,16 +1094,28 @@
 		(uuid "a54580e5-fd4a-440f-9755-97042b2df354")
 	)
 	(junction
-		(at 101.6 116.84)
+		(at 121.92 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ca76eb40-d4cb-4bd8-b88b-2755ef114b88")
+		(uuid "aa9696cf-b9d1-4995-837e-082b2e4b254e")
 	)
 	(junction
 		(at 152.4 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d0af62bd-9b66-44b8-b8bb-3219f348c116")
+	)
+	(junction
+		(at 27.94 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e37a997d-16a9-49b3-8553-8d5a0793254f")
+	)
+	(junction
+		(at 101.6 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e65eb791-620b-41cc-b1d2-b77a5fb72097")
 	)
 	(no_connect
 		(at 139.7 137.16)
@@ -1151,7 +1163,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 25.4) (xy 25.4 25.4)
+			(xy 33.02 25.4) (xy 27.94 25.4)
 		)
 		(stroke
 			(width 0.1524)
@@ -1181,7 +1193,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 104.14) (xy 101.6 116.84)
+			(xy 101.6 144.78) (xy 101.6 132.08)
 		)
 		(stroke
 			(width 0.1524)
@@ -1221,7 +1233,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 127) (xy 111.76 127)
+			(xy 109.22 127) (xy 114.3 127)
 		)
 		(stroke
 			(width 0.1524)
@@ -1241,7 +1253,17 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 121.92) (xy 111.76 127)
+			(xy 27.94 35.56) (xy 33.02 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "391e078b-94dc-441f-82d0-627db2a6c75c")
+	)
+	(wire
+		(pts
+			(xy 114.3 121.92) (xy 114.3 127)
 		)
 		(stroke
 			(width 0.1524)
@@ -1251,7 +1273,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 129.54) (xy 121.92 129.54)
+			(xy 114.3 129.54) (xy 121.92 129.54)
 		)
 		(stroke
 			(width 0.1524)
@@ -1301,6 +1323,16 @@
 	)
 	(wire
 		(pts
+			(xy 27.94 33.02) (xy 27.94 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49291bb9-9d89-4a52-bde1-5dcb5da9b243")
+	)
+	(wire
+		(pts
 			(xy 73.66 124.46) (xy 76.2 124.46)
 		)
 		(stroke
@@ -1328,6 +1360,16 @@
 			(type default)
 		)
 		(uuid "5184c584-cdb8-47a0-a82a-fb4b3abcea06")
+	)
+	(wire
+		(pts
+			(xy 27.94 25.4) (xy 25.4 25.4)
+		)
+		(stroke
+			(width 0.1524)
+			(type default)
+		)
+		(uuid "52c00409-8b5b-4e20-a804-082e9692af77")
 	)
 	(wire
 		(pts
@@ -1361,16 +1403,6 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 116.84) (xy 121.92 116.84)
-		)
-		(stroke
-			(width 0.1524)
-			(type default)
-		)
-		(uuid "605a0b39-8928-4a5e-a0bd-ecb346764757")
-	)
-	(wire
-		(pts
 			(xy 132.08 116.84) (xy 139.7 116.84)
 		)
 		(stroke
@@ -1398,6 +1430,16 @@
 			(type default)
 		)
 		(uuid "64526b2b-3676-4f2b-8ad0-e41b5fb4c62b")
+	)
+	(wire
+		(pts
+			(xy 25.4 35.56) (xy 27.94 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cb3bb8e-39b0-41ef-bc00-f9e6ac7aa6f1")
 	)
 	(wire
 		(pts
@@ -1451,6 +1493,16 @@
 	)
 	(wire
 		(pts
+			(xy 27.94 25.4) (xy 27.94 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f63e929-b086-4d3d-99bb-3c49f32b94b7")
+	)
+	(wire
+		(pts
 			(xy 73.66 104.14) (xy 73.66 119.38)
 		)
 		(stroke
@@ -1501,13 +1553,13 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 27.94) (xy 25.4 27.94)
+			(xy 101.6 116.84) (xy 121.92 116.84)
 		)
 		(stroke
 			(width 0.1524)
 			(type default)
 		)
-		(uuid "af7dba6d-811f-44c5-a875-ac1e2dc6069d")
+		(uuid "a9a4a530-3262-4389-9a9f-7c1d77c13e66")
 	)
 	(wire
 		(pts
@@ -1571,7 +1623,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 121.92) (xy 111.76 121.92)
+			(xy 109.22 121.92) (xy 114.3 121.92)
 		)
 		(stroke
 			(width 0.1524)
@@ -1611,7 +1663,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 132.08) (xy 101.6 142.24)
+			(xy 101.6 116.84) (xy 101.6 106.68)
 		)
 		(stroke
 			(width 0.1524)
@@ -1651,7 +1703,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 127) (xy 111.76 129.54)
+			(xy 114.3 127) (xy 114.3 129.54)
 		)
 		(stroke
 			(width 0.1524)
@@ -1670,13 +1722,13 @@
 		(uuid "fa60e18f-b4f3-4ec3-a9e5-81a9c51b3d96")
 	)
 	(label "M15V0"
-		(at 101.6 142.24 90)
+		(at 101.6 106.68 270)
 		(effects
 			(font
 				(size 1.27 1.27)
 				(thickness 0.1588)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "071ca813-c67e-4680-be06-3fbafe87b296")
 	)
@@ -1725,13 +1777,13 @@
 		(uuid "36855868-ddfd-436e-8685-7a57e2748c5c")
 	)
 	(label "+15V0"
-		(at 101.6 104.14 270)
+		(at 101.6 144.78 90)
 		(effects
 			(font
 				(size 1.27 1.27)
 				(thickness 0.1588)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "41fdddb6-40b7-4e2d-96f2-1b0bb507d7c0")
 	)
@@ -1846,7 +1898,7 @@
 		(uuid "e6c5c0ec-26ae-401d-8169-f72689ca41d8")
 	)
 	(label "MIN"
-		(at 33.02 27.94 180)
+		(at 33.02 35.56 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1941,7 +1993,7 @@
 	)
 	(hierarchical_label "M24V0IN"
 		(shape input)
-		(at 25.4 27.94 180)
+		(at 25.4 35.56 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1987,7 +2039,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k2"
+		(property "Value" "10R"
 			(at 111.76 124.46 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2567,7 +2619,7 @@
 				)
 			)
 		)
-		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0.1uF 16V 0603 10% X7R"
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0.1uF 35V 0603 10% X7R"
 			(at 165.1 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -2603,7 +2655,7 @@
 				)
 			)
 		)
-		(property "Voltage" "16V"
+		(property "Voltage" "35V"
 			(at 165.1 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -3137,7 +3189,7 @@
 				)
 			)
 		)
-		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 10uF 16V 0805 10% X7R"
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 10uF 35V 0805 10% X7R"
 			(at 152.4 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -3173,7 +3225,7 @@
 				)
 			)
 		)
-		(property "Voltage" "16V"
+		(property "Voltage" "35V"
 			(at 152.4 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -4257,7 +4309,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k2"
+		(property "Value" "6R2"
 			(at 111.76 119.38 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4507,6 +4559,285 @@
 			(project "cryonano-nano-stage"
 				(path "/549c6da5-71cb-4d9c-a0a2-c409a6f93509/22c14c16-f163-469c-baa5-6dbf682c19a1/01fd4757-de80-4542-b2e5-bca9450ccaff"
 					(reference "R37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 27.94 30.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9cdc2244-03c9-4b3c-bdec-e986d4786ba6")
+		(property "Reference" "C58"
+			(at 30.48 29.2162 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1588)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 30.48 31.7562 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1588)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 27.94 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1588)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 27.94 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1588)
+				)
+			)
+		)
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 1uF 50V 0603 10% X7R"
+			(at 27.94 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1588)
+				)
+			)
+		)
+		(property "Order No." ""
+			(at 27.94 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1588)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 27.94 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1588)
+				)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 27.94 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1588)
+				)
+			)
+		)
+		(property "Power" ""
+			(at 27.94 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1588)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 27.94 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1588)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 27.94 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1588)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 27.94 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1588)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 27.94 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1588)
+				)
+			)
+		)
+		(property "Unit Price 10" ""
+			(at 27.94 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1588)
+				)
+			)
+		)
+		(property "Alternative" ""
+			(at 27.94 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1588)
+				)
+			)
+		)
+		(property "Allied Price/Stock" ""
+			(at 27.94 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1588)
+				)
+			)
+		)
+		(property "Allied_Number" ""
+			(at 27.94 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1588)
+				)
+			)
+		)
+		(property "RS Part Number" ""
+			(at 27.94 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1588)
+				)
+			)
+		)
+		(property "RS Price/Stock" ""
+			(at 27.94 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1588)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 27.94 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1588)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 27.94 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1588)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "38e97833-6a7f-48d2-acde-fa0880de7409")
+		)
+		(pin "1"
+			(uuid "ea08c2c0-c956-4695-9967-b9121004d35c")
+		)
+		(instances
+			(project "cryonano-nano-stage"
+				(path "/549c6da5-71cb-4d9c-a0a2-c409a6f93509/22c14c16-f163-469c-baa5-6dbf682c19a1/01fd4757-de80-4542-b2e5-bca9450ccaff"
+					(reference "C58")
 					(unit 1)
 				)
 			)
