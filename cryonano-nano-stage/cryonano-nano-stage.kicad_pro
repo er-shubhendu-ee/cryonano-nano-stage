@@ -60,9 +60,9 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.7,
+          "min_clearance": 0.5,
           "min_island_area": 10.0,
-          "min_thickness": 0.25,
+          "min_thickness": 0.16,
           "pad_connection": 3,
           "remove_islands": 0,
           "thermal_relief_gap": 0.5,
@@ -76,7 +76,12 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "footprint_type_mismatch|136300000|80900001|8afcbea5-ad78-4008-8cd1-d06dc60c5482|00000000-0000-0000-0000-000000000000",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -518,39 +523,85 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.16,
         "diff_pair_gap": 0.16,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.16,
         "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
+        "microvia_diameter": 0.31,
+        "microvia_drill": 0.31,
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
+        "track_width": 0.16,
         "tuning_profile": "",
         "via_diameter": 0.75,
-        "via_drill": 0.4,
+        "via_drill": 0.31,
         "wire_width": 6
       },
       {
         "bus_width": 12,
-        "clearance": 0.2,
-        "diff_pair_gap": 0.16,
-        "diff_pair_width": 0.16,
+        "clearance": 0.16,
+        "diff_pair_gap": 0.165,
+        "diff_pair_width": 0.185,
         "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "Clock",
+        "name": "100 Ohm differential",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
+        "track_width": 0.16,
         "tuning_profile": "",
         "via_diameter": 0.75,
-        "via_drill": 0.4,
+        "via_drill": 0.31,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.35,
+        "diff_pair_gap": 0.165,
+        "diff_pair_width": 0.185,
+        "line_style": 0,
+        "name": "50 Ohm single",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.215,
+        "tuning_profile": "",
+        "via_diameter": 0.75,
+        "via_drill": 0.31,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.16,
+        "diff_pair_gap": 0.165,
+        "diff_pair_width": 0.225,
+        "line_style": 0,
+        "name": "90 Ohm differential",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.16,
+        "tuning_profile": "",
+        "via_diameter": 0.75,
+        "via_drill": 0.31,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.35,
+        "diff_pair_gap": 0.16,
+        "diff_pair_width": 0.16,
+        "line_style": 0,
+        "name": "Clock",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 4,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.16,
+        "tuning_profile": "",
+        "via_diameter": 0.75,
+        "via_drill": 0.31,
         "wire_width": 6
       },
       {
@@ -559,49 +610,46 @@
         "diff_pair_gap": 0.6,
         "diff_pair_width": 0.6,
         "line_style": 0,
-        "microvia_diameter": 0.16,
-        "microvia_drill": 0.75,
         "name": "Power_LV",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 5,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.6,
         "tuning_profile": "",
-        "via_diameter": 1.0,
-        "via_drill": 0.5,
+        "via_diameter": 0.9,
+        "via_drill": 0.4,
         "wire_width": 6
       },
       {
-        "clearance": 0.4,
+        "bus_width": 12,
+        "clearance": 0.3,
         "diff_pair_gap": 0.16,
         "diff_pair_width": 0.16,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
+        "line_style": 0,
         "name": "Reference",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.4,
         "tuning_profile": "",
         "via_diameter": 0.75,
-        "via_drill": 0.4
+        "via_drill": 0.4,
+        "wire_width": 6
       },
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.16,
         "diff_pair_gap": 0.16,
         "diff_pair_width": 0.16,
         "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
         "name": "Signal_LV",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
+        "priority": 6,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
+        "track_width": 0.16,
         "tuning_profile": "",
         "via_diameter": 0.75,
-        "via_drill": 0.4,
+        "via_drill": 0.31,
         "wire_width": 6
       }
     ],
@@ -616,11 +664,41 @@
       "/Block Diagram/Communication/D-": [
         "45 90 Ohm"
       ],
+      "/Block Diagram/Communication/ETH_RD_N": [
+        "100 Ohm differential"
+      ],
+      "/Block Diagram/Communication/ETH_RD_P": [
+        "100 Ohm differential"
+      ],
+      "/Block Diagram/Communication/ETH_TD_N": [
+        "100 Ohm differential"
+      ],
+      "/Block Diagram/Communication/ETH_TD_P": [
+        "100 Ohm differential"
+      ],
+      "/Block Diagram/Communication/RD_N": [
+        "100 Ohm differential"
+      ],
+      "/Block Diagram/Communication/RD_P": [
+        "100 Ohm differential"
+      ],
+      "/Block Diagram/Communication/TD_N": [
+        "100 Ohm differential"
+      ],
+      "/Block Diagram/Communication/TD_P": [
+        "100 Ohm differential"
+      ],
       "/Block Diagram/Communication/USB/D+": [
         "45 90 Ohm"
       ],
       "/Block Diagram/Communication/USB/D-": [
         "45 90 Ohm"
+      ],
+      "/Block Diagram/Communication/USB_D+": [
+        "90 Ohm differential"
+      ],
+      "/Block Diagram/Communication/USB_D-": [
+        "90 Ohm differential"
       ],
       "/Communication/USB/D+": [
         "45 90 Ohm"
@@ -642,10 +720,6 @@
       },
       {
         "netclass": "Power_LV",
-        "pattern": "*3V0*"
-      },
-      {
-        "netclass": "Power_LV",
         "pattern": "*15V0*"
       },
       {
@@ -662,27 +736,7 @@
       },
       {
         "netclass": "Power_LV",
-        "pattern": "*2V5*"
-      },
-      {
-        "netclass": "Power_LV",
-        "pattern": "*7V0*"
-      },
-      {
-        "netclass": "Power_LV",
         "pattern": "*24V*"
-      },
-      {
-        "netclass": "Power_LV",
-        "pattern": "*RELAY_COIL*"
-      },
-      {
-        "netclass": "Power_LV",
-        "pattern": "*1V6*"
-      },
-      {
-        "netclass": "Power_LV",
-        "pattern": "/Output Connector Driver/+24V0_IN"
       },
       {
         "netclass": "Power_LV",
@@ -694,35 +748,31 @@
       },
       {
         "netclass": "Power_LV",
-        "pattern": "*NTC+*"
-      },
-      {
-        "netclass": "Reference",
-        "pattern": "*VREF*"
+        "pattern": "*USB_VBUS*"
       },
       {
         "netclass": "Power_LV",
-        "pattern": "*VRAIL*"
+        "pattern": "*VCAP*"
+      },
+      {
+        "netclass": "90 Ohm differential",
+        "pattern": "*D+"
+      },
+      {
+        "netclass": "90 Ohm differential",
+        "pattern": "*D-"
+      },
+      {
+        "netclass": "100 Ohm differential",
+        "pattern": "*ETH_*"
       },
       {
         "netclass": "Power_LV",
-        "pattern": "*VCC*"
+        "pattern": "/Block Diagram/Communication/+3V3V"
       },
       {
-        "netclass": "Power_LV",
-        "pattern": "*DIFFMID*"
-      },
-      {
-        "netclass": "Power_LV",
-        "pattern": "/Measurement Interface/Split-Rail/CN"
-      },
-      {
-        "netclass": "Power_LV",
-        "pattern": "/Measurement Interface/Split-Rail/CP"
-      },
-      {
-        "netclass": "Power_LV",
-        "pattern": "/Block Diagram/Controller/MCU Power/VBAT"
+        "netclass": "Clock",
+        "pattern": "*XTAL*"
       }
     ]
   },
@@ -730,7 +780,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "outputs/gerbers/",
       "specctra_dsn": "",
       "vrml": ""
     },
@@ -777,12 +827,6 @@
         },
         {
           "group_by": false,
-          "label": "Voltage",
-          "name": "Voltage",
-          "show": true
-        },
-        {
-          "group_by": false,
           "label": "Order No.",
           "name": "Order No.",
           "show": true
@@ -791,6 +835,12 @@
           "group_by": false,
           "label": "Unit Price 10",
           "name": "Unit Price 10",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "Voltage",
+          "name": "Voltage",
           "show": true
         },
         {
@@ -825,6 +875,12 @@
         },
         {
           "group_by": false,
+          "label": "Manufacturer",
+          "name": "Manufacturer",
+          "show": true
+        },
+        {
+          "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
@@ -840,12 +896,6 @@
           "label": "Current",
           "name": "Current",
           "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Manufacturer",
-          "name": "Manufacturer",
-          "show": false
         },
         {
           "group_by": false,
@@ -990,6 +1040,12 @@
           "label": "KLC_S4.1",
           "name": "KLC_S4.1",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Comment",
+          "name": "Comment",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -1040,7 +1096,7 @@
         "uuid": "549c6da5-71cb-4d9c-a0a2-c409a6f93509"
       }
     ],
-    "used_designators": "PS1-4,IC1-2,J1-9,U1-12,D1-5,D8,D11,#PWR1-27,#PWR29,#PWR32,#PWR44-45,#PWR47,#PWR61,#PWR242,C1-59,C64-69,MOV1,F1,FL2,GD1,GDT1,Q1-2,R1,R5-9,R11,R26-27,R29-91,TP1-5,Z1-2,FB1-9,LED3,SW1-2,Y1-4,H1-6",
+    "used_designators": "PS1-4,IC1-2,J1-9,U1-12,D1-6,D8,D11,#PWR1-27,#PWR29,#PWR32,#PWR44-45,#PWR47,#PWR61,#PWR242,C1-59,C64-69,MOV1,F1,FL2,GD1,GDT1,Q1-2,R1,R5-9,R11,R26-27,R29-95,TP1-5,Z1-2,FB1-9,LED3,SW1-2,Y1-4,H1-6",
     "variants": []
   },
   "sheets": [

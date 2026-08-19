@@ -1855,30 +1855,6 @@
 				)
 			)
 		)
-		(property "Allied Price/Stock" ""
-			(at 48.26 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.1588)
-				)
-			)
-		)
-		(property "Allied_Number" ""
-			(at 48.26 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.1588)
-				)
-			)
-		)
 		(property "Current" ""
 			(at 48.26 158.75 0)
 			(hide yes)
@@ -1892,42 +1868,6 @@
 			)
 		)
 		(property "Material" ""
-			(at 48.26 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.1588)
-				)
-			)
-		)
-		(property "Part/Order No." ""
-			(at 48.26 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.1588)
-				)
-			)
-		)
-		(property "RS Part Number" ""
-			(at 48.26 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.1588)
-				)
-			)
-		)
-		(property "RS Price/Stock" ""
 			(at 48.26 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -1987,18 +1927,6 @@
 				)
 			)
 		)
-		(property "Unit Price for 10pcs" ""
-			(at 48.26 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.1588)
-				)
-			)
-		)
 		(property "Voltage" ""
 			(at 48.26 158.75 0)
 			(hide yes)
@@ -2011,7 +1939,7 @@
 				)
 			)
 		)
-		(property "element14 Part Number" ""
+		(property "Allied Price/Stock" ""
 			(at 48.26 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -2019,11 +1947,10 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.1588)
 				)
 			)
 		)
-		(property "element14 Price/Stock" ""
+		(property "Allied_Number" ""
 			(at 48.26 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -2031,7 +1958,28 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.1588)
+				)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 48.26 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 48.26 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -2043,7 +1991,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.1588)
 				)
 			)
 		)
@@ -2055,7 +2002,116 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.1588)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 48.26 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 48.26 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 48.26 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 48.26 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part/Order No." ""
+			(at 48.26 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RS Part Number" ""
+			(at 48.26 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RS Price/Stock" ""
+			(at 48.26 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Unit Price for 10pcs" ""
+			(at 48.26 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "element14 Part Number" ""
+			(at 48.26 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "element14 Price/Stock" ""
+			(at 48.26 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -2140,30 +2196,6 @@
 				)
 			)
 		)
-		(property "Allied Price/Stock" ""
-			(at 25.4 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.1588)
-				)
-			)
-		)
-		(property "Allied_Number" ""
-			(at 25.4 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.1588)
-				)
-			)
-		)
 		(property "Current" ""
 			(at 25.4 158.75 0)
 			(hide yes)
@@ -2177,42 +2209,6 @@
 			)
 		)
 		(property "Material" ""
-			(at 25.4 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.1588)
-				)
-			)
-		)
-		(property "Part/Order No." ""
-			(at 25.4 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.1588)
-				)
-			)
-		)
-		(property "RS Part Number" ""
-			(at 25.4 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.1588)
-				)
-			)
-		)
-		(property "RS Price/Stock" ""
 			(at 25.4 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -2272,18 +2268,6 @@
 				)
 			)
 		)
-		(property "Unit Price for 10pcs" ""
-			(at 25.4 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.1588)
-				)
-			)
-		)
 		(property "Voltage" ""
 			(at 25.4 158.75 0)
 			(hide yes)
@@ -2296,7 +2280,7 @@
 				)
 			)
 		)
-		(property "element14 Part Number" ""
+		(property "Allied Price/Stock" ""
 			(at 25.4 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -2304,11 +2288,10 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.1588)
 				)
 			)
 		)
-		(property "element14 Price/Stock" ""
+		(property "Allied_Number" ""
 			(at 25.4 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -2316,7 +2299,28 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.1588)
+				)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 25.4 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 25.4 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -2328,7 +2332,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.1588)
 				)
 			)
 		)
@@ -2340,7 +2343,116 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.1588)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 25.4 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 25.4 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 25.4 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 25.4 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part/Order No." ""
+			(at 25.4 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RS Part Number" ""
+			(at 25.4 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RS Price/Stock" ""
+			(at 25.4 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Unit Price for 10pcs" ""
+			(at 25.4 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "element14 Part Number" ""
+			(at 25.4 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "element14 Price/Stock" ""
+			(at 25.4 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -2425,30 +2537,6 @@
 				)
 			)
 		)
-		(property "Allied Price/Stock" ""
-			(at 48.26 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.1588)
-				)
-			)
-		)
-		(property "Allied_Number" ""
-			(at 48.26 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.1588)
-				)
-			)
-		)
 		(property "Current" ""
 			(at 48.26 165.1 0)
 			(hide yes)
@@ -2462,42 +2550,6 @@
 			)
 		)
 		(property "Material" ""
-			(at 48.26 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.1588)
-				)
-			)
-		)
-		(property "Part/Order No." ""
-			(at 48.26 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.1588)
-				)
-			)
-		)
-		(property "RS Part Number" ""
-			(at 48.26 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.1588)
-				)
-			)
-		)
-		(property "RS Price/Stock" ""
 			(at 48.26 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -2557,18 +2609,6 @@
 				)
 			)
 		)
-		(property "Unit Price for 10pcs" ""
-			(at 48.26 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.1588)
-				)
-			)
-		)
 		(property "Voltage" ""
 			(at 48.26 165.1 0)
 			(hide yes)
@@ -2581,7 +2621,7 @@
 				)
 			)
 		)
-		(property "element14 Part Number" ""
+		(property "Allied Price/Stock" ""
 			(at 48.26 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -2589,11 +2629,10 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.1588)
 				)
 			)
 		)
-		(property "element14 Price/Stock" ""
+		(property "Allied_Number" ""
 			(at 48.26 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -2601,7 +2640,28 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.1588)
+				)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 48.26 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 48.26 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -2613,7 +2673,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.1588)
 				)
 			)
 		)
@@ -2625,7 +2684,116 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.1588)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 48.26 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 48.26 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 48.26 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 48.26 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part/Order No." ""
+			(at 48.26 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RS Part Number" ""
+			(at 48.26 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RS Price/Stock" ""
+			(at 48.26 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Unit Price for 10pcs" ""
+			(at 48.26 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "element14 Part Number" ""
+			(at 48.26 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "element14 Price/Stock" ""
+			(at 48.26 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -2710,30 +2878,6 @@
 				)
 			)
 		)
-		(property "Allied Price/Stock" ""
-			(at 25.4 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.1588)
-				)
-			)
-		)
-		(property "Allied_Number" ""
-			(at 25.4 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.1588)
-				)
-			)
-		)
 		(property "Current" ""
 			(at 25.4 152.4 0)
 			(hide yes)
@@ -2747,42 +2891,6 @@
 			)
 		)
 		(property "Material" ""
-			(at 25.4 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.1588)
-				)
-			)
-		)
-		(property "Part/Order No." ""
-			(at 25.4 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.1588)
-				)
-			)
-		)
-		(property "RS Part Number" ""
-			(at 25.4 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.1588)
-				)
-			)
-		)
-		(property "RS Price/Stock" ""
 			(at 25.4 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -2842,18 +2950,6 @@
 				)
 			)
 		)
-		(property "Unit Price for 10pcs" ""
-			(at 25.4 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.1588)
-				)
-			)
-		)
 		(property "Voltage" ""
 			(at 25.4 152.4 0)
 			(hide yes)
@@ -2866,7 +2962,7 @@
 				)
 			)
 		)
-		(property "element14 Part Number" ""
+		(property "Allied Price/Stock" ""
 			(at 25.4 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -2874,11 +2970,10 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.1588)
 				)
 			)
 		)
-		(property "element14 Price/Stock" ""
+		(property "Allied_Number" ""
 			(at 25.4 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -2886,7 +2981,28 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.1588)
+				)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 25.4 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 25.4 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -2898,7 +3014,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.1588)
 				)
 			)
 		)
@@ -2910,7 +3025,116 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.1588)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 25.4 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 25.4 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 25.4 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 25.4 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part/Order No." ""
+			(at 25.4 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RS Part Number" ""
+			(at 25.4 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RS Price/Stock" ""
+			(at 25.4 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Unit Price for 10pcs" ""
+			(at 25.4 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "element14 Part Number" ""
+			(at 25.4 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "element14 Price/Stock" ""
+			(at 25.4 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -3031,18 +3255,6 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" ""
-			(at 220.98 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.1588)
-				)
-			)
-		)
 		(property "Order No." ""
 			(at 220.98 71.12 0)
 			(hide yes)
@@ -3056,18 +3268,6 @@
 			)
 		)
 		(property "Material" ""
-			(at 220.98 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.1588)
-				)
-			)
-		)
-		(property "Part/Order No." ""
 			(at 220.98 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -3116,50 +3316,46 @@
 			)
 		)
 		(property "Allied Price/Stock" ""
-			(at 220.98 71.12 0)
+			(at 220.98 71.12 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.1588)
 				)
 			)
 		)
 		(property "Allied_Number" ""
-			(at 220.98 71.12 0)
+			(at 220.98 71.12 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.1588)
 				)
 			)
 		)
-		(property "RS Part Number" ""
-			(at 220.98 71.12 0)
+		(property "Arrow Part Number" ""
+			(at 220.98 71.12 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.1588)
 				)
 			)
 		)
-		(property "RS Price/Stock" ""
-			(at 220.98 71.12 0)
+		(property "Arrow Price/Stock" ""
+			(at 220.98 71.12 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.1588)
 				)
 			)
 		)
@@ -3171,7 +3367,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.1588)
 				)
 			)
 		)
@@ -3183,7 +3378,116 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.1588)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 220.98 71.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 220.98 71.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 220.98 71.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 220.98 71.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part/Order No." ""
+			(at 220.98 71.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RS Part Number" ""
+			(at 220.98 71.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RS Price/Stock" ""
+			(at 220.98 71.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Unit Price for 10pcs" ""
+			(at 220.98 71.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "element14 Part Number" ""
+			(at 220.98 71.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "element14 Price/Stock" ""
+			(at 220.98 71.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -3372,82 +3676,48 @@
 				(justify left top)
 			)
 		)
-		(property "Manufacturer_Name" "JST (JAPAN SOLDERLESS TERMINALS)"
-			(at 13.97 576.2 0)
+		(property "Allied Price/Stock" ""
+			(at 30.48 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.1588)
 				)
-				(justify left top)
 			)
 		)
-		(property "Manufacturer_Part_Number" "B3B-XH-AM(LF)(SN)"
-			(at 13.97 676.2 0)
+		(property "Allied_Number" ""
+			(at 30.48 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.1588)
 				)
-				(justify left top)
 			)
 		)
-		(property "Mouser Part Number" "306-B3BXHAMLFSNP"
-			(at 13.97 776.2 0)
+		(property "Arrow Part Number" ""
+			(at 30.48 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.1588)
 				)
-				(justify left top)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/JST-Commercial/B3B-XH-AMLFSN?qs=cdbOS8ANM9B1j44d7kpaHQ%3D%3D"
-			(at 13.97 876.2 0)
+		(property "Arrow Price/Stock" ""
+			(at 30.48 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.1588)
 				)
-				(justify left top)
-			)
-		)
-		(property "Arrow Part Number" "B3B-XH-AM(LF)(SN)"
-			(at 13.97 976.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.1588)
-				)
-				(justify left top)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/b3b-xh-a-m-lf-sn/jst-manufacturing.html?utm_currency=USD&region=europe"
-			(at 13.97 1076.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.1588)
-				)
-				(justify left top)
 			)
 		)
 		(property "KLC_S3.3" ""
@@ -3458,7 +3728,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.1588)
 				)
 			)
 		)
@@ -3470,7 +3739,116 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.1588)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 30.48 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 30.48 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 30.48 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 30.48 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part/Order No." ""
+			(at 30.48 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RS Part Number" ""
+			(at 30.48 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RS Price/Stock" ""
+			(at 30.48 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Unit Price for 10pcs" ""
+			(at 30.48 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "element14 Part Number" ""
+			(at 30.48 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "element14 Price/Stock" ""
+			(at 30.48 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -3579,82 +3957,48 @@
 				(justify left top)
 			)
 		)
-		(property "Manufacturer_Name" "JST (JAPAN SOLDERLESS TERMINALS)"
-			(at 201.93 -369.19 0)
+		(property "Allied Price/Stock" ""
+			(at 185.42 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.1588)
 				)
-				(justify left top)
 			)
 		)
-		(property "Manufacturer_Part_Number" "B3B-XH-AM(LF)(SN)"
-			(at 201.93 -469.19 0)
+		(property "Allied_Number" ""
+			(at 185.42 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.1588)
 				)
-				(justify left top)
 			)
 		)
-		(property "Mouser Part Number" "306-B3BXHAMLFSNP"
-			(at 201.93 -569.19 0)
+		(property "Arrow Part Number" ""
+			(at 185.42 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.1588)
 				)
-				(justify left top)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/JST-Commercial/B3B-XH-AMLFSN?qs=cdbOS8ANM9B1j44d7kpaHQ%3D%3D"
-			(at 201.93 -669.19 0)
+		(property "Arrow Price/Stock" ""
+			(at 185.42 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.1588)
 				)
-				(justify left top)
-			)
-		)
-		(property "Arrow Part Number" "B3B-XH-AM(LF)(SN)"
-			(at 201.93 -769.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.1588)
-				)
-				(justify left top)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/b3b-xh-a-m-lf-sn/jst-manufacturing.html?utm_currency=USD&region=europe"
-			(at 201.93 -869.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.1588)
-				)
-				(justify left top)
 			)
 		)
 		(property "KLC_S3.3" ""
@@ -3665,7 +4009,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.1588)
 				)
 			)
 		)
@@ -3677,7 +4020,116 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.1588)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 185.42 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 185.42 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 185.42 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 185.42 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part/Order No." ""
+			(at 185.42 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RS Part Number" ""
+			(at 185.42 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RS Price/Stock" ""
+			(at 185.42 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Unit Price for 10pcs" ""
+			(at 185.42 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "element14 Part Number" ""
+			(at 185.42 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "element14 Price/Stock" ""
+			(at 185.42 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -3771,30 +4223,6 @@
 				)
 			)
 		)
-		(property "Allied Price/Stock" ""
-			(at 48.26 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.1588)
-				)
-			)
-		)
-		(property "Allied_Number" ""
-			(at 48.26 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.1588)
-				)
-			)
-		)
 		(property "Current" ""
 			(at 48.26 152.4 0)
 			(hide yes)
@@ -3808,42 +4236,6 @@
 			)
 		)
 		(property "Material" ""
-			(at 48.26 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.1588)
-				)
-			)
-		)
-		(property "Part/Order No." ""
-			(at 48.26 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.1588)
-				)
-			)
-		)
-		(property "RS Part Number" ""
-			(at 48.26 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.1588)
-				)
-			)
-		)
-		(property "RS Price/Stock" ""
 			(at 48.26 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -3903,18 +4295,6 @@
 				)
 			)
 		)
-		(property "Unit Price for 10pcs" ""
-			(at 48.26 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.1588)
-				)
-			)
-		)
 		(property "Voltage" ""
 			(at 48.26 152.4 0)
 			(hide yes)
@@ -3927,7 +4307,7 @@
 				)
 			)
 		)
-		(property "element14 Part Number" ""
+		(property "Allied Price/Stock" ""
 			(at 48.26 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -3935,11 +4315,10 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.1588)
 				)
 			)
 		)
-		(property "element14 Price/Stock" ""
+		(property "Allied_Number" ""
 			(at 48.26 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -3947,7 +4326,28 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.1588)
+				)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 48.26 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 48.26 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -3959,7 +4359,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.1588)
 				)
 			)
 		)
@@ -3971,7 +4370,116 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.1588)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 48.26 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 48.26 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 48.26 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 48.26 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part/Order No." ""
+			(at 48.26 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RS Part Number" ""
+			(at 48.26 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RS Price/Stock" ""
+			(at 48.26 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Unit Price for 10pcs" ""
+			(at 48.26 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "element14 Part Number" ""
+			(at 48.26 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "element14 Price/Stock" ""
+			(at 48.26 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -4092,18 +4600,6 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" ""
-			(at 220.98 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.1588)
-				)
-			)
-		)
 		(property "Order No." ""
 			(at 220.98 68.58 0)
 			(hide yes)
@@ -4117,18 +4613,6 @@
 			)
 		)
 		(property "Material" ""
-			(at 220.98 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.1588)
-				)
-			)
-		)
-		(property "Part/Order No." ""
 			(at 220.98 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -4177,50 +4661,46 @@
 			)
 		)
 		(property "Allied Price/Stock" ""
-			(at 220.98 68.58 0)
+			(at 220.98 68.58 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.1588)
 				)
 			)
 		)
 		(property "Allied_Number" ""
-			(at 220.98 68.58 0)
+			(at 220.98 68.58 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.1588)
 				)
 			)
 		)
-		(property "RS Part Number" ""
-			(at 220.98 68.58 0)
+		(property "Arrow Part Number" ""
+			(at 220.98 68.58 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.1588)
 				)
 			)
 		)
-		(property "RS Price/Stock" ""
-			(at 220.98 68.58 0)
+		(property "Arrow Price/Stock" ""
+			(at 220.98 68.58 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.1588)
 				)
 			)
 		)
@@ -4232,7 +4712,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.1588)
 				)
 			)
 		)
@@ -4244,7 +4723,116 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.1588)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 220.98 68.58 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 220.98 68.58 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 220.98 68.58 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 220.98 68.58 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part/Order No." ""
+			(at 220.98 68.58 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RS Part Number" ""
+			(at 220.98 68.58 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RS Price/Stock" ""
+			(at 220.98 68.58 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Unit Price for 10pcs" ""
+			(at 220.98 68.58 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "element14 Part Number" ""
+			(at 220.98 68.58 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "element14 Price/Stock" ""
+			(at 220.98 68.58 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -4335,30 +4923,6 @@
 				)
 			)
 		)
-		(property "Allied Price/Stock" ""
-			(at 25.4 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.1588)
-				)
-			)
-		)
-		(property "Allied_Number" ""
-			(at 25.4 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.1588)
-				)
-			)
-		)
 		(property "Current" ""
 			(at 25.4 165.1 0)
 			(hide yes)
@@ -4372,42 +4936,6 @@
 			)
 		)
 		(property "Material" ""
-			(at 25.4 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.1588)
-				)
-			)
-		)
-		(property "Part/Order No." ""
-			(at 25.4 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.1588)
-				)
-			)
-		)
-		(property "RS Part Number" ""
-			(at 25.4 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.1588)
-				)
-			)
-		)
-		(property "RS Price/Stock" ""
 			(at 25.4 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -4467,18 +4995,6 @@
 				)
 			)
 		)
-		(property "Unit Price for 10pcs" ""
-			(at 25.4 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.1588)
-				)
-			)
-		)
 		(property "Voltage" ""
 			(at 25.4 165.1 0)
 			(hide yes)
@@ -4491,7 +5007,7 @@
 				)
 			)
 		)
-		(property "element14 Part Number" ""
+		(property "Allied Price/Stock" ""
 			(at 25.4 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -4499,11 +5015,10 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.1588)
 				)
 			)
 		)
-		(property "element14 Price/Stock" ""
+		(property "Allied_Number" ""
 			(at 25.4 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -4511,7 +5026,28 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.1588)
+				)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 25.4 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 25.4 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -4523,7 +5059,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.1588)
 				)
 			)
 		)
@@ -4535,7 +5070,116 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.1588)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 25.4 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 25.4 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 25.4 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 25.4 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part/Order No." ""
+			(at 25.4 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RS Part Number" ""
+			(at 25.4 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RS Price/Stock" ""
+			(at 25.4 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Unit Price for 10pcs" ""
+			(at 25.4 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "element14 Part Number" ""
+			(at 25.4 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "element14 Price/Stock" ""
+			(at 25.4 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -4584,7 +5228,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "B2BXHAMLFSN"
+		(property "Footprint" "footprints:B2BXHAMLFSN"
 			(at 274.32 171.12 0)
 			(hide yes)
 			(show_name no)
@@ -4635,82 +5279,48 @@
 				(justify left top)
 			)
 		)
-		(property "Manufacturer_Name" "JST (JAPAN SOLDERLESS TERMINALS)"
-			(at 274.32 571.12 0)
+		(property "Allied Price/Stock" ""
+			(at 257.81 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.1588)
 				)
-				(justify left top)
 			)
 		)
-		(property "Manufacturer_Part_Number" "B2B-XH-AM(LF)(SN)"
-			(at 274.32 671.12 0)
+		(property "Allied_Number" ""
+			(at 257.81 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.1588)
 				)
-				(justify left top)
 			)
 		)
-		(property "Mouser Part Number" "306-B2B-XH-AMLFSNP"
-			(at 274.32 771.12 0)
+		(property "Arrow Part Number" ""
+			(at 257.81 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.1588)
 				)
-				(justify left top)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/JST-Commercial/B2B-XH-AMLFSN?qs=cdbOS8ANM9BJgHgwB7WxQw%3D%3D"
-			(at 274.32 871.12 0)
+		(property "Arrow Price/Stock" ""
+			(at 257.81 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.1588)
 				)
-				(justify left top)
-			)
-		)
-		(property "Arrow Part Number" "B2B-XH-AM(LF)(SN)"
-			(at 274.32 971.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.1588)
-				)
-				(justify left top)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/b2b-xh-am-lf-sn/jst-manufacturing?utm_currency=USD&region=europe"
-			(at 274.32 1071.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.1588)
-				)
-				(justify left top)
 			)
 		)
 		(property "KLC_S3.3" ""
@@ -4721,7 +5331,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.1588)
 				)
 			)
 		)
@@ -4733,7 +5342,116 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.1588)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 257.81 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 257.81 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 257.81 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 257.81 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part/Order No." ""
+			(at 257.81 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RS Part Number" ""
+			(at 257.81 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RS Price/Stock" ""
+			(at 257.81 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Unit Price for 10pcs" ""
+			(at 257.81 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "element14 Part Number" ""
+			(at 257.81 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "element14 Price/Stock" ""
+			(at 257.81 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -4788,7 +5506,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "B2BXHAMLFSN"
+		(property "Footprint" "footprints:B2BXHAMLFSN"
 			(at 274.32 188.9 0)
 			(hide yes)
 			(show_name no)
@@ -4839,82 +5557,48 @@
 				(justify left top)
 			)
 		)
-		(property "Manufacturer_Name" "JST (JAPAN SOLDERLESS TERMINALS)"
-			(at 274.32 588.9 0)
+		(property "Allied Price/Stock" ""
+			(at 257.81 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.1588)
 				)
-				(justify left top)
 			)
 		)
-		(property "Manufacturer_Part_Number" "B2B-XH-AM(LF)(SN)"
-			(at 274.32 688.9 0)
+		(property "Allied_Number" ""
+			(at 257.81 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.1588)
 				)
-				(justify left top)
 			)
 		)
-		(property "Mouser Part Number" "306-B2B-XH-AMLFSNP"
-			(at 274.32 788.9 0)
+		(property "Arrow Part Number" ""
+			(at 257.81 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.1588)
 				)
-				(justify left top)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/JST-Commercial/B2B-XH-AMLFSN?qs=cdbOS8ANM9BJgHgwB7WxQw%3D%3D"
-			(at 274.32 888.9 0)
+		(property "Arrow Price/Stock" ""
+			(at 257.81 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.1588)
 				)
-				(justify left top)
-			)
-		)
-		(property "Arrow Part Number" "B2B-XH-AM(LF)(SN)"
-			(at 274.32 988.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.1588)
-				)
-				(justify left top)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/b2b-xh-am-lf-sn/jst-manufacturing?utm_currency=USD&region=europe"
-			(at 274.32 1088.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.1588)
-				)
-				(justify left top)
 			)
 		)
 		(property "KLC_S3.3" ""
@@ -4925,7 +5609,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.1588)
 				)
 			)
 		)
@@ -4937,7 +5620,116 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.1588)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 257.81 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 257.81 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 257.81 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 257.81 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part/Order No." ""
+			(at 257.81 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RS Part Number" ""
+			(at 257.81 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RS Price/Stock" ""
+			(at 257.81 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Unit Price for 10pcs" ""
+			(at 257.81 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "element14 Part Number" ""
+			(at 257.81 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "element14 Price/Stock" ""
+			(at 257.81 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -5376,28 +6168,6 @@
 				(justify right)
 			)
 		)
-		(pin "RTD1_REF+" output
-			(at 228.6 80.01 180)
-			(uuid "3473da47-c0d2-49c5-82d3-b541b33ebbae")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.1588)
-				)
-				(justify left)
-			)
-		)
-		(pin "RTD1_REF-" output
-			(at 228.6 82.55 180)
-			(uuid "606f9292-ecdf-4a5b-8bb2-89d77ffb9412")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.1588)
-				)
-				(justify left)
-			)
-		)
 		(pin "RTD2_A" passive
 			(at 254 93.98 0)
 			(uuid "424edb42-6924-460a-a458-61f252f9dfb7")
@@ -5420,68 +6190,6 @@
 				(justify right)
 			)
 		)
-		(pin "RTD2_REF+" output
-			(at 228.6 95.25 180)
-			(uuid "16eb07e7-ac99-44d0-9fa4-e5ecc845c0a6")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.1588)
-				)
-				(justify left)
-			)
-		)
-		(pin "RTD2_REF-" output
-			(at 228.6 97.79 180)
-			(uuid "d06296c7-8fb8-4477-a9dd-d9a9cbcea521")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.1588)
-				)
-				(justify left)
-			)
-		)
-		(pin "EQ1+" output
-			(at 228.6 85.09 180)
-			(uuid "3f534e50-3e89-4441-b834-671e30a33e58")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "EQ1-" output
-			(at 228.6 87.63 180)
-			(uuid "bc2f4aa6-0154-494c-91d3-254fac69cc42")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "EQ2+" output
-			(at 228.6 100.33 180)
-			(uuid "0ec594cd-c351-4719-8cc8-1ca7f3ff574e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "EQ2-" output
-			(at 228.6 102.87 180)
-			(uuid "ea203200-d549-4a74-b18a-293ea21cf2bc")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "EXCITATION" input
 			(at 228.6 66.04 180)
 			(uuid "b1620d67-ba20-4d9e-bf06-baf0ed0862da")
@@ -5492,9 +6200,89 @@
 				(justify left)
 			)
 		)
-		(pin "REF0" input
+		(pin "REF_RET" input
 			(at 228.6 73.66 180)
 			(uuid "d458fd5e-5036-4f57-8d21-64ed9583023d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "+EQ1" output
+			(at 228.6 85.09 180)
+			(uuid "8255c31e-58c2-432f-a83f-3dc5c3742921")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "+EQ2" output
+			(at 228.6 100.33 180)
+			(uuid "d1e68012-3386-401c-8828-4cc57d1a24c6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "-EQ1" output
+			(at 228.6 87.63 180)
+			(uuid "eb5dcfca-30f9-45ca-b423-c2f9b4e4a202")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "-EQ2" output
+			(at 228.6 102.87 180)
+			(uuid "883c0166-c117-4555-9331-cb817fe0523f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "+REF_RTD1" output
+			(at 228.6 80.01 180)
+			(uuid "b0d2d0ef-49a8-497e-8375-503e298b24fd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "+REF_RTD2" output
+			(at 228.6 95.25 180)
+			(uuid "e3f31d58-0f1b-41aa-8365-1942803982ed")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "-REF_RTD1" output
+			(at 228.6 82.55 180)
+			(uuid "088fd639-81f2-4254-9867-116a9ea3b316")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "-REF_RTD2" output
+			(at 228.6 97.79 180)
+			(uuid "fd9f2c1a-f047-4342-84f9-1c9920f42367")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5904,50 +6692,6 @@
 				(justify left)
 			)
 		)
-		(pin "RTD1_REF+" input
-			(at 215.9 80.01 0)
-			(uuid "a50545a4-293e-407f-89a5-985403b6d2c7")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.1588)
-				)
-				(justify right)
-			)
-		)
-		(pin "RTD1_REF-" input
-			(at 215.9 82.55 0)
-			(uuid "38198137-62bd-4581-bc44-ae3d58a2557c")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.1588)
-				)
-				(justify right)
-			)
-		)
-		(pin "RTD2_REF+" input
-			(at 215.9 95.25 0)
-			(uuid "04846981-5578-4229-98bb-a39166cd60a4")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.1588)
-				)
-				(justify right)
-			)
-		)
-		(pin "RTD2_REF-" input
-			(at 215.9 97.79 0)
-			(uuid "8551ed0e-0126-4d7f-b291-621e47d3219e")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.1588)
-				)
-				(justify right)
-			)
-		)
 		(pin "SCLK" input
 			(at 190.5 83.82 180)
 			(uuid "dee5a7b5-d170-4be9-b123-547eba8695c0")
@@ -5992,46 +6736,6 @@
 				(justify left)
 			)
 		)
-		(pin "A0+" input
-			(at 215.9 85.09 0)
-			(uuid "5f63bf7b-b4b8-48d4-8f3f-309fd412056c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "A0-" input
-			(at 215.9 87.63 0)
-			(uuid "487c77a8-3d3c-4d51-99ab-496dd791b203")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "A1+" input
-			(at 215.9 100.33 0)
-			(uuid "71355c23-8642-4bd1-892a-289eeb6a1499")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "A1-" input
-			(at 215.9 102.87 0)
-			(uuid "3965e6c9-d987-409b-83ae-dbc1c45968fb")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "+3V3OUT" output
 			(at 215.9 66.04 0)
 			(uuid "e55845f3-b7d9-4ad5-af37-b18fb7af65a3")
@@ -6065,6 +6769,86 @@
 		(pin "REFIOUT" output
 			(at 215.9 71.12 0)
 			(uuid "9c292b99-51ba-4bd3-9ffc-2a5813621e02")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "+A0" input
+			(at 215.9 85.09 0)
+			(uuid "5457b7f3-e897-4034-b283-e09abecc024f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "+A1" input
+			(at 215.9 100.33 0)
+			(uuid "4ccef4a2-b419-4f3a-995e-db96bc64c50a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "-A0" input
+			(at 215.9 87.63 0)
+			(uuid "fa655909-4517-4006-9640-5e4c85d337ba")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "-A1" input
+			(at 215.9 102.87 0)
+			(uuid "a5bc7239-0421-4d99-b4f9-e2ee0180d943")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "+REF_RTD1" input
+			(at 215.9 80.01 0)
+			(uuid "4ee4e2da-a61c-4884-864b-89aa2a047e16")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "+REF_RTD2" input
+			(at 215.9 95.25 0)
+			(uuid "bbe55e3a-bd4f-4bc1-b10b-c6f0eb5f7d72")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "-REF_RTD1" input
+			(at 215.9 82.55 0)
+			(uuid "4b9e866a-0285-4c00-8a42-b697f129d69a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "-REF_RTD2" input
+			(at 215.9 97.79 0)
+			(uuid "90212e3e-a23b-48c7-a6db-e8bc1713ac9a")
 			(effects
 				(font
 					(size 1.27 1.27)
