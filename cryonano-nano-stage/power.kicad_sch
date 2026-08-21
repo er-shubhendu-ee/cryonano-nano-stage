@@ -1501,6 +1501,181 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "symbols:0686F5000-01"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "F"
+				(at 4.826 2.794 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "0686F5000-01"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Fuse:Fuse_0603_1608Metric"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Fuse, Surface Mount, 5 A, Fast Acting, 32 VAC, 63 VDC, 0603 [1608 Metric], C2F"
+				(at 0.762 -4.064 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "0686F5000-01_0_1"
+				(polyline
+					(pts
+						(xy 3.81 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(bezier
+					(pts
+						(xy 3.81 0) (xy 4.445 -1.27) (xy 5.08 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(bezier
+					(pts
+						(xy 5.08 0) (xy 5.715 1.27) (xy 6.35 0) (xy 6.35 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 10.16 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "0686F5000-01_1_1"
+				(rectangle
+					(start 2.54 1.27)
+					(end 7.62 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "symbols:560KD07"
 			(pin_names
 				(hide yes)
@@ -2955,258 +3130,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "symbols:FMC16302WBTP"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "F"
-				(at 4.826 6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "FMC16302WBTP"
-				(at -1.778 3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "FUSC1608X55N"
-				(at 13.97 -96.19 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Datasheet" "https://gr.mouser.com/ProductDetail/Kamaya/FMC16302WBTP?qs=iLbezkQI%252Bsj3HaGsSM8iOg%3D%3D"
-				(at 13.97 -196.19 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Description" "Chip Fuses 0603 inch 32Vdc 3A"
-				(at 11.176 -4.064 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Height" "0.55"
-				(at 13.97 -396.19 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Manufacturer_Name" "Kamaya"
-				(at 13.97 -496.19 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Manufacturer_Part_Number" "FMC16302WBTP"
-				(at 13.97 -596.19 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Mouser Part Number" "791-FMC16302WBTP"
-				(at 13.97 -696.19 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Kamaya/FMC16302WBTP?qs=iLbezkQI%252Bsj3HaGsSM8iOg%3D%3D"
-				(at 13.97 -796.19 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Arrow Part Number" ""
-				(at 13.97 -896.19 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Arrow Price/Stock" ""
-				(at 13.97 -996.19 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(symbol "FMC16302WBTP_0_1"
-				(polyline
-					(pts
-						(xy 3.81 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(bezier
-					(pts
-						(xy 3.81 0) (xy 4.445 -1.27) (xy 5.08 0) (xy 5.08 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(bezier
-					(pts
-						(xy 5.08 0) (xy 5.715 1.27) (xy 6.35 0) (xy 6.35 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.35 0) (xy 8.255 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "FMC16302WBTP_1_1"
-				(rectangle
-					(start 2.54 1.27)
-					(end 7.62 -1.27)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "symbols:PESD12VL1BA,115"
+		(symbol "symbols:DF2B36FU"
 			(pin_names
 				(hide yes)
 			)
@@ -3216,7 +3140,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "D"
-				(at 5.842 6.35 0)
+				(at 0 6.096 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -3225,8 +3149,8 @@
 					)
 				)
 			)
-			(property "Value" "PESD12VL1BA"
-				(at 6.604 4.318 0)
+			(property "Value" "DF2B36FU,H3XHF"
+				(at 14.478 -5.842 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -3235,8 +3159,8 @@
 					)
 				)
 			)
-			(property "Footprint" "Diode_SMD:D_SOD-323F"
-				(at 5.334 -4.826 0)
+			(property "Footprint" "Diode_SMD:D_SOD-323"
+				(at 14.478 -5.842 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -3257,8 +3181,8 @@
 					)
 				)
 			)
-			(property "Description" "19 pF Bi-Directional ESD Protection Diode"
-				(at 1.524 -7.62 0)
+			(property "Description" ""
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -3268,10 +3192,10 @@
 					)
 				)
 			)
-			(symbol "PESD12VL1BA,115_0_1"
+			(symbol "DF2B36FU_0_1"
 				(polyline
 					(pts
-						(xy 3.175 1.27) (xy 3.175 -1.27)
+						(xy -1.27 -9.271) (xy -1.27 -8.636)
 					)
 					(stroke
 						(width 0)
@@ -3283,7 +3207,7 @@
 				)
 				(polyline
 					(pts
-						(xy 3.175 1.27) (xy 3.81 1.27)
+						(xy -1.27 -9.271) (xy 1.27 -9.271)
 					)
 					(stroke
 						(width 0)
@@ -3295,7 +3219,7 @@
 				)
 				(polyline
 					(pts
-						(xy 3.175 0) (xy 5.715 1.27) (xy 5.715 -1.27) (xy 3.175 0)
+						(xy 0 -3.429) (xy 1.016 -5.842) (xy -1.016 -5.842) (xy 0 -3.429)
 					)
 					(stroke
 						(width 0)
@@ -3307,7 +3231,7 @@
 				)
 				(polyline
 					(pts
-						(xy 5.715 0) (xy 6.985 0)
+						(xy 0 -3.556) (xy 0 -2.54)
 					)
 					(stroke
 						(width 0)
@@ -3319,7 +3243,7 @@
 				)
 				(polyline
 					(pts
-						(xy 9.525 0) (xy 6.985 -1.27) (xy 6.985 1.27) (xy 9.525 0)
+						(xy 0 -6.604) (xy 0 -5.842)
 					)
 					(stroke
 						(width 0)
@@ -3331,7 +3255,7 @@
 				)
 				(polyline
 					(pts
-						(xy 9.525 -1.27) (xy 8.89 -1.27)
+						(xy 0 -9.144) (xy -1.016 -6.731) (xy 1.016 -6.731) (xy 0 -9.144)
 					)
 					(stroke
 						(width 0)
@@ -3343,7 +3267,31 @@
 				)
 				(polyline
 					(pts
-						(xy 9.525 -1.27) (xy 9.525 1.27)
+						(xy 0 -9.652) (xy 0 -10.414)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -3.429) (xy -1.27 -3.429)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -3.429) (xy 1.27 -4.064)
 					)
 					(stroke
 						(width 0)
@@ -3354,10 +3302,10 @@
 					)
 				)
 			)
-			(symbol "PESD12VL1BA,115_1_1"
+			(symbol "DF2B36FU_1_1"
 				(rectangle
-					(start 2.54 2.54)
-					(end 10.16 -2.54)
+					(start -2.032 -2.794)
+					(end 2.032 -9.906)
 					(stroke
 						(width 0)
 						(type solid)
@@ -3368,7 +3316,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 0) (xy 3.175 0)
+						(xy 0 -9.906) (xy 0 -9.271)
 					)
 					(stroke
 						(width 0)
@@ -3378,20 +3326,8 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 9.525 0) (xy 11.43 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
+				(pin input line
+					(at 0 0 270)
 					(length 2.54)
 					(name "1"
 						(effects
@@ -3408,8 +3344,8 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 12.7 0 180)
+				(pin input line
+					(at 0 -12.7 90)
 					(length 2.54)
 					(name "2"
 						(effects
@@ -3920,7 +3856,7 @@
 		)
 	)
 	(rectangle
-		(start 38.1 25.4)
+		(start 25.4 25.4)
 		(end 128.27 66.04)
 		(stroke
 			(width 0.1524)
@@ -3956,6 +3892,18 @@
 		(uuid "877c64cc-00d6-49bd-984e-885d86fbd71a")
 	)
 	(rectangle
+		(start 35.56 68.58)
+		(end 105.41 104.14)
+		(stroke
+			(width 0.1524)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "8dd33e92-5dac-4701-90bd-a4c2036f09d8")
+	)
+	(rectangle
 		(start 167.64 25.4)
 		(end 213.36 66.04)
 		(stroke
@@ -3968,7 +3916,7 @@
 		(uuid "ae11111e-a356-4d75-9483-4d3355b1bde6")
 	)
 	(rectangle
-		(start 110.49 68.58)
+		(start 119.38 68.58)
 		(end 157.48 104.14)
 		(stroke
 			(width 0.1524)
@@ -4102,10 +4050,28 @@
 		(uuid "23ba51cb-70c5-4911-8b8b-efdb5ee80d78")
 	)
 	(junction
+		(at 88.9 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "29a3fe0a-41e5-49f3-ab33-fe669bd62d57")
+	)
+	(junction
+		(at 63.5 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "29daa61e-2c70-4339-9f02-964212382320")
+	)
+	(junction
 		(at 260.35 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2e1e29f3-c477-4239-a5f1-09ad3dc4d338")
+	)
+	(junction
+		(at 68.58 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "352be512-5497-4ba3-b3e7-38f2faa77978")
 	)
 	(junction
 		(at 129.54 71.12)
@@ -4198,12 +4164,6 @@
 		(uuid "890b8f43-1dce-4f67-8213-ed4bd4141e4a")
 	)
 	(junction
-		(at 58.42 34.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9462be14-47ec-466e-980a-d6d2f5a4cb7f")
-	)
-	(junction
 		(at 218.44 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4234,16 +4194,16 @@
 		(uuid "b05ec7c1-1189-4e7c-be4c-b4bdef173e1e")
 	)
 	(junction
+		(at 53.34 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b2a6aafd-f2c0-4d6a-a896-156a6b0f6ae5")
+	)
+	(junction
 		(at 220.98 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b92d2b0e-1aff-46a0-a987-c7af72a1e45c")
-	)
-	(junction
-		(at 68.58 57.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bcf82361-0686-4440-9944-824968414dcc")
 	)
 	(junction
 		(at 129.54 57.15)
@@ -4264,12 +4224,6 @@
 		(uuid "ce7a5847-5982-4337-b617-35491e0bf7f5")
 	)
 	(junction
-		(at 58.42 57.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d2726444-1b9a-436e-a43d-741f4d9d8adb")
-	)
-	(junction
 		(at 205.74 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4280,6 +4234,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dea8e926-51ef-42ae-9c55-765eee677a03")
+	)
+	(junction
+		(at 63.5 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "df5e323a-74b4-4993-a18c-00163fa52ffe")
 	)
 	(junction
 		(at 86.36 57.15)
@@ -4322,6 +4282,16 @@
 			(type default)
 		)
 		(uuid "05bebba7-4dd0-4320-b0cc-32fd3869260d")
+	)
+	(wire
+		(pts
+			(xy 88.9 88.9) (xy 88.9 91.44)
+		)
+		(stroke
+			(width 0.1524)
+			(type default)
+		)
+		(uuid "063def73-7a94-4cba-9992-b61151a19a75")
 	)
 	(wire
 		(pts
@@ -4375,16 +4345,6 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 52.07) (xy 58.42 57.15)
-		)
-		(stroke
-			(width 0.1524)
-			(type default)
-		)
-		(uuid "0adbf212-c145-4967-9d5f-49f4c91861aa")
-	)
-	(wire
-		(pts
 			(xy 138.43 82.55) (xy 138.43 88.9)
 		)
 		(stroke
@@ -4412,16 +4372,6 @@
 			(type default)
 		)
 		(uuid "12499ba6-c649-419e-a474-b0eaa72127b6")
-	)
-	(wire
-		(pts
-			(xy 43.18 34.29) (xy 45.72 34.29)
-		)
-		(stroke
-			(width 0.1524)
-			(type default)
-		)
-		(uuid "13398e81-790f-4174-94d7-7cdf6200b1a0")
 	)
 	(wire
 		(pts
@@ -4665,6 +4615,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 86.36) (xy 88.9 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d2f6dc4-1faa-43f8-b881-44f6673b18a5")
+	)
+	(wire
+		(pts
 			(xy 71.12 165.1) (xy 81.28 165.1)
 		)
 		(stroke
@@ -4682,16 +4642,6 @@
 			(type default)
 		)
 		(uuid "3fd7b715-3c35-4f45-b468-ea2011f91260")
-	)
-	(wire
-		(pts
-			(xy 55.88 34.29) (xy 58.42 34.29)
-		)
-		(stroke
-			(width 0.1524)
-			(type default)
-		)
-		(uuid "4164fe12-11a9-48d4-8387-ea0135d98270")
 	)
 	(wire
 		(pts
@@ -4735,6 +4685,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 57.15) (xy 40.64 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "481df0fe-d7ce-4048-9c4f-bc7923ce4b5f")
+	)
+	(wire
+		(pts
 			(xy 205.74 34.29) (xy 220.98 34.29)
 		)
 		(stroke
@@ -4752,6 +4712,26 @@
 			(type default)
 		)
 		(uuid "4a3b1819-2a8a-4cef-8bd0-665313c3a279")
+	)
+	(wire
+		(pts
+			(xy 88.9 57.15) (xy 102.87 57.15)
+		)
+		(stroke
+			(width 0.1524)
+			(type default)
+		)
+		(uuid "4de1b0f7-dc37-44c4-905a-57e69d82a2c2")
+	)
+	(wire
+		(pts
+			(xy 50.8 57.15) (xy 53.34 57.15)
+		)
+		(stroke
+			(width 0.1524)
+			(type default)
+		)
+		(uuid "4f45c847-1e25-48b2-89c5-75046fe43f41")
 	)
 	(wire
 		(pts
@@ -4802,6 +4782,26 @@
 			(type default)
 		)
 		(uuid "61d932fa-2f21-47fd-9970-f219f342e036")
+	)
+	(wire
+		(pts
+			(xy 53.34 57.15) (xy 68.58 57.15)
+		)
+		(stroke
+			(width 0.1524)
+			(type default)
+		)
+		(uuid "62b6b093-c052-496a-9b86-6a03cc002382")
+	)
+	(wire
+		(pts
+			(xy 63.5 34.29) (xy 68.58 34.29)
+		)
+		(stroke
+			(width 0.1524)
+			(type default)
+		)
+		(uuid "63d79a75-af8a-455f-a920-ce381e1eaa85")
 	)
 	(wire
 		(pts
@@ -4925,16 +4925,6 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 57.15) (xy 68.58 57.15)
-		)
-		(stroke
-			(width 0.1524)
-			(type default)
-		)
-		(uuid "81de94cf-8e8c-436c-8a7d-5868d4e3af41")
-	)
-	(wire
-		(pts
 			(xy 215.9 139.7) (xy 218.44 139.7)
 		)
 		(stroke
@@ -4975,6 +4965,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 57.15) (xy 88.9 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88bb7107-3f89-441f-bb08-194a420e4036")
+	)
+	(wire
+		(pts
 			(xy 129.54 88.9) (xy 138.43 88.9)
 		)
 		(stroke
@@ -4982,6 +4982,16 @@
 			(type default)
 		)
 		(uuid "8ebd4a39-a33e-429b-be9f-1b3100a50e19")
+	)
+	(wire
+		(pts
+			(xy 53.34 74.93) (xy 53.34 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ed57190-19f0-4ac1-bc0c-dc5f89f138e7")
 	)
 	(wire
 		(pts
@@ -5035,13 +5045,23 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 57.15) (xy 102.87 57.15)
+			(xy 86.36 57.15) (xy 88.9 57.15)
 		)
 		(stroke
 			(width 0.1524)
 			(type default)
 		)
 		(uuid "a662c2ea-7618-4066-9e3d-47a7dc83ff31")
+	)
+	(wire
+		(pts
+			(xy 50.8 34.29) (xy 55.88 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab6fc252-4675-40d3-92cf-a32296a60639")
 	)
 	(wire
 		(pts
@@ -5055,6 +5075,16 @@
 	)
 	(wire
 		(pts
+			(xy 53.34 85.09) (xy 53.34 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acc0af30-446c-4e9c-897f-e81a73559c9d")
+	)
+	(wire
+		(pts
 			(xy 86.36 34.29) (xy 102.87 34.29)
 		)
 		(stroke
@@ -5062,6 +5092,16 @@
 			(type default)
 		)
 		(uuid "ad8df888-b2bd-4fd4-b6de-89e4f0f21e6d")
+	)
+	(wire
+		(pts
+			(xy 53.34 88.9) (xy 63.5 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ade37af3-2478-4e2e-9003-166839c8ed00")
 	)
 	(wire
 		(pts
@@ -5115,6 +5155,16 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 34.29) (xy 63.5 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b47ada09-7424-403c-8ff8-64c9a807e75a")
+	)
+	(wire
+		(pts
 			(xy 109.22 34.29) (xy 109.22 41.91)
 		)
 		(stroke
@@ -5155,7 +5205,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 34.29) (xy 68.58 34.29)
+			(xy 55.88 34.29) (xy 63.5 34.29)
 		)
 		(stroke
 			(width 0.1524)
@@ -5182,16 +5232,6 @@
 			(type default)
 		)
 		(uuid "bc0c166a-2f1d-4a19-9362-49a34ef018fa")
-	)
-	(wire
-		(pts
-			(xy 43.18 57.15) (xy 58.42 57.15)
-		)
-		(stroke
-			(width 0.1524)
-			(type default)
-		)
-		(uuid "bcd2e2e2-65c3-4ad3-9c73-ee2aab617c95")
 	)
 	(wire
 		(pts
@@ -5345,6 +5385,26 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 34.29) (xy 40.64 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e30ff358-c3de-4c3b-9278-988def52b2af")
+	)
+	(wire
+		(pts
+			(xy 63.5 88.9) (xy 63.5 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4f8e140-3da9-40d2-b6e0-6ba4cc0b7618")
+	)
+	(wire
+		(pts
 			(xy 138.43 71.12) (xy 148.59 71.12)
 		)
 		(stroke
@@ -5385,13 +5445,13 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 41.91) (xy 58.42 34.29)
+			(xy 63.5 88.9) (xy 63.5 91.44)
 		)
 		(stroke
-			(width 0.1524)
+			(width 0)
 			(type default)
 		)
-		(uuid "ecf4903f-3bf6-4386-b7ba-1d31f4277038")
+		(uuid "ecde041e-64d6-4d02-93ff-8b1b866a8188")
 	)
 	(wire
 		(pts
@@ -5591,6 +5651,16 @@
 		)
 		(uuid "8300a4ed-d902-49c2-92cf-68861b5ceb87")
 	)
+	(label "IN_LOW"
+		(at 73.66 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8ad138e2-38ac-4fbe-bd02-82b79bd01b49")
+	)
 	(label "+24V0_OUT_1"
 		(at 241.3 66.04 270)
 		(effects
@@ -5655,6 +5725,16 @@
 		)
 		(uuid "c28026c7-b710-416c-9706-922dd8f8bb38")
 	)
+	(label "IN_HIGH"
+		(at 73.66 34.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cfe72380-a2dd-4d32-82d3-0bc20c7a9ac5")
+	)
 	(label "+3V3_OUT_3"
 		(at 266.7 66.04 270)
 		(effects
@@ -5703,7 +5783,7 @@
 	)
 	(hierarchical_label "+24V0IN"
 		(shape input)
-		(at 43.18 34.29 180)
+		(at 38.1 34.29 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5739,7 +5819,7 @@
 	)
 	(hierarchical_label "0V0IN"
 		(shape input)
-		(at 43.18 57.15 180)
+		(at 38.1 57.15 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5913,6 +5993,17 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 241.3 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Order No." "LED_RED"
+			(at 241.3 92.71 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6331,6 +6422,97 @@
 		)
 	)
 	(symbol
+		(lib_id "symbols:0686F5000-01")
+		(at 40.64 34.29 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0f451545-b2c3-4a81-a3e9-cc879ecbe8a5")
+		(property "Reference" "F1"
+			(at 46.9265 27.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0686F5000-01"
+			(at 46.9265 30.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Fuse:Fuse_0603_1608Metric"
+			(at 40.64 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Fuse, Surface Mount, 5 A, Fast Acting, 32 VAC, 63 VDC, 0603 [1608 Metric], C2F"
+			(at 41.402 38.354 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Order No." "0686F5000-01"
+			(at 40.64 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "afa48aff-d5ae-44fa-9827-ad7fd23bf696")
+		)
+		(pin "2"
+			(uuid "58b28cf3-dff3-4142-b461-f2158dfb5f97")
+		)
+		(instances
+			(project "cryonano-nano-stage"
+				(path "/549c6da5-71cb-4d9c-a0a2-c409a6f93509/22c14c16-f163-469c-baa5-6dbf682c19a1/ce8b6a7e-86c1-4ab6-8c3b-0c8c1a7aa86c"
+					(reference "F1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "symbols:ACM4520-142-2P-T000")
 		(at 109.22 41.91 0)
 		(unit 1)
@@ -6642,6 +6824,89 @@
 			(project "cryonano-nano-stage"
 				(path "/549c6da5-71cb-4d9c-a0a2-c409a6f93509/22c14c16-f163-469c-baa5-6dbf682c19a1/ce8b6a7e-86c1-4ab6-8c3b-0c8c1a7aa86c"
 					(reference "FL2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 88.9 91.44 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "12bbfa5b-3ec2-45a6-80b0-4cbfe9dc64e2")
+		(property "Reference" "#PWR062"
+			(at 88.9 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1588)
+				)
+			)
+		)
+		(property "Value" "Earth"
+			(at 88.9 96.52 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1588)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1588)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1588)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 88.9 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1588)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9cb29c75-2cb9-458a-937e-2a9efea849ce")
+		)
+		(instances
+			(project "cryonano-nano-stage"
+				(path "/549c6da5-71cb-4d9c-a0a2-c409a6f93509/22c14c16-f163-469c-baa5-6dbf682c19a1/ce8b6a7e-86c1-4ab6-8c3b-0c8c1a7aa86c"
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -7325,330 +7590,6 @@
 			(project "cryonano-nano-stage"
 				(path "/549c6da5-71cb-4d9c-a0a2-c409a6f93509/22c14c16-f163-469c-baa5-6dbf682c19a1/ce8b6a7e-86c1-4ab6-8c3b-0c8c1a7aa86c"
 					(reference "C65")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "symbols:FMC16302WBTP")
-		(at 45.72 34.29 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2df42eed-4b5f-4379-9598-fe8dbadfbf01")
-		(property "Reference" "F1"
-			(at 51.054 27.94 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.1588)
-				)
-			)
-		)
-		(property "Value" "FMC16302WBTP"
-			(at 51.054 30.48 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.1588)
-				)
-			)
-		)
-		(property "Footprint" "footprints:FUSC1608X55N"
-			(at 59.69 130.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.1588)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://gr.mouser.com/ProductDetail/Kamaya/FMC16302WBTP?qs=iLbezkQI%252Bsj3HaGsSM8iOg%3D%3D"
-			(at 59.69 230.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.1588)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "Chip Fuses 0603 inch 32Vdc 3A"
-			(at 56.896 38.354 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.1588)
-				)
-			)
-		)
-		(property "Height" "0.55"
-			(at 59.69 430.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.1588)
-				)
-				(justify left top)
-			)
-		)
-		(property "Current" "3A"
-			(at 45.72 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.1588)
-				)
-			)
-		)
-		(property "Order No." "FMC16302WBTP"
-			(at 45.72 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.1588)
-				)
-			)
-		)
-		(property "Unit Price 10" "6"
-			(at 45.72 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.1588)
-				)
-			)
-		)
-		(property "Voltage" "32V"
-			(at 45.72 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.1588)
-				)
-			)
-		)
-		(property "Allied Price/Stock" ""
-			(at 45.72 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Allied_Number" ""
-			(at 45.72 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 45.72 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 45.72 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 45.72 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 45.72 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Name" ""
-			(at 45.72 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at 45.72 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 45.72 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 45.72 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part/Order No." ""
-			(at 45.72 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "RS Part Number" ""
-			(at 45.72 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "RS Price/Stock" ""
-			(at 45.72 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Unit Price for 10pcs" ""
-			(at 45.72 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "element14 Part Number" ""
-			(at 45.72 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "element14 Price/Stock" ""
-			(at 45.72 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "561387c1-37d9-4f01-8190-d425ffb21561")
-		)
-		(pin "2"
-			(uuid "7ac81b2b-1431-4a6f-a50e-9026baa4dc39")
-		)
-		(instances
-			(project "cryonano-nano-stage"
-				(path "/549c6da5-71cb-4d9c-a0a2-c409a6f93509/22c14c16-f163-469c-baa5-6dbf682c19a1/ce8b6a7e-86c1-4ab6-8c3b-0c8c1a7aa86c"
-					(reference "F1")
 					(unit 1)
 				)
 			)
@@ -8749,9 +8690,8 @@
 		)
 	)
 	(symbol
-		(lib_id "symbols:PESD12VL1BA,115")
-		(at 129.54 86.36 270)
-		(mirror x)
+		(lib_id "symbols:B32-150-LF")
+		(at 53.34 80.01 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8759,9 +8699,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "530838f0-5c67-4ca9-abc5-718aafe05d85")
-		(property "Reference" "D8"
-			(at 125.73 78.1049 90)
+		(uuid "5f0355c8-e562-417f-9675-2c594bed6be6")
+		(property "Reference" "GD2"
+			(at 48.26 78.7399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8772,8 +8712,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "PESD12VL1BA"
-			(at 125.73 80.6449 90)
+		(property "Value" "B32-150-LF"
+			(at 48.26 81.2799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8784,8 +8724,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323F"
-			(at 124.714 81.026 0)
+		(property "Footprint" "footprints:B32_GDT_YAGEO"
+			(at 53.34 80.01 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8797,7 +8737,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 129.54 86.36 0)
+			(at 53.34 80.01 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8808,8 +8748,56 @@
 				)
 			)
 		)
-		(property "Description" "19 pF Bi-Directional ESD Protection Diode"
-			(at 121.92 84.836 0)
+		(property "Description" "Gas Discharge Tubes - GDTs / Gas Plasma Arrestors 500A 150V 2Electrode PCB Mount"
+			(at 53.34 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1588)
+				)
+			)
+		)
+		(property "Order No." "B32-150-LF"
+			(at 53.34 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1588)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 53.34 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1588)
+				)
+			)
+		)
+		(property "Power" ""
+			(at 53.34 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1588)
+				)
+			)
+		)
+		(property "Unit Price 10" "42"
+			(at 53.34 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8821,7 +8809,7 @@
 			)
 		)
 		(property "Alternative" ""
-			(at 129.54 86.36 90)
+			(at 53.34 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8833,7 +8821,7 @@
 			)
 		)
 		(property "Allied Price/Stock" ""
-			(at 129.54 86.36 90)
+			(at 53.34 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8844,7 +8832,7 @@
 			)
 		)
 		(property "Allied_Number" ""
-			(at 129.54 86.36 90)
+			(at 53.34 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8855,7 +8843,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 129.54 86.36 90)
+			(at 53.34 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8866,7 +8854,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 129.54 86.36 90)
+			(at 53.34 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8877,7 +8865,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 129.54 86.36 90)
+			(at 53.34 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8888,7 +8876,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 129.54 86.36 90)
+			(at 53.34 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8899,7 +8887,7 @@
 			)
 		)
 		(property "Manufacturer_Name" ""
-			(at 129.54 86.36 90)
+			(at 53.34 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8910,7 +8898,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 129.54 86.36 90)
+			(at 53.34 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8921,7 +8909,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 129.54 86.36 90)
+			(at 53.34 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8932,7 +8920,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 129.54 86.36 90)
+			(at 53.34 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8943,7 +8931,7 @@
 			)
 		)
 		(property "Part/Order No." ""
-			(at 129.54 86.36 90)
+			(at 53.34 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8954,7 +8942,7 @@
 			)
 		)
 		(property "RS Part Number" ""
-			(at 129.54 86.36 90)
+			(at 53.34 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8965,7 +8953,7 @@
 			)
 		)
 		(property "RS Price/Stock" ""
-			(at 129.54 86.36 90)
+			(at 53.34 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8976,7 +8964,7 @@
 			)
 		)
 		(property "Unit Price for 10pcs" ""
-			(at 129.54 86.36 90)
+			(at 53.34 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8987,7 +8975,7 @@
 			)
 		)
 		(property "element14 Part Number" ""
-			(at 129.54 86.36 90)
+			(at 53.34 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8998,7 +8986,7 @@
 			)
 		)
 		(property "element14 Price/Stock" ""
-			(at 129.54 86.36 90)
+			(at 53.34 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9008,16 +8996,107 @@
 				)
 			)
 		)
-		(pin "2"
-			(uuid "72d6b779-744a-4878-bca9-a02ee2686d5c")
-		)
 		(pin "1"
-			(uuid "52554e1d-0bcb-4dad-8ba0-454ece8d56c7")
+			(uuid "8c115fd5-8cb7-46d5-b2ef-178989d63767")
+		)
+		(pin "2"
+			(uuid "e45e7f31-103b-477b-844f-49feca41e494")
 		)
 		(instances
 			(project "cryonano-nano-stage"
 				(path "/549c6da5-71cb-4d9c-a0a2-c409a6f93509/22c14c16-f163-469c-baa5-6dbf682c19a1/ce8b6a7e-86c1-4ab6-8c3b-0c8c1a7aa86c"
-					(reference "D8")
+					(reference "GD2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "symbols:0686F5000-01")
+		(at 40.64 57.15 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5ff1c67e-a916-4a60-82ea-d57c2be0b5ce")
+		(property "Reference" "F2"
+			(at 46.9265 50.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0686F5000-01"
+			(at 46.9265 53.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Fuse:Fuse_0603_1608Metric"
+			(at 40.64 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Fuse, Surface Mount, 5 A, Fast Acting, 32 VAC, 63 VDC, 0603 [1608 Metric], C2F"
+			(at 41.402 61.214 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Order No." "0686F5000-01"
+			(at 40.64 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "61b81c3e-1697-4f31-8120-eb66d311d387")
+		)
+		(pin "2"
+			(uuid "c41d0621-c8f2-48c6-a8e7-6515ec0968dd")
+		)
+		(instances
+			(project "cryonano-nano-stage"
+				(path "/549c6da5-71cb-4d9c-a0a2-c409a6f93509/22c14c16-f163-469c-baa5-6dbf682c19a1/ce8b6a7e-86c1-4ab6-8c3b-0c8c1a7aa86c"
+					(reference "F2")
 					(unit 1)
 				)
 			)
@@ -10108,7 +10187,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "+5V0_1"
+		(property "Value" "1x01, 2.54"
 			(at 223.52 135.1279 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10216,7 +10295,7 @@
 				)
 			)
 		)
-		(property "Order No." ""
+		(property "Order No." "N.A."
 			(at 220.98 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -10476,7 +10555,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "+5V0_1"
+		(property "Value" "1x01, 2.54"
 			(at 170.18 135.1279 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10584,7 +10663,7 @@
 				)
 			)
 		)
-		(property "Order No." ""
+		(property "Order No." "N.A."
 			(at 167.64 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -11345,7 +11424,7 @@
 				)
 			)
 		)
-		(property "Order No." ""
+		(property "Order No." "0603/120mW"
 			(at 142.24 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -11908,6 +11987,317 @@
 		)
 	)
 	(symbol
+		(lib_id "symbols:SMBJ30CA/TR13")
+		(at 88.9 81.28 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a35b29d3-824a-41ba-96a7-268131225468")
+		(property "Reference" "D12"
+			(at 91.44 80.0099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1588)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMBJ30CA"
+			(at 91.44 82.5499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1588)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMB"
+			(at 85.344 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1588)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1588)
+				)
+			)
+		)
+		(property "Description" "Tvs Diode, Bidir, 30V, 600W, Do-214Aa"
+			(at 82.55 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1588)
+				)
+			)
+		)
+		(property "Alternative" ""
+			(at 88.9 81.28 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1588)
+				)
+			)
+		)
+		(property "Order No." "SMBJ30CA/TR13"
+			(at 88.9 81.28 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1588)
+				)
+			)
+		)
+		(property "Unit Price 10" "33"
+			(at 88.9 81.28 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1588)
+				)
+			)
+		)
+		(property "Voltage" "30V"
+			(at 88.9 81.28 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1588)
+				)
+			)
+		)
+		(property "Allied Price/Stock" ""
+			(at 88.9 81.28 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Allied_Number" ""
+			(at 88.9 81.28 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 88.9 81.28 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 88.9 81.28 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 88.9 81.28 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 88.9 81.28 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 88.9 81.28 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 88.9 81.28 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 88.9 81.28 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 88.9 81.28 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part/Order No." ""
+			(at 88.9 81.28 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RS Part Number" ""
+			(at 88.9 81.28 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RS Price/Stock" ""
+			(at 88.9 81.28 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Unit Price for 10pcs" ""
+			(at 88.9 81.28 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "element14 Part Number" ""
+			(at 88.9 81.28 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "element14 Price/Stock" ""
+			(at 88.9 81.28 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "0792d6ae-0db2-44b3-86f5-a8ad8526f0e1")
+		)
+		(pin "1"
+			(uuid "b840acb9-1ab4-4d6a-850f-fb1114fdb6b0")
+		)
+		(instances
+			(project "cryonano-nano-stage"
+				(path "/549c6da5-71cb-4d9c-a0a2-c409a6f93509/22c14c16-f163-469c-baa5-6dbf682c19a1/ce8b6a7e-86c1-4ab6-8c3b-0c8c1a7aa86c"
+					(reference "D12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 254 92.71 90)
 		(unit 1)
@@ -11976,6 +12366,17 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 254 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Order No." "LED_YELLOW"
+			(at 254 92.71 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12793,7 +13194,8 @@
 	)
 	(symbol
 		(lib_id "symbols:B32-150-LF")
-		(at 58.42 46.99 0)
+		(at 63.5 80.01 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12803,7 +13205,7 @@
 		(dnp no)
 		(uuid "b23c71a9-2651-4b8b-a02a-52d115ec0f35")
 		(property "Reference" "GD1"
-			(at 53.34 45.7199 0)
+			(at 68.58 78.7399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12815,7 +13217,7 @@
 			)
 		)
 		(property "Value" "B32-150-LF"
-			(at 53.34 48.2599 0)
+			(at 68.58 81.2799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12827,7 +13229,7 @@
 			)
 		)
 		(property "Footprint" "footprints:B32_GDT_YAGEO"
-			(at 58.42 46.99 90)
+			(at 63.5 80.01 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12839,7 +13241,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 46.99 90)
+			(at 63.5 80.01 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12851,7 +13253,7 @@
 			)
 		)
 		(property "Description" "Gas Discharge Tubes - GDTs / Gas Plasma Arrestors 500A 150V 2Electrode PCB Mount"
-			(at 58.42 46.99 0)
+			(at 63.5 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12863,7 +13265,7 @@
 			)
 		)
 		(property "Order No." "B32-150-LF"
-			(at 58.42 46.99 0)
+			(at 63.5 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12875,7 +13277,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 58.42 46.99 0)
+			(at 63.5 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12887,7 +13289,7 @@
 			)
 		)
 		(property "Power" ""
-			(at 58.42 46.99 0)
+			(at 63.5 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12899,7 +13301,7 @@
 			)
 		)
 		(property "Unit Price 10" "42"
-			(at 58.42 46.99 0)
+			(at 63.5 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12911,7 +13313,7 @@
 			)
 		)
 		(property "Alternative" ""
-			(at 58.42 46.99 0)
+			(at 63.5 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12923,7 +13325,7 @@
 			)
 		)
 		(property "Allied Price/Stock" ""
-			(at 58.42 46.99 0)
+			(at 63.5 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12934,7 +13336,7 @@
 			)
 		)
 		(property "Allied_Number" ""
-			(at 58.42 46.99 0)
+			(at 63.5 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12945,7 +13347,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 58.42 46.99 0)
+			(at 63.5 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12956,7 +13358,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 58.42 46.99 0)
+			(at 63.5 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12967,7 +13369,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 58.42 46.99 0)
+			(at 63.5 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12978,7 +13380,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 58.42 46.99 0)
+			(at 63.5 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12989,7 +13391,7 @@
 			)
 		)
 		(property "Manufacturer_Name" ""
-			(at 58.42 46.99 0)
+			(at 63.5 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13000,7 +13402,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 58.42 46.99 0)
+			(at 63.5 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13011,7 +13413,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 58.42 46.99 0)
+			(at 63.5 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13022,7 +13424,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 58.42 46.99 0)
+			(at 63.5 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13033,7 +13435,7 @@
 			)
 		)
 		(property "Part/Order No." ""
-			(at 58.42 46.99 0)
+			(at 63.5 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13044,7 +13446,7 @@
 			)
 		)
 		(property "RS Part Number" ""
-			(at 58.42 46.99 0)
+			(at 63.5 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13055,7 +13457,7 @@
 			)
 		)
 		(property "RS Price/Stock" ""
-			(at 58.42 46.99 0)
+			(at 63.5 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13066,7 +13468,7 @@
 			)
 		)
 		(property "Unit Price for 10pcs" ""
-			(at 58.42 46.99 0)
+			(at 63.5 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13077,7 +13479,7 @@
 			)
 		)
 		(property "element14 Part Number" ""
-			(at 58.42 46.99 0)
+			(at 63.5 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13088,7 +13490,7 @@
 			)
 		)
 		(property "element14 Price/Stock" ""
-			(at 58.42 46.99 0)
+			(at 63.5 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13182,6 +13584,17 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 266.7 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Order No." "LED_GREEN"
+			(at 266.7 92.71 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13314,7 +13727,7 @@
 				)
 			)
 		)
-		(property "Order No." ""
+		(property "Order No." "0603/120mW"
 			(at 254 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -13566,6 +13979,89 @@
 		)
 	)
 	(symbol
+		(lib_id "power:Earth")
+		(at 63.5 91.44 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bcc8e9a1-11a9-41ec-b187-48309e0e1901")
+		(property "Reference" "#PWR063"
+			(at 63.5 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1588)
+				)
+			)
+		)
+		(property "Value" "Earth"
+			(at 63.5 96.52 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1588)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1588)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1588)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 63.5 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1588)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9a4c74d3-5a4f-471d-8cbb-950659f24fb5")
+		)
+		(instances
+			(project "cryonano-nano-stage"
+				(path "/549c6da5-71cb-4d9c-a0a2-c409a6f93509/22c14c16-f163-469c-baa5-6dbf682c19a1/ce8b6a7e-86c1-4ab6-8c3b-0c8c1a7aa86c"
+					(reference "#PWR063")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 266.7 83.82 0)
 		(mirror y)
@@ -13673,7 +14169,7 @@
 				)
 			)
 		)
-		(property "Order No." ""
+		(property "Order No." "0603/120mW"
 			(at 266.7 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -13946,7 +14442,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1x02 2.54mm"
+		(property "Value" "1x02, 2.54"
 			(at 229.87 46.9899 0)
 			(hide yes)
 			(show_name no)
@@ -14177,6 +14673,17 @@
 				)
 			)
 		)
+		(property "Order No." "N.A."
+			(at 228.6 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "121c462a-3200-4fdc-8fcc-c9144f0cc7c9")
 		)
@@ -14300,7 +14807,7 @@
 				)
 			)
 		)
-		(property "Order No." ""
+		(property "Order No." "0603/120mW"
 			(at 241.3 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -15270,6 +15777,99 @@
 		)
 	)
 	(symbol
+		(lib_id "symbols:DF2B36FU")
+		(at 129.54 73.66 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cea95922-cb86-448f-94bd-2630664d1e6a")
+		(property "Reference" "D8"
+			(at 125.73 79.2479 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DF2B36FU,H3XHF"
+			(at 121.92 87.376 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 129.54 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "ESD Protection Device, 60 V, SOD-323, 2 Pins, 28 V, 150 W"
+			(at 129.54 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Order No." "DF2B36FU,H3XHF(T"
+			(at 129.54 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "d19d865d-edd8-4f7d-a7d5-7aa97e7ae013")
+		)
+		(pin "1"
+			(uuid "feafabe4-7eab-4a65-bb8c-316416e40f33")
+		)
+		(instances
+			(project "cryonano-nano-stage"
+				(path "/549c6da5-71cb-4d9c-a0a2-c409a6f93509/22c14c16-f163-469c-baa5-6dbf682c19a1/ce8b6a7e-86c1-4ab6-8c3b-0c8c1a7aa86c"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "symbols:BxxxxS-2WR3")
 		(at 48.26 165.1 0)
 		(unit 1)
@@ -16086,7 +16686,7 @@
 				)
 			)
 		)
-		(property "Order No." ""
+		(property "Order No." "LR1F1M0"
 			(at 138.43 80.01 0)
 			(hide yes)
 			(show_name no)

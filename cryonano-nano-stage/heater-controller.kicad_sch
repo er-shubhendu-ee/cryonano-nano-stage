@@ -2123,7 +2123,7 @@
 				)
 			)
 		)
-		(property "Order No." ""
+		(property "Order No." "ESR03EZPJ100"
 			(at 134.62 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -4161,7 +4161,7 @@
 				)
 			)
 		)
-		(property "Order No." ""
+		(property "Order No." "0603/120mW"
 			(at 149.86 93.98 90)
 			(hide yes)
 			(show_name no)
@@ -4738,7 +4738,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Zener Diode 18V 1W SOD-123"
 			(at 160.02 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -4926,6 +4926,17 @@
 				)
 			)
 		)
+		(property "Order No." "18V, 1W, SOD-123 Zener "
+			(at 160.02 96.52 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "bae14a58-88e2-4143-8206-0420a33d9e2a")
 		)
@@ -5049,7 +5060,7 @@
 				)
 			)
 		)
-		(property "Order No." ""
+		(property "Order No." "ESR03EZPF6R20"
 			(at 134.62 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -5950,7 +5961,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22R"
+		(property "Value" "33R"
 			(at 104.14 93.98 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6034,7 +6045,7 @@
 				)
 			)
 		)
-		(property "Order No." ""
+		(property "Order No." "0603/120mW"
 			(at 99.06 96.52 0)
 			(hide yes)
 			(show_name no)

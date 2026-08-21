@@ -1271,6 +1271,267 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "symbols:RH100-12.000-18-2030-EXT-TR"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Y"
+				(at 3.175 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "25MHz"
+				(at 3.175 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
+				(at -3.048 -20.828 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Crystal, RH100 Series, 12 MHz, 20 ppm, 30 ppm, 18 pF"
+				(at 8.636 -9.906 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "quartz ceramic resonator oscillator"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Crystal*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "RH100-12.000-18-2030-EXT-TR_0_1"
+				(polyline
+					(pts
+						(xy -2.54 2.286) (xy -2.54 3.556) (xy 2.54 3.556) (xy 2.54 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -2.032 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -2.286) (xy -2.54 -3.556) (xy 2.54 -3.556) (xy 2.54 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -1.27) (xy -2.032 1.27)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.143 2.54)
+					(end 1.143 -2.54)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.81) (xy 0 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 -1.27) (xy 2.032 1.27)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "RH100-12.000-18-2030-EXT-TR_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 1.27)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 1.27)
+					(hide yes)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "symbols:STM32H753ZITx"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -5099,6 +5360,12 @@
 		(color 0 0 0 0)
 		(uuid "dccc1747-8a4a-4433-8680-4df27af8e3c4")
 	)
+	(junction
+		(at 279.4 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f7bceb1b-77df-4ba9-9a94-1a0459044a89")
+	)
 	(no_connect
 		(at 119.38 163.83)
 		(uuid "02762457-7fd4-4131-9b32-37b8160d2a3a")
@@ -5435,7 +5702,7 @@
 	)
 	(wire
 		(pts
-			(xy 279.4 124.46) (xy 279.4 137.16)
+			(xy 279.4 124.46) (xy 279.4 130.81)
 		)
 		(stroke
 			(width 0.1524)
@@ -5572,6 +5839,16 @@
 			(type default)
 		)
 		(uuid "287df62c-a05f-46de-8ec3-4d81629fced6")
+	)
+	(wire
+		(pts
+			(xy 259.08 130.81) (xy 279.4 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d283050-2772-43ac-9242-a92366efaa9c")
 	)
 	(wire
 		(pts
@@ -6182,6 +6459,16 @@
 			(type default)
 		)
 		(uuid "c243c3b0-b3ef-401e-8e19-1df9726b223a")
+	)
+	(wire
+		(pts
+			(xy 279.4 130.81) (xy 279.4 137.16)
+		)
+		(stroke
+			(width 0.1524)
+			(type default)
+		)
+		(uuid "c2e25f9c-01f8-420d-b219-493c8629c86a")
 	)
 	(wire
 		(pts
@@ -7080,7 +7367,7 @@
 				)
 			)
 		)
-		(property "Order No." ""
+		(property "Order No." "0603/120mW"
 			(at 243.84 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -7338,7 +7625,7 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board no)
+		(on_board yes)
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "17c1e070-1703-4acb-a02e-432e34764da4")
@@ -7354,7 +7641,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "12.0MHz"
+		(property "Value" "32.768kHz"
 			(at 258.572 170.434 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7390,7 +7677,7 @@
 				)
 			)
 		)
-		(property "Description" "Two pin crystal"
+		(property "Description" "Crystal, ECX-2236 Series, 12 MHz, 25 ppm, 30 ppm, 18 pF"
 			(at 254 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -7580,6 +7867,17 @@
 			)
 		)
 		(property "element14 Price/Stock" ""
+			(at 254 168.91 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Order No." "ST3215FB32768B0HPWH1"
 			(at 254 168.91 90)
 			(hide yes)
 			(show_name no)
@@ -8060,7 +8358,7 @@
 				)
 			)
 		)
-		(property "Order No." ""
+		(property "Order No." "0603/120mW"
 			(at 243.84 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -8318,7 +8616,7 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board no)
+		(on_board yes)
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "36e5de76-0057-4d3b-9158-84e3f9a1c1ed")
@@ -8334,7 +8632,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22pF"
+		(property "Value" "8p"
 			(at 276.86 158.75 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8370,7 +8668,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD Multilayer Ceramic Capacitor, 22 pF, 50 V, 0603 [1608 Metric], ± 5%, C0G / NP0"
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 8 pF, 50 V, 0603 [1608 Metric], ± 0.5pF, C0G / NP0"
 			(at 274.32 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -8382,7 +8680,7 @@
 				)
 			)
 		)
-		(property "Order No." "CC0603JPNPO9BN220"
+		(property "Order No." "CC0603DRNPO9BN8R0"
 			(at 274.32 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -8677,7 +8975,7 @@
 				)
 			)
 		)
-		(property "Unit Price 10" "2.3"
+		(property "Unit Price 10" "4"
 			(at 274.32 162.56 90)
 			(hide yes)
 			(show_name no)
@@ -8710,7 +9008,7 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board no)
+		(on_board yes)
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "4d151858-533c-40a0-817c-14a3e59f14c2")
@@ -8726,7 +9024,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22pF"
+		(property "Value" "33pF"
 			(at 276.86 120.65 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8762,7 +9060,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD Multilayer Ceramic Capacitor, 22 pF, 50 V, 0603 [1608 Metric], ± 5%, C0G / NP0"
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 33 pF, 50 V, 0603 [1608 Metric], ± 5%, C0G / NP0"
 			(at 274.32 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -8774,7 +9072,7 @@
 				)
 			)
 		)
-		(property "Order No." "CC0603JPNPO9BN220"
+		(property "Order No." ""
 			(at 274.32 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -9058,7 +9356,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" ""
 			(at 274.32 124.46 90)
 			(hide yes)
 			(show_name no)
@@ -9069,7 +9367,7 @@
 				)
 			)
 		)
-		(property "Unit Price 10" "2.3"
+		(property "Unit Price 10" ""
 			(at 274.32 124.46 90)
 			(hide yes)
 			(show_name no)
@@ -9203,7 +9501,7 @@
 				)
 			)
 		)
-		(property "Order No." ""
+		(property "Order No." "0603/120mW"
 			(at 269.24 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -9455,280 +9753,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Crystal")
-		(at 254 130.81 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(in_pos_files yes)
-		(dnp yes)
-		(uuid "8b402f16-10e1-4f62-99b1-feb400120eed")
-		(property "Reference" "Y4"
-			(at 258.572 129.54 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.1588)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "12.0MHz"
-			(at 258.572 132.334 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.1588)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Crystal:Crystal_SMD_3215-2Pin_3.2x1.5mm"
-			(at 254 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.1588)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 254 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.1588)
-				)
-			)
-		)
-		(property "Description" "Two pin crystal"
-			(at 254 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.1588)
-				)
-			)
-		)
-		(property "Alternative" ""
-			(at 254 130.81 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.1588)
-				)
-			)
-		)
-		(property "Allied Price/Stock" ""
-			(at 254 130.81 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Allied_Number" ""
-			(at 254 130.81 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 254 130.81 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 254 130.81 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 254 130.81 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 254 130.81 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Name" ""
-			(at 254 130.81 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at 254 130.81 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 254 130.81 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 254 130.81 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part/Order No." ""
-			(at 254 130.81 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "RS Part Number" ""
-			(at 254 130.81 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "RS Price/Stock" ""
-			(at 254 130.81 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Unit Price for 10pcs" ""
-			(at 254 130.81 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "element14 Part Number" ""
-			(at 254 130.81 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "element14 Price/Stock" ""
-			(at 254 130.81 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b0fbdfc6-3dfe-4d9b-8121-554cfe7aea91")
-		)
-		(pin "2"
-			(uuid "a33f5702-f83b-434e-a15b-466f4caf8bca")
-		)
-		(instances
-			(project "cryonano-nano-stage"
-				(path "/549c6da5-71cb-4d9c-a0a2-c409a6f93509/22c14c16-f163-469c-baa5-6dbf682c19a1/651901e2-1d76-481c-abba-20c0f52fdf5b/9cbff62a-877b-4b7f-962c-9c8b5590e49c"
-					(reference "Y4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "symbols:ESDB3V3C-AQ")
 		(at 236.22 29.21 0)
 		(unit 1)
@@ -9783,7 +9807,18 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "ESD Protection Device, 26 V, TO-236 (SOT-23), 3 Pins, 3.3 V, 350 W"
+			(at 236.22 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Order No." "ESDB3V3C-AQ"
 			(at 236.22 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -9869,6 +9904,17 @@
 		)
 		(property "Description" "STMicroelectronics Arm Cortex-M7 MCU, 2048KB flash, 1024KB RAM, 480 MHz, 1.62-3.6V, 114 GPIO, LQFP144"
 			(at 121.412 129.032 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Order No." "STM32H753ZITx"
+			(at 119.38 16.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10901,6 +10947,17 @@
 				)
 			)
 		)
+		(property "Order No." "6mm, 4pin"
+			(at 269.24 76.2 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6d66616f-2df4-41c3-815b-e1f6f6034ff9")
 		)
@@ -11024,7 +11081,7 @@
 				)
 			)
 		)
-		(property "Order No." ""
+		(property "Order No." "0603/120mW"
 			(at 269.24 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -11523,6 +11580,17 @@
 				)
 			)
 		)
+		(property "Order No." "6mm, 4pin"
+			(at 271.78 33.02 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "db84489a-3e42-481f-9388-6d68b2d4baaf")
 		)
@@ -11595,6 +11663,17 @@
 		)
 		(property "Description" "STMicroelectronics Arm Cortex-M7 MCU, 2048KB flash, 1024KB RAM, 480 MHz, 1.62-3.6V, 114 GPIO, LQFP144"
 			(at 121.412 220.472 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Order No." "STM32H753ZITx"
+			(at 119.38 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12068,7 +12147,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TEST POINT"
+		(property "Value" "1x01, 2.54"
 			(at 87.63 28.4479 0)
 			(hide yes)
 			(show_name no)
@@ -12177,7 +12256,7 @@
 				)
 			)
 		)
-		(property "Order No." ""
+		(property "Order No." "N.A."
 			(at 85.09 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -12530,7 +12609,7 @@
 				)
 			)
 		)
-		(property "Order No." ""
+		(property "Order No." "0603/120mW"
 			(at 92.71 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -12788,7 +12867,7 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board no)
+		(on_board yes)
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "df2512d4-b0b4-498b-900e-f43d2ec6e214")
@@ -12804,7 +12883,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22pF"
+		(property "Value" "33pF"
 			(at 276.86 133.35 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12840,7 +12919,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD Multilayer Ceramic Capacitor, 22 pF, 50 V, 0603 [1608 Metric], ± 5%, C0G / NP0"
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 33 pF, 50 V, 0603 [1608 Metric], ± 5%, C0G / NP0"
 			(at 274.32 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -12852,7 +12931,7 @@
 				)
 			)
 		)
-		(property "Order No." "CC0603JPNPO9BN220"
+		(property "Order No." ""
 			(at 274.32 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -13136,7 +13215,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" ""
 			(at 274.32 137.16 90)
 			(hide yes)
 			(show_name no)
@@ -13147,7 +13226,7 @@
 				)
 			)
 		)
-		(property "Unit Price 10" "2.3"
+		(property "Unit Price 10" ""
 			(at 274.32 137.16 90)
 			(hide yes)
 			(show_name no)
@@ -13180,7 +13259,7 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board no)
+		(on_board yes)
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "e03588d4-70bd-4f8c-862c-ddd0ea9c5f2f")
@@ -13196,7 +13275,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22pF"
+		(property "Value" "8p"
 			(at 276.86 171.45 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13232,7 +13311,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD Multilayer Ceramic Capacitor, 22 pF, 50 V, 0603 [1608 Metric], ± 5%, C0G / NP0"
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 8 pF, 50 V, 0603 [1608 Metric], ± 0.5pF, C0G / NP0"
 			(at 274.32 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -13244,7 +13323,7 @@
 				)
 			)
 		)
-		(property "Order No." "CC0603JPNPO9BN220"
+		(property "Order No." "CC0603DRNPO9BN8R0"
 			(at 274.32 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -13539,7 +13618,7 @@
 				)
 			)
 		)
-		(property "Unit Price 10" "2.3"
+		(property "Unit Price 10" "4"
 			(at 274.32 175.26 90)
 			(hide yes)
 			(show_name no)
@@ -13587,7 +13666,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1x02 2.54mm"
+		(property "Value" "1x02, 2.54"
 			(at 185.42 34.2899 0)
 			(hide yes)
 			(show_name no)
@@ -13818,6 +13897,17 @@
 				)
 			)
 		)
+		(property "Order No." "N.A."
+			(at 184.15 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "72e0feb0-d8aa-4f79-9a69-a1e82b8ddcc9")
 		)
@@ -13828,6 +13918,105 @@
 			(project "cryonano-nano-stage"
 				(path "/549c6da5-71cb-4d9c-a0a2-c409a6f93509/22c14c16-f163-469c-baa5-6dbf682c19a1/651901e2-1d76-481c-abba-20c0f52fdf5b/9cbff62a-877b-4b7f-962c-9c8b5590e49c"
 					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "symbols:RH100-12.000-18-2030-EXT-TR")
+		(at 254 130.81 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fed4bd25-856d-45d9-b26d-5f7d605d059e")
+		(property "Reference" "Y1"
+			(at 248.92 129.5399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "12MHz"
+			(at 248.92 132.0799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Crystal:Crystal_SMD_2520-4Pin_2.5x2.0mm"
+			(at 274.828 133.858 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 254 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Crystal, RH100 Series, 12 MHz, 20 ppm, 30 ppm, 18 pF"
+			(at 263.906 122.174 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Order No." "ECS-120-18-36-AGM-TR"
+			(at 254 130.81 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "d69bab89-4ed5-4b37-ae7f-c44fdca95c87")
+		)
+		(pin "4"
+			(uuid "63d6da38-4d84-4560-935d-824d3169a1a8")
+		)
+		(pin "1"
+			(uuid "ff77c965-2d12-4527-99e0-18a5d75fb221")
+		)
+		(pin "2"
+			(uuid "8dc59f14-8583-491d-87bd-86fa1d4e73c7")
+		)
+		(instances
+			(project "cryonano-nano-stage"
+				(path "/549c6da5-71cb-4d9c-a0a2-c409a6f93509/22c14c16-f163-469c-baa5-6dbf682c19a1/651901e2-1d76-481c-abba-20c0f52fdf5b/9cbff62a-877b-4b7f-962c-9c8b5590e49c"
+					(reference "Y1")
 					(unit 1)
 				)
 			)

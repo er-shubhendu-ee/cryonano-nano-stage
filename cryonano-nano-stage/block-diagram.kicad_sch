@@ -2115,6 +2115,17 @@
 				)
 			)
 		)
+		(property "Order No." "N.A."
+			(at 48.26 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "cryonano-nano-stage"
 				(path "/549c6da5-71cb-4d9c-a0a2-c409a6f93509/22c14c16-f163-469c-baa5-6dbf682c19a1"
@@ -2446,6 +2457,17 @@
 			)
 		)
 		(property "element14 Price/Stock" ""
+			(at 25.4 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Order No." "N.A."
 			(at 25.4 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -2797,6 +2819,17 @@
 				)
 			)
 		)
+		(property "Order No." "N.A."
+			(at 48.26 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "cryonano-nano-stage"
 				(path "/549c6da5-71cb-4d9c-a0a2-c409a6f93509/22c14c16-f163-469c-baa5-6dbf682c19a1"
@@ -3138,6 +3171,17 @@
 				)
 			)
 		)
+		(property "Order No." "N.A."
+			(at 25.4 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "cryonano-nano-stage"
 				(path "/549c6da5-71cb-4d9c-a0a2-c409a6f93509/22c14c16-f163-469c-baa5-6dbf682c19a1"
@@ -3255,7 +3299,7 @@
 				)
 			)
 		)
-		(property "Order No." ""
+		(property "Order No." "0805/250mW"
 			(at 220.98 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -3613,7 +3657,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "24VDC IN"
+		(property "Value" "JST-B3B-XH-AM"
 			(at 27.178 91.186 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3842,6 +3886,17 @@
 			)
 		)
 		(property "element14 Price/Stock" ""
+			(at 30.48 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Order No." "JST-B3B-XH-AM"
 			(at 30.48 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -4123,6 +4178,17 @@
 			)
 		)
 		(property "element14 Price/Stock" ""
+			(at 185.42 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Order No." "JST-B3B-XH-AM"
 			(at 185.42 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -4483,6 +4549,17 @@
 				)
 			)
 		)
+		(property "Order No." "N.A."
+			(at 48.26 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "cryonano-nano-stage"
 				(path "/549c6da5-71cb-4d9c-a0a2-c409a6f93509/22c14c16-f163-469c-baa5-6dbf682c19a1"
@@ -4600,7 +4677,7 @@
 				)
 			)
 		)
-		(property "Order No." ""
+		(property "Order No." "0805/250mW"
 			(at 220.98 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -5183,6 +5260,17 @@
 				)
 			)
 		)
+		(property "Order No." "N.A."
+			(at 25.4 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "cryonano-nano-stage"
 				(path "/549c6da5-71cb-4d9c-a0a2-c409a6f93509/22c14c16-f163-469c-baa5-6dbf682c19a1"
@@ -5445,6 +5533,17 @@
 			)
 		)
 		(property "element14 Price/Stock" ""
+			(at 257.81 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Order No." "JST-B2B-XH-AM"
 			(at 257.81 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -5723,6 +5822,17 @@
 			)
 		)
 		(property "element14 Price/Stock" ""
+			(at 257.81 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Order No." "JST-B2B-XH-AM"
 			(at 257.81 93.98 0)
 			(hide yes)
 			(show_name no)

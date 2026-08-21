@@ -1165,7 +1165,7 @@
 				)
 			)
 		)
-		(property "Order No." ""
+		(property "Order No." "0805/250mW"
 			(at 101.6 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -1524,7 +1524,7 @@
 				)
 			)
 		)
-		(property "Order No." ""
+		(property "Order No." "0805/250mW"
 			(at 210.82 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -1883,7 +1883,7 @@
 				)
 			)
 		)
-		(property "Order No." ""
+		(property "Order No." "0805/250mW"
 			(at 172.72 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -2242,7 +2242,7 @@
 				)
 			)
 		)
-		(property "Order No." ""
+		(property "Order No." "0805/250mW"
 			(at 101.6 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -2601,7 +2601,7 @@
 				)
 			)
 		)
-		(property "Order No." ""
+		(property "Order No." "0805/250mW"
 			(at 210.82 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -2960,7 +2960,7 @@
 				)
 			)
 		)
-		(property "Order No." ""
+		(property "Order No." "0805/250mW"
 			(at 101.6 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -3319,7 +3319,7 @@
 				)
 			)
 		)
-		(property "Order No." ""
+		(property "Order No." "0805/250mW"
 			(at 198.12 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -3678,7 +3678,7 @@
 				)
 			)
 		)
-		(property "Order No." ""
+		(property "Order No." "0805/250mW"
 			(at 198.12 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -4037,7 +4037,7 @@
 				)
 			)
 		)
-		(property "Order No." ""
+		(property "Order No." "0805/250mW"
 			(at 172.72 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -4396,7 +4396,7 @@
 				)
 			)
 		)
-		(property "Order No." ""
+		(property "Order No." "0805/250mW"
 			(at 88.9 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -4755,7 +4755,7 @@
 				)
 			)
 		)
-		(property "Order No." ""
+		(property "Order No." "0805/250mW"
 			(at 76.2 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -5114,7 +5114,7 @@
 				)
 			)
 		)
-		(property "Order No." ""
+		(property "Order No." "0805/250mW"
 			(at 76.2 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -5473,7 +5473,7 @@
 				)
 			)
 		)
-		(property "Order No." ""
+		(property "Order No." "0805/250mW"
 			(at 198.12 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -5832,7 +5832,7 @@
 				)
 			)
 		)
-		(property "Order No." ""
+		(property "Order No." "0805/250mW"
 			(at 185.42 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -6191,7 +6191,7 @@
 				)
 			)
 		)
-		(property "Order No." ""
+		(property "Order No." "0805/250mW"
 			(at 114.3 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -6550,7 +6550,7 @@
 				)
 			)
 		)
-		(property "Order No." ""
+		(property "Order No." "0805/250mW"
 			(at 114.3 96.52 0)
 			(hide yes)
 			(show_name no)

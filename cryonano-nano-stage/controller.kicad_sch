@@ -2384,6 +2384,17 @@
 				)
 			)
 		)
+		(property "Order No." "2x07, 2.54mm pitch"
+			(at 251.46 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "a50d4b57-d12c-4ffa-93c9-3b8a9322e7f3")
 		)
@@ -3294,7 +3305,7 @@
 				)
 			)
 		)
-		(property "Order No." ""
+		(property "Order No." "0603/120mW"
 			(at 231.14 147.32 0)
 			(hide yes)
 			(show_name no)

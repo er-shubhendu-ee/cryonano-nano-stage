@@ -11375,6 +11375,17 @@
 				)
 			)
 		)
+		(property "Order No." "STM32H753ZITx"
+			(at 208.28 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "106"
 			(uuid "f5722747-086f-4160-bea5-1ffebc750193")
 		)
