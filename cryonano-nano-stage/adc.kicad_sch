@@ -1639,6 +1639,12 @@
 		(uuid "53842c10-1c22-48ec-99f2-a65d4f6558d8")
 	)
 	(junction
+		(at 142.24 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5bfaca90-4d37-4487-a485-acd89e96a3e5")
+	)
+	(junction
 		(at 27.94 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1944,6 +1950,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 50.8) (xy 137.16 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "281b5272-c1e0-4272-896b-1bc9299c9c08")
+	)
+	(wire
+		(pts
 			(xy 195.58 106.68) (xy 195.58 109.22)
 		)
 		(stroke
@@ -2154,7 +2170,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 60.96) (xy 137.16 63.5)
+			(xy 137.16 50.8) (xy 137.16 63.5)
 		)
 		(stroke
 			(width 0)
@@ -2364,13 +2380,23 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 60.96) (xy 137.16 60.96)
+			(xy 144.78 50.8) (xy 142.24 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "8eecd075-dd44-4a76-87cd-15f96b205b0c")
+	)
+	(wire
+		(pts
+			(xy 142.24 58.42) (xy 142.24 60.96)
+		)
+		(stroke
+			(width 0.1524)
+			(type default)
+		)
+		(uuid "97a550f5-2d93-4378-a54c-c768a01407c3")
 	)
 	(wire
 		(pts
@@ -2421,6 +2447,16 @@
 			(type default)
 		)
 		(uuid "a21e1ccb-e216-436b-8cc3-28859c79f98e")
+	)
+	(wire
+		(pts
+			(xy 142.24 50.8) (xy 142.24 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2521e22-272c-4e05-87a8-a5aa2216fbab")
 	)
 	(wire
 		(pts
@@ -3198,7 +3234,7 @@
 	)
 	(hierarchical_label "REFVOUT"
 		(shape output)
-		(at 139.7 60.96 0)
+		(at 144.78 50.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4129,7 +4165,7 @@
 		(dnp no)
 		(uuid "2f150935-6909-4457-ba9a-2e68e55e996e")
 		(property "Reference" "U1"
-			(at 143.764 68.58 0)
+			(at 149.86 70.104 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4140,7 +4176,7 @@
 			)
 		)
 		(property "Value" "AD7124-8BCPZ-RL7"
-			(at 152.4 71.882 0)
+			(at 158.496 73.406 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8318,6 +8354,177 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 142.24 55.88 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "c4b6bad2-7b29-40c1-b372-1f906b8a2769")
+		(property "Reference" "C60"
+			(at 144.78 54.6162 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1588)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 144.78 57.1562 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1588)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 142.24 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1588)
+				)
+			)
+		)
+		(property "Datasheet" "https://yageogroup.com/component-documentation/download/specsheet/C0603C104K5RAC7411?lang=en"
+			(at 142.24 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1588)
+				)
+			)
+		)
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.1 µF, 50 V, 0603 [1608 Metric], ± 10%, X7R"
+			(at 142.24 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1588)
+				)
+			)
+		)
+		(property "Order No." "C0603C104K5RAC7411"
+			(at 142.24 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1588)
+				)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 142.24 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1588)
+				)
+			)
+		)
+		(property "Voltage" "16V"
+			(at 142.24 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1588)
+				)
+			)
+		)
+		(property "Power" ""
+			(at 142.24 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1588)
+				)
+			)
+		)
+		(property "Unit Price 10" "2.5"
+			(at 142.24 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1588)
+				)
+			)
+		)
+		(property "Alternative" ""
+			(at 142.24 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1588)
+				)
+			)
+		)
+		(property "Tolerence" ""
+			(at 142.24 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1588)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "d98b52d5-8326-427c-be3d-9fbbe118d1cc")
+		)
+		(pin "1"
+			(uuid "be253b80-c1e9-44c0-9930-8812c94aa95e")
+		)
+		(instances
+			(project "cryonano-nano-stage"
+				(path "/549c6da5-71cb-4d9c-a0a2-c409a6f93509/22c14c16-f163-469c-baa5-6dbf682c19a1/69ff8e57-2606-493d-bb3e-6a249d3401ec"
+					(reference "C60")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 185.42 124.46 90)
 		(mirror x)
@@ -8671,6 +8878,89 @@
 			(project "cryonano-nano-stage"
 				(path "/549c6da5-71cb-4d9c-a0a2-c409a6f93509/22c14c16-f163-469c-baa5-6dbf682c19a1/69ff8e57-2606-493d-bb3e-6a249d3401ec"
 					(reference "R84")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 142.24 60.96 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cc504ed5-d8a8-4c21-9506-d79610ca091a")
+		(property "Reference" "#PWR027"
+			(at 142.24 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1588)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 142.24 66.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1588)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 142.24 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1588)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1588)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 142.24 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1588)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4a5208d9-30ad-419c-a54e-274d8bf5657c")
+		)
+		(instances
+			(project "cryonano-nano-stage"
+				(path "/549c6da5-71cb-4d9c-a0a2-c409a6f93509/22c14c16-f163-469c-baa5-6dbf682c19a1/69ff8e57-2606-493d-bb3e-6a249d3401ec"
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)

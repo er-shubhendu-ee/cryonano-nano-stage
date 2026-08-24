@@ -3892,18 +3892,6 @@
 		(uuid "877c64cc-00d6-49bd-984e-885d86fbd71a")
 	)
 	(rectangle
-		(start 35.56 68.58)
-		(end 105.41 104.14)
-		(stroke
-			(width 0.1524)
-			(type dash)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "8dd33e92-5dac-4701-90bd-a4c2036f09d8")
-	)
-	(rectangle
 		(start 167.64 25.4)
 		(end 213.36 66.04)
 		(stroke
@@ -3916,7 +3904,7 @@
 		(uuid "ae11111e-a356-4d75-9483-4d3355b1bde6")
 	)
 	(rectangle
-		(start 119.38 68.58)
+		(start 33.02 68.58)
 		(end 157.48 104.14)
 		(stroke
 			(width 0.1524)
@@ -3953,7 +3941,7 @@
 	)
 	(text "ESD Protection"
 		(exclude_from_sim no)
-		(at 134.366 100.838 0)
+		(at 103.886 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
