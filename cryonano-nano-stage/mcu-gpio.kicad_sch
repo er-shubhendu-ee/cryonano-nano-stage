@@ -9857,10 +9857,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "94448588-1386-48b1-a11f-5db6063b5b5e")
 		(property "Reference" "U7"
-			(at 144.78 8.89 0)
+			(at 144.78 54.864 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9870,7 +9869,7 @@
 			)
 		)
 		(property "Value" "STM32H753ZITx"
-			(at 144.78 11.43 0)
+			(at 144.78 57.404 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11616,10 +11615,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c8521fee-9e7d-4deb-8da4-0f1b30ac0c0d")
 		(property "Reference" "U7"
-			(at 144.78 100.33 0)
+			(at 144.78 146.304 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11629,7 +11627,7 @@
 			)
 		)
 		(property "Value" "STM32H753ZITx"
-			(at 144.78 102.87 0)
+			(at 144.78 148.844 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

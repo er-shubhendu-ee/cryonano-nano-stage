@@ -1000,6 +1000,10 @@
 		(at 266.7 134.62)
 		(uuid "9d2872ba-fd08-4a71-a1ab-995fa3c057e4")
 	)
+	(no_connect
+		(at 177.8 123.19)
+		(uuid "e68559e9-ae6b-4da6-a950-071f855b4a6b")
+	)
 	(wire
 		(pts
 			(xy 218.44 127) (xy 233.68 127)
@@ -1289,16 +1293,6 @@
 			(type default)
 		)
 		(uuid "80429c8f-a824-46ff-a081-979be6fe5ccf")
-	)
-	(wire
-		(pts
-			(xy 177.8 123.19) (xy 180.34 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "834acbd3-1c69-4733-ab25-610999461e3f")
 	)
 	(wire
 		(pts
@@ -1765,18 +1759,6 @@
 			(justify left bottom)
 		)
 		(uuid "ecbb0bdd-45ad-416b-8be4-c3e4ca01e070")
-	)
-	(hierarchical_label "ID"
-		(shape input)
-		(at 180.34 123.19 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.1588)
-			)
-			(justify left)
-		)
-		(uuid "072926dc-dbfd-485a-ae07-1da220042a96")
 	)
 	(hierarchical_label "DM"
 		(shape bidirectional)

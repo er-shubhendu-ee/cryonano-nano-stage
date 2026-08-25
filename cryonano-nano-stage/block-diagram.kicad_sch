@@ -1399,16 +1399,6 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 104.14) (xy 83.82 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a97cf242-dd51-4648-b736-c60c96970753")
-	)
-	(wire
-		(pts
 			(xy 53.34 104.14) (xy 53.34 114.3)
 		)
 		(stroke
@@ -6587,16 +6577,6 @@
 				(justify right)
 			)
 		)
-		(pin "ID" input
-			(at 83.82 114.3 90)
-			(uuid "e79bb859-af0a-427c-b900-958a1ccbe5fd")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "VBUS_SENSE" output
 			(at 86.36 114.3 90)
 			(uuid "a0363746-7bbf-4804-90d8-f8b8e9a3a47a")
@@ -7074,16 +7054,6 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.1588)
-				)
-				(justify left)
-			)
-		)
-		(pin "ID" input
-			(at 83.82 104.14 270)
-			(uuid "48f6696a-4566-4064-9781-09dfff4445dc")
-			(effects
-				(font
-					(size 1.27 1.27)
 				)
 				(justify left)
 			)
