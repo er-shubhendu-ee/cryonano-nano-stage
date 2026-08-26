@@ -6902,6 +6902,16 @@
 		)
 		(uuid "e2ab4b80-506d-4e08-8e1f-9e489e4c56ae")
 	)
+	(label "SCL"
+		(at 173.99 31.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e91e2330-a7bc-4943-a034-780aa0dd0c7b")
+	)
 	(label "RCC_OSC_IN"
 		(at 184.15 95.25 180)
 		(effects
@@ -6911,6 +6921,16 @@
 			(justify right bottom)
 		)
 		(uuid "f1abda17-1b8a-408e-8c62-168897031fcd")
+	)
+	(label "SDA"
+		(at 173.99 34.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f9194c74-6706-4d75-96bc-ef7215fa1d60")
 	)
 	(hierarchical_label "SWDIO"
 		(shape output)
