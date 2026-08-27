@@ -64,7 +64,7 @@
 # ==========================================================
 
 (rule "FANOUT: BGA Signal"
-	(condition "(A.enclosedByArea('BGA_AREA') || B.enclosedByArea('BGA_AREA')) && (A.NetClass != 'Power_LV' && B.NetClass != 'Power_LV') && !(A.inDiffPair('*') || B.inDiffPair('*')) && !((A.hasNetclass('*_CONTROLLED_IMPEDANCE')) || (B.hasNetclass('*_CONTROLLED_IMPEDANCE')))")
+	(condition "(A.enclosedByArea('BGA_AREA') || B.enclosedByArea('BGA_AREA')) && (A.NetClass != '*Power*' && B.NetClass != '*Power*') && !(A.inDiffPair('*') || B.inDiffPair('*')) && !((A.hasNetclass('*_CONTROLLED_IMPEDANCE')) || (B.hasNetclass('*_CONTROLLED_IMPEDANCE')))")
 	(constraint via_diameter (min 0.7mm) (opt 0.7mm) (max 0.7mm))
 	(constraint hole_size (min 0.35mm) (opt 0.35mm) (max 0.35mm)) 
 	(constraint track_width (min 0.16mm) (opt 0.16mm))
@@ -73,7 +73,7 @@
 
 # 50 Ohm single
 (rule "FANOUT: BGA 50 OHM SINGLE"
-	(condition "(A.enclosedByArea('BGA_AREA') || B.enclosedByArea('BGA_AREA')) && (A.NetClass != 'Power_LV' && B.NetClass != 'Power_LV') && (A.hasNetclass('50_OHM_SINGLE_CONTROLLED_IMPEDANCE') || B.hasNetclass('50_OHM_SINGLE_CONTROLLED_IMPEDANCE'))")
+	(condition "(A.enclosedByArea('BGA_AREA') || B.enclosedByArea('BGA_AREA')) && (A.NetClass != '*Power*' && B.NetClass != '*Power*') && (A.hasNetclass('50_OHM_SINGLE_CONTROLLED_IMPEDANCE') || B.hasNetclass('50_OHM_SINGLE_CONTROLLED_IMPEDANCE'))")
 	(constraint via_diameter (min 0.7mm) (opt 0.7mm) (max 0.7mm))
 	(constraint hole_size (min 0.35mm) (opt 0.35mm) (max 0.35mm))
 	(constraint track_width (min 0.16mm) (opt 0.215mm))
@@ -82,7 +82,7 @@
 
 # 90 Ohm differential
 (rule "FANOUT: BGA 90 OHM DIFF"
-	(condition "(A.enclosedByArea('BGA_AREA') || B.enclosedByArea('BGA_AREA')) && (A.NetClass != 'Power_LV' && B.NetClass != 'Power_LV') && (A.inDiffPair('*') || B.inDiffPair('*')) && (A.hasNetclass('90_OHM_DIFFERENTIAL_CONTROLLED_IMPEDANCE') || B.hasNetclass('90_OHM_DIFFERENTIAL_CONTROLLED_IMPEDANCE'))")
+	(condition "(A.enclosedByArea('BGA_AREA') || B.enclosedByArea('BGA_AREA')) && (A.NetClass != '*Power*' && B.NetClass != '*Power*') && (A.inDiffPair('*') || B.inDiffPair('*')) && (A.hasNetclass('90_OHM_DIFFERENTIAL_CONTROLLED_IMPEDANCE') || B.hasNetclass('90_OHM_DIFFERENTIAL_CONTROLLED_IMPEDANCE'))")
 	(constraint via_diameter (min 0.7mm) (opt 0.7mm) (max 0.7mm))
 	(constraint hole_size (min 0.35mm) (opt 0.35mm) (max 0.35mm))
 	(constraint track_width (min 0.16mm) (opt 0.16mm))
@@ -91,7 +91,7 @@
 
 # 100 Ohm differential
 (rule "FANOUT: BGA 100 OHM DIFF"
-	(condition "(A.enclosedByArea('BGA_AREA') || B.enclosedByArea('BGA_AREA')) && (A.NetClass != 'Power_LV' && B.NetClass != 'Power_LV') && (A.inDiffPair('*') || B.inDiffPair('*')) && (A.hasNetclass('100_OHM_DIFFERENTIAL_CONTROLLED_IMPEDANCE') || B.hasNetclass('100_OHM_DIFFERENTIAL_CONTROLLED_IMPEDANCE'))")
+	(condition "(A.enclosedByArea('BGA_AREA') || B.enclosedByArea('BGA_AREA')) && (A.NetClass != '*Power*' && B.NetClass != '*Power*') && (A.inDiffPair('*') || B.inDiffPair('*')) && (A.hasNetclass('100_OHM_DIFFERENTIAL_CONTROLLED_IMPEDANCE') || B.hasNetclass('100_OHM_DIFFERENTIAL_CONTROLLED_IMPEDANCE'))")
 	(constraint via_diameter (min 0.7mm) (opt 0.7mm) (max 0.7mm))
 	(constraint hole_size (min 0.35mm) (opt 0.35mm) (max 0.35mm))
 	(constraint track_width (min 0.185mm) (opt 0.185mm))
@@ -99,7 +99,7 @@
 )
 
 (rule "FANOUT: BGA Power"
-	(condition "(A.enclosedByArea('BGA_AREA') || B.enclosedByArea('BGA_AREA')) && (A.NetClass == 'Power_LV' || B.NetClass == 'Power_LV')")
+	(condition "(A.enclosedByArea('BGA_AREA') || B.enclosedByArea('BGA_AREA')) && (A.NetClass == '*Power*' || B.NetClass == '*Power*')")
 	(constraint via_diameter (min 0.7mm) (opt 0.7mm) (max 0.7mm))
 	(constraint hole_size (min 0.35mm) (opt 0.35mm) (max 0.35mm))
 	(constraint track_width (min 0.2mm) (opt 0.25mm))

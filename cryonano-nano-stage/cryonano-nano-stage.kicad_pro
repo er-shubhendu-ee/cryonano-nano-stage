@@ -594,6 +594,22 @@
       },
       {
         "bus_width": 12,
+        "clearance": 0.3,
+        "diff_pair_gap": 0.16,
+        "diff_pair_width": 0.16,
+        "line_style": 0,
+        "name": "ADC_SIGNAL_POWER",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 3,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "tuning_profile": "",
+        "via_diameter": 0.7,
+        "via_drill": 0.35,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
         "clearance": 0.35,
         "diff_pair_gap": 0.16,
         "diff_pair_width": 0.16,
@@ -621,22 +637,6 @@
         "track_width": 0.6,
         "tuning_profile": "",
         "via_diameter": 0.75,
-        "via_drill": 0.4,
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.3,
-        "diff_pair_gap": 0.16,
-        "diff_pair_width": 0.16,
-        "line_style": 0,
-        "name": "REFERENCE",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.4,
-        "tuning_profile": "",
-        "via_diameter": 0.7,
         "via_drill": 0.4,
         "wire_width": 6
       },
@@ -789,6 +789,34 @@
       {
         "netclass": "50_OHM_SINGLE_CONTROLLED_IMPEDANCE",
         "pattern": "*RMII_*"
+      },
+      {
+        "netclass": "POWER_LV",
+        "pattern": "/Block Diagram/Heater Drive/G_SRC"
+      },
+      {
+        "netclass": "POWER_LV",
+        "pattern": "/Block Diagram/Heater Drive/G_SINK"
+      },
+      {
+        "netclass": "POWER_LV",
+        "pattern": "/Block Diagram/PSW_G"
+      },
+      {
+        "netclass": "POWER_LV",
+        "pattern": "/Block Diagram/PSW_S"
+      },
+      {
+        "netclass": "POWER_LV",
+        "pattern": "/Block Diagram/Heater Drive/DRV_VDD"
+      },
+      {
+        "netclass": "ADC_SIGNAL_POWER",
+        "pattern": "*REG*"
+      },
+      {
+        "netclass": "ADC_SIGNAL_POWER",
+        "pattern": "*ADC/*REF*"
       }
     ]
   },
@@ -852,7 +880,7 @@
           "group_by": false,
           "label": "Unit Price 10",
           "name": "Unit Price 10",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
@@ -906,25 +934,25 @@
           "group_by": false,
           "label": "Alternative",
           "name": "Alternative",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "Current",
           "name": "Current",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "Material",
           "name": "Material",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "Power",
           "name": "Power",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -940,15 +968,15 @@
         },
         {
           "group_by": false,
-          "label": "Source",
-          "name": "Source",
-          "show": false
+          "label": "Comment",
+          "name": "Comment",
+          "show": true
         },
         {
           "group_by": false,
           "label": "Tolerence",
           "name": "Tolerence",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -958,92 +986,8 @@
         },
         {
           "group_by": false,
-          "label": "Arrow Part Number",
-          "name": "Arrow Part Number",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Part/Order No.",
-          "name": "Part/Order No.",
-          "show": false
-        },
-        {
-          "group_by": false,
           "label": "Height",
           "name": "Height",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "RS Part Number",
-          "name": "RS Part Number",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "RS Price/Stock",
-          "name": "RS Price/Stock",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "element14 Part Number",
-          "name": "element14 Part Number",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Manufacturer_Name",
-          "name": "Manufacturer_Name",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Manufacturer_Part_Number",
-          "name": "Manufacturer_Part_Number",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "element14 Price/Stock",
-          "name": "element14 Price/Stock",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Arrow Price/Stock",
-          "name": "Arrow Price/Stock",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Mouser Part Number",
-          "name": "Mouser Part Number",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Mouser Price/Stock",
-          "name": "Mouser Price/Stock",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Allied Price/Stock",
-          "name": "Allied Price/Stock",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Allied_Number",
-          "name": "Allied_Number",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Unit Price for 10pcs",
-          "name": "Unit Price for 10pcs",
           "show": false
         },
         {
@@ -1056,12 +1000,6 @@
           "group_by": false,
           "label": "KLC_S4.1",
           "name": "KLC_S4.1",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Comment",
-          "name": "Comment",
           "show": false
         }
       ],
@@ -1113,7 +1051,7 @@
         "uuid": "549c6da5-71cb-4d9c-a0a2-c409a6f93509"
       }
     ],
-    "used_designators": "PS1-4,IC1-2,J1-9,U1-12,D1-12,#PWR1-27,#PWR29,#PWR32,#PWR44-45,#PWR47,#PWR61-63,#PWR242,C1-69,MOV1,F1-2,FL2,GD1-2,GDT1,Q1-2,R1-2,R5-9,R11,R26-101,TP1-5,Z1-2,FB1-9,LED3,SW1-2,Y1-4,H1-6",
+    "used_designators": "PS1-4,IC1-2,J1-9,U1-12,D1-12,#PWR1-27,#PWR29,#PWR32,#PWR44-45,#PWR47,#PWR61-63,#PWR242,C1-69,MOV1,F1-2,FL2,GD1-2,GDT1,Q1-2,R1-2,R5-9,R11,R26-103,TP1-5,Z1-2,FB1-9,LED3,SW1-2,Y1-4,H1-6",
     "variants": []
   },
   "sheets": [
